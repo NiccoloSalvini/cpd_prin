@@ -99,6 +99,7 @@ prov_shape = st_read("data/ProvCM01012024_g_WGS84.shp")
 hotels_prov <- st_join(prov_shape, hotels_final)
 
 # TODO: Qui imputazione alla luigi
+# TODO: prendi le osservazioni singole (CPD)
 # non serve per ora
 prices_by_prov_stars <- hotels_prov %>%
   group_by(DEN_UTS, title) %>%
@@ -130,7 +131,7 @@ prices_3stars <- prices_by_prov_stars %>%
 
 contrasts(prices_3stars$DEN_UTS) <- contr.sum(length(levels(prices_3stars$DEN_UTS)))
 
-cpd_tre_stelle = lm(log_price ~ DEN_UTS, data = prices_3stars)
+cpd_tre_stelle = lm(log_price ~ DEN_UTS, data = prices_3stars) #
 
 coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
   filter(str_starts(term, "DEN_UTS"))
@@ -192,5 +193,67 @@ tm_shape(spi_map_data) +
 
 
 
+## NICCOLò versione con tuttle le obs:
+hotels_prov <- st_join(hotels_final, prov_shape) %>% 
+  mutate(DEN_UTS  = as_factor(DEN_UTS))
 
+contrasts(hotels_prov$DEN_UTS) <- contr.sum(length(levels(hotels_prov$DEN_UTS)))
+
+cpd_tre_stelle = lm(log(price) ~ DEN_UTS, data = hotels_prov) #
+
+coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
+  filter(str_starts(term, "DEN_UTS"))
+
+vt_coef_tre_stelle <- data.frame(
+  term = paste0("DEN_UTS", length(levels(hotels_prov$DEN_UTS))), 
+  estimate = -1*sum(coefs_cpd_tre_stelle$estimate)
+)
+
+all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
+  mutate(
+    DEN_UTS = str_remove(term, "DEN_UTS"),
+    spi = exp(estimate)*100
+  ) 
+
+
+# Creiamo un mapping tra numeri e nomi province
+province_mapping <- hotels_prov %>%
+  select(DEN_UTS) %>%
+  distinct() %>%
+  mutate(
+    province_num = as.numeric(factor(DEN_UTS))
+  )
+
+# Applichiamo il mapping ai coefficienti
+all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
+  mutate(
+    province_num = as.numeric(str_remove(term, "DEN_UTS")),
+    DEN_UTS = province_mapping$DEN_UTS[match(province_num, province_mapping$province_num)],
+    spi = exp(estimate)*100
+  ) %>%
+  select(term, estimate, DEN_UTS, spi) %>%
+  arrange(desc(spi))  # ordiniamo per SPI decrescente
+
+# Riaggiungiamo la geometria unendo con il dataframe originale delle province
+spi_map_data <- prov_shape %>%
+  left_join(all_coefs_tre_stelle, by = "DEN_UTS")
+
+
+tm_shape(spi_map_data) +
+  tm_fill("spi", 
+          style = "quantile",
+          n = 5,
+          palette = "viridis",
+          title = "SPI (Media Regionale = 100)",
+          missing = "grey80") +  # colore per NA
+  tm_borders(alpha = 0.4) +
+  tm_layout(
+    title = "Spatial Price Index - Hotel 3 stelle",
+    title.position = c("center", "top"),
+    legend.position = c("right", "bottom"),
+    frame = FALSE,
+    legend.title.size = 0.8,
+    legend.text.size = 0.6
+  ) +
+  tm_text("DEN_UTS", size = 0.4)  # opzionale: aggiunge i nomi delle province
 
