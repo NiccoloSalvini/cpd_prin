@@ -57,7 +57,7 @@ hotels <- df |>
     !(price >5000 & str_detect(offer, "suite"))
   ) %>% 
   # rimuovi gli hotel che non sono hotel perchè non hanno stelle (non ho idee su come fare)
-  filter(str_detect(title, "hotel ")) %>% 
+  filter(str_detect(title, "hotel ")) %>%  # Opinabile
   filter(title != "hotel 3.5*") %>% 
   select(-uid, -locationText)
   # per come è fatto il dataset ci sono dei doppioni le cui cause sono
@@ -112,6 +112,7 @@ find_similar_hotels <- function(df, threshold = 0.2) {
 hotels_sf <- find_similar_hotels(hotels_sf)
 
 # ✅ 5. Risoluzione duplicati con stesso tipo di offerta (scegli prezzo più basso)
+# TODO: sentire tiziana
 hotels_cleaned <- hotels_sf %>%
   filter(duplicate_category %in% c("stesso hotel, stesso tipo di offerta, prezzi diversi", "stesso hotel, nomi leggermente diversi")) %>%
   group_by(cluster, title, subTitle, offer) %>%
@@ -140,4 +141,4 @@ hotels_final <- bind_rows(hotels_cleaned, hotels_offers, hotels_dedup, hotels_fi
 # ✅ 10. Visualizzazione finale
 hotels_final %>% View("finale")
 
-write_csv(hotels_final, "data/hotels_raw.csv")
+write_csv(hotels_final, "data/hotels_raw_final.csv")

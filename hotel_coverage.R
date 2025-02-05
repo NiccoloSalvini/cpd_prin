@@ -3,7 +3,6 @@ library(readxl)
 library(dplyr)
 library(stringr)
 
-
 istat_all_hotels <- read_excel("data/istat_all_hotels.xlsx", 
                                col_types = c("skip", "text", "text", 
                                              "skip", "numeric"))

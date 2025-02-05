@@ -94,7 +94,27 @@ all_coefs_due_classi_stelle <- bind_rows(coefs_cpd_due_classi_stelle, vt_coef_du
   mutate(spi=exp(estimate)*100)
 
 
+### NICCCOLò
+prov_shape = st_read("data/ProvCM01012024_g_WGS84.shp")
+hotels_prov <- st_join(prov_shape, hotels_final)
 
+# TODO: Qui imputazione alla luigi
+# non serve per ora
+prices_by_prov_stars <- hotels_prov %>%
+  group_by(DEN_UTS, title) %>%
+  summarise(
+    mean_price = mean(price, na.rm = TRUE),
+    .groups = 'drop'
+  ) %>%
+  filter(!is.na(mean))
+
+prices_by_prov <- hotels_prov %>%
+  group_by(DEN_UTS) %>%
+  summarise(
+    mean_price = mean(price, na.rm = TRUE),
+    .groups = 'drop'
+  ) %>% 
+  filter(!is.na(mean_price)) 
 
 # con nuovo dataset
 provinces_3stars <- prices_by_prov_stars %>% 
@@ -112,7 +132,6 @@ contrasts(prices_3stars$DEN_UTS) <- contr.sum(length(levels(prices_3stars$DEN_UT
 
 cpd_tre_stelle = lm(log_price ~ DEN_UTS, data = prices_3stars)
 
-
 coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
   filter(str_starts(term, "DEN_UTS"))
 
@@ -125,8 +144,7 @@ all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
   mutate(
     DEN_UTS = str_remove(term, "DEN_UTS"),
     spi = exp(estimate)*100
-  ) %>% 
-  left_join()
+  ) 
 
 
 # Creiamo un mapping tra numeri e nomi province
@@ -153,6 +171,7 @@ spi_map_data <- prov_shape %>%
 
 
 # Versione che evidenzia le province mancanti
+# TODO: gradiente con 100 al bianco (rosso cresce, blu si spegne)
 tm_shape(spi_map_data) +
   tm_fill("spi", 
           style = "quantile",

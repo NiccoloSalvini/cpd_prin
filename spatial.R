@@ -6,7 +6,8 @@ library(dplyr)
 library(sf)
 library(rgeoda)
 library(purrr)
-
+library(RColorBrewer)
+library(ggrepel)
 
 set.seed(42)  # Per riproducibilità
 
@@ -84,7 +85,7 @@ ggplot(moran_df, aes(x = z_price, y = lag_price)) +
 
 
 # Moran scatterplot per province ----
-rov_shape = st_read("data/ProvCM01012024_g_WGS84.shp")
+prov_shape = st_read("data/ProvCM01012024_g_WGS84.shp")
 
 # Spatial join con province per LISA analysis
 hotels_prov <- st_join(prov_shape, hotels_final)
@@ -201,7 +202,6 @@ significance_map(prices_by_prov, lisa)
 
 
 ## ulteriori grafici ----
-
 tm_shape(prov_shape) +
   tm_fill("n_hotels", 
           style = "quantile",
@@ -269,6 +269,7 @@ hotels_final %>%
 
 
 # Scatter plot prezzo vs rating
+# TODO:
 ggplot(hotels_final, aes(x = ratingScore, y = price, color = title)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", se = FALSE) +
