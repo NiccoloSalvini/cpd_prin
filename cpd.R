@@ -51,21 +51,123 @@ levels(df$DEN_UTS)
 
 contrasts(df$DEN_UTS)<-contr.sum(length(levels(df$DEN_UTS))) #MEDIA regione=100
 
-
-cpd <- lm(log_price ~  DEN_UTS + details.stars, data = df)
-
-summary(cpd)
-
-
-coefs <- broom::tidy(cpd) %>%
+# CPD alla "Luigi" ----
+cpd_tutte_stelle <- lm(log_price ~  DEN_UTS + details.stars, data = df)
+ 
+coefs_cpd_tutte_stelle <- broom::tidy(cpd_tutte_stelle) %>%
   filter(str_starts(term, "DEN_UTS"))
 
-vt_coef <- data.frame(term = "DEN_UTS101", estimate = -1*sum(coefs$estimate))
+vt_coef_tutte_stelle <- data.frame(term = "DEN_UTS101", estimate = -1*sum(coefs_cpd_tutte_stelle$estimate))
 
-# Append the row
-all_coefs <- bind_rows(coefs, vt_coef) |>
+
+all_coefs_tutte_stelle <- bind_rows(coefs_cpd_tutte_stelle, vt_coef_tutte_stelle) |>
   mutate(DEN_UTS=levels(df$DEN_UTS)) |>
   mutate(spi=exp(estimate)*100)
 
 
+
+# CPD Tiziana ----
+cpd_tre_stelle = lm(log_price ~  DEN_UTS, data = df %>% filter(details.stars ==3))
+
+coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
+  filter(str_starts(term, "DEN_UTS"))
+
+vt_coef_tre_stelle <- data.frame(term = "DEN_UTS101", estimate = -1*sum(coefs_cpd_tre_stelle$estimate))
+
+all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) |>
+  mutate(DEN_UTS  = str_remove(term,"DEN_UTS")) %>% 
+  mutate(spi=exp(estimate)*100)
+
+
+# CPD mio ----
+cpd_due_classi_stelle  = lm(log_price ~  DEN_UTS + bin_stelle, data = df %>% 
+                              mutate(bin_stelle = if_else(details.stars %in% c(1:3), "A", "B")))
+
+coefs_cpd_due_classi_stelle <- broom::tidy(cpd_due_classi_stelle) %>%
+  filter(str_starts(term, "DEN_UTS"))
+
+vt_coef_due_classi_stelle <- data.frame(term = "DEN_UTS101", estimate = -1*sum(coefs_cpd_due_classi_stelle$estimate))
+
+# Append the row
+all_coefs_due_classi_stelle <- bind_rows(coefs_cpd_due_classi_stelle, vt_coef_due_classi_stelle) |>
+  mutate(DEN_UTS=levels(df$DEN_UTS)) |>
+  mutate(spi=exp(estimate)*100)
+
+
+
+
+# con nuovo dataset
+provinces_3stars <- prices_by_prov_stars %>% 
+  filter(title == "hotel 3*") %>% 
+  pull(DEN_UTS) %>% 
+  unique()
+
+prices_3stars <- prices_by_prov_stars %>% 
+  filter(title == "hotel 3*") %>%
+  mutate(
+    DEN_UTS = factor(DEN_UTS)  # Rifattorizziamo con solo i livelli presenti
+  )
+
+contrasts(prices_3stars$DEN_UTS) <- contr.sum(length(levels(prices_3stars$DEN_UTS)))
+
+cpd_tre_stelle = lm(log_price ~ DEN_UTS, data = prices_3stars)
+
+
+coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
+  filter(str_starts(term, "DEN_UTS"))
+
+vt_coef_tre_stelle <- data.frame(
+  term = paste0("DEN_UTS", length(levels(prices_3stars$DEN_UTS))), 
+  estimate = -1*sum(coefs_cpd_tre_stelle$estimate)
+)
+
+all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
+  mutate(
+    DEN_UTS = str_remove(term, "DEN_UTS"),
+    spi = exp(estimate)*100
+  ) %>% 
+  left_join()
+
+
+# Creiamo un mapping tra numeri e nomi province
+province_mapping <- prices_3stars %>%
+  select(DEN_UTS) %>%
+  distinct() %>%
+  mutate(
+    province_num = as.numeric(factor(DEN_UTS))
+  )
+
+# Applichiamo il mapping ai coefficienti
+all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
+  mutate(
+    province_num = as.numeric(str_remove(term, "DEN_UTS")),
+    DEN_UTS = province_mapping$DEN_UTS[match(province_num, province_mapping$province_num)],
+    spi = exp(estimate)*100
+  ) %>%
+  select(term, estimate, DEN_UTS, spi) %>%
+  arrange(desc(spi))  # ordiniamo per SPI decrescente
+
+# 1. Riaggiungiamo la geometria unendo con il dataframe originale delle province
+spi_map_data <- prov_shape %>%
+  left_join(all_coefs_tre_stelle, by = "DEN_UTS")
+
+
+# Versione che evidenzia le province mancanti
+tm_shape(spi_map_data) +
+  tm_fill("spi", 
+          style = "quantile",
+          n = 5,
+          palette = "viridis",
+          title = "SPI (Media Regionale = 100)",
+          missing = "grey80") +  # colore per NA
+  tm_borders(alpha = 0.4) +
+  tm_layout(
+    title = "Spatial Price Index - Hotel 3 stelle",
+    title.position = c("center", "top"),
+    legend.position = c("right", "bottom"),
+    frame = FALSE,
+    legend.title.size = 0.8,
+    legend.text.size = 0.6
+  ) +
+  tm_text("DEN_UTS", size = 0.4)  # opzionale: aggiunge i nomi delle province
 
