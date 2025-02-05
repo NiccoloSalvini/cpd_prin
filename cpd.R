@@ -147,7 +147,7 @@ all_coefs_tre_stelle <- bind_rows(coefs_cpd_tre_stelle, vt_coef_tre_stelle) %>%
   select(term, estimate, DEN_UTS, spi) %>%
   arrange(desc(spi))  # ordiniamo per SPI decrescente
 
-# 1. Riaggiungiamo la geometria unendo con il dataframe originale delle province
+# Riaggiungiamo la geometria unendo con il dataframe originale delle province
 spi_map_data <- prov_shape %>%
   left_join(all_coefs_tre_stelle, by = "DEN_UTS")
 
@@ -170,4 +170,8 @@ tm_shape(spi_map_data) +
     legend.text.size = 0.6
   ) +
   tm_text("DEN_UTS", size = 0.4)  # opzionale: aggiunge i nomi delle province
+
+
+
+
 

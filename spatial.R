@@ -199,51 +199,92 @@ lisa_map(prices_by_prov, lisa)
 significance_map(prices_by_prov, lisa) 
 
 
-# 1. Gestiamo i valori mancanti
-prices_by_prov <- prices_by_prov %>%
-  filter(!is.na(mean_price))
 
-# 2. Aumentiamo il valore di snap per gestire i sottografi
-nb <- poly2nb(prices_by_prov, queen=TRUE)
+## ulteriori grafici ----
 
-# 3. Creiamo i pesi spaziali
-lw <- nb2listw(nb, style="W", zero.policy=TRUE)
-
-# 4. Calcoliamo Local Moran's I
-li <- localmoran(prices_by_prov$mean_price, lw)
-
-# 5. Procediamo con l'analisi LISA
-z.prices <- scale(prices_by_prov$mean_price)
-lag.prices <- lag.listw(lw, z.prices)
-
-# Determiniamo i quadranti
-sig <- 0.05
-quadrant <- vector(mode="numeric", length=nrow(li))
-
-quadrant[li[,5] > sig] <- 0 # Non significativo
-quadrant[li[,5] <= sig & z.prices >= 0 & lag.prices >= 0] <- 1 # High-High
-quadrant[li[,5] <= sig & z.prices <= 0 & lag.prices <= 0] <- 2 # Low-Low
-quadrant[li[,5] <= sig & z.prices >= 0 & lag.prices <= 0] <- 3 # High-Low
-quadrant[li[,5] <= sig & z.prices <= 0 & lag.prices >= 0] <- 4 # Low-High
-
-# Aggiungiamo i quadranti al dataframe
-prices_by_prov$quadrant <- quadrant
-
-# Mappa
-colors <- c("grey", "red", "blue", "lightpink", "lightblue")
-labels <- c("Not Significant", "High-High", "Low-Low", "High-Low", "Low-High")
-
-tm_shape(prices_by_prov) +
-  tm_fill("quadrant", 
-          style="cat",
-          palette=colors,
-          labels=labels,
-          title="LISA Clusters") +
-  tm_borders() +
-  tm_layout(title="Local Moran's I - Hotel Prices",
-            frame=FALSE,
-            legend.position=c("right", "bottom"))
+tm_shape(prov_shape) +
+  tm_fill("n_hotels", 
+          style = "quantile",
+          palette = "viridis",
+          title = "Numero di Hotel") +
+  tm_borders()
 
 
+# Distribuzione per stelle degli hotel
+hotels_final %>%
+  ggplot(aes(x = title)) +
+  geom_bar() +
+  theme_minimal() +
+  labs(title = "Distribuzione Hotel per Categoria",
+       x = "Categoria",
+       y = "Numero di Hotel")
+
+# Distribuzione per piattaforma
+hotels_final %>%
+  ggplot(aes(x = provider_code)) +
+  geom_bar() +
+  theme_minimal() +
+  coord_flip() +
+  labs(title = "Distribuzione Hotel per Piattaforma")
 
 
+# Boxplot prezzi per categoria hotel
+ggplot(hotels_final, aes(x = title, y = price)) +
+  geom_boxplot() +
+  theme_minimal() +
+  scale_y_log10() +
+  labs(title = "Distribuzione Prezzi per Categoria Hotel",
+       x = "Categoria",
+       y = "Prezzo (log scale)")
+
+# Densità dei prezzi per principali città
+hotels_final %>%
+  filter(cityName %in% c("Roma", "Milano", "Firenze", "Venezia", "Napoli")) %>%
+  ggplot(aes(x = price, fill = cityName)) +
+  geom_density(alpha = 0.5) +
+  scale_x_log10() +
+  theme_minimal() +
+  labs(title = "Distribuzione Prezzi nelle Principali Città")
+
+# Prezzi medi per piattaforma e categoria
+hotels_final %>%
+  group_by(provider_code, title) %>%
+  summarise(
+    mean_price = mean(price, na.rm = TRUE),
+    n = n()
+  ) %>%
+  ggplot(aes(x = provider_code, y = mean_price, fill = title)) +
+  geom_col(position = "dodge") +
+  theme_minimal() +
+  coord_flip()
+
+
+# Distribuzione dei servizi offerti
+hotels_final %>%
+  mutate(has_breakfast = ifelse(breakfast, "Con colazione", "Senza colazione")) %>%
+  ggplot(aes(x = title, fill = has_breakfast)) +
+  geom_bar(position = "fill") +
+  theme_minimal() +
+  labs(title = "Proporzione Hotel con Colazione per Categoria")
+
+
+# Scatter plot prezzo vs rating
+ggplot(hotels_final, aes(x = ratingScore, y = price, color = title)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_y_log10() +
+  theme_minimal() +
+  labs(title = "Relazione tra Prezzo e Rating",
+       x = "Rating Score",
+       y = "Prezzo (log scale)")
+
+
+summary_table <- hotels_final %>%
+  group_by(title) %>%
+  summarise(
+    n_hotels = n(),
+    mean_price = mean(price, na.rm = TRUE),
+    median_price = median(price, na.rm = TRUE),
+    mean_rating = mean(ratingScore, na.rm = TRUE),
+    perc_breakfast = mean(breakfast, na.rm = TRUE) * 100
+  )
