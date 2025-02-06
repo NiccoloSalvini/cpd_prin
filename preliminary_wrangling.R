@@ -113,6 +113,7 @@ hotels_sf <- find_similar_hotels(hotels_sf)
 
 # ✅ 5. Risoluzione duplicati con stesso tipo di offerta (scegli prezzo più basso)
 # TODO: sentire tiziana
+# TODO: lasciare tutto
 hotels_cleaned <- hotels_sf %>%
   filter(duplicate_category %in% c("stesso hotel, stesso tipo di offerta, prezzi diversi", "stesso hotel, nomi leggermente diversi")) %>%
   group_by(cluster, title, subTitle, offer) %>%

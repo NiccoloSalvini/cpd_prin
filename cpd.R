@@ -195,11 +195,16 @@ tm_shape(spi_map_data) +
 
 ## NICCOLò versione con tuttle le obs:
 hotels_prov <- st_join(hotels_final, prov_shape) %>% 
-  mutate(DEN_UTS  = as_factor(DEN_UTS))
+  filter(title =="hotel 3*") %>% 
+  mutate(DEN_UTS  = as_factor(DEN_UTS)) 
+  
 
 contrasts(hotels_prov$DEN_UTS) <- contr.sum(length(levels(hotels_prov$DEN_UTS)))
 
-cpd_tre_stelle = lm(log(price) ~ DEN_UTS, data = hotels_prov) #
+
+# TODO:
+# risistemare offerta camera
+cpd_tre_stelle = lm(log(price) ~ DEN_UTS + offer + ratingScore + ratingCount, data = hotels_prov)
 
 coefs_cpd_tre_stelle <- broom::tidy(cpd_tre_stelle) %>%
   filter(str_starts(term, "DEN_UTS"))
