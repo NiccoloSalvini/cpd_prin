@@ -9,6 +9,7 @@ library(dplyr)
 library(sf)
 library(dbscan)
 library(stringdist)
+library(purrr)
 
 istat_all_hotels <- read_excel("data/istat_all_hotels.xlsx", 
                                col_types = c("text", "text", "text", 
@@ -142,4 +143,7 @@ hotels_final <- bind_rows(hotels_cleaned, hotels_offers, hotels_dedup, hotels_fi
 # ✅ 10. Visualizzazione finale
 hotels_final %>% View("finale")
 
+hotels_final %>%write_rds("data/hotels_final.rds")
+
 write_csv(hotels_final, "data/hotels_raw_final.csv")
+

@@ -60,12 +60,12 @@ moran_df <- data.frame(
 )
 
 # Creiamo il plot
-ggplot(moran_df, aes(x = z_price, y = lag_price)) +
+moran_plot = ggplot(moran_df, aes(x = z_price, y = lag_price)) +
   geom_point(size = 2, alpha = 0.4) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
   geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
   geom_smooth(method = "lm", se = FALSE, color = "red", linetype = "dashed") +
-  labs(title = "Moran Scatterplot - Individual Hotels",
+  labs(# title = "Moran Scatterplot - Individual Hotels",
        subtitle = paste("Moran's I =", round(moran_i$estimate[1], 3),
                         "\np-value =", round(moran_i$p.value, 3)),
        x = "Standardized Price",
@@ -81,6 +81,12 @@ ggplot(moran_df, aes(x = z_price, y = lag_price)) +
     size = 2.5,
     max.overlaps = 10
   )
+
+
+# Save the plot as an image
+ggsave("images/moran_plot.pdf", plot = moran_plot, width = 10, height = 6, dpi = 300)
+
+
 
 
 
@@ -171,7 +177,14 @@ lisa_map <- function(df, lisa, alpha = .05) {
   
   df["lisa_clusters"] <- clusters
   tm_shape(df) +
-    tm_fill("lisa_clusters",labels = labels, palette = pal,style = "cat")
+    tm_fill("lisa_clusters",labels = labels, palette = pal,style = "cat")+
+    tm_layout(
+      frame = FALSE,
+      legend.title.size = 0.8,
+      legend.text.size = 0.6,
+      title.position = c("center", "top"),
+      legend.position = c("left", "bottom"),
+      )
 }
 
 significance_map <- function(df, lisa, permutations = 999, alpha = .05) {
@@ -196,96 +209,18 @@ significance_map <- function(df, lisa, permutations = 999, alpha = .05) {
 
 w <- queen_weights(prices_by_prov, order = 1, include_lower_order = FALSE)
 lisa <- local_moran(w, prices_by_prov['mean_price'], permutations = 999)
-lisa_map(prices_by_prov, lisa)
+lisa = lisa_map(prices_by_prov, lisa)
+
+tmap_save(
+  tm = lisa,   # Salva l'ultima mappa generata
+  filename = "images/lisa_map.pdf", 
+  width = 2000, height = 1500, dpi = 300
+)
+
 significance_map(prices_by_prov, lisa) 
 
 
 
-## ulteriori grafici ----
-tm_shape(prov_shape) +
-  tm_fill("n_hotels", 
-          style = "quantile",
-          palette = "viridis",
-          title = "Numero di Hotel") +
-  tm_borders()
 
 
-# Distribuzione per stelle degli hotel
-hotels_final %>%
-  ggplot(aes(x = title)) +
-  geom_bar() +
-  theme_minimal() +
-  labs(title = "Distribuzione Hotel per Categoria",
-       x = "Categoria",
-       y = "Numero di Hotel")
 
-# Distribuzione per piattaforma
-hotels_final %>%
-  ggplot(aes(x = provider_code)) +
-  geom_bar() +
-  theme_minimal() +
-  coord_flip() +
-  labs(title = "Distribuzione Hotel per Piattaforma")
-
-
-# Boxplot prezzi per categoria hotel
-ggplot(hotels_final, aes(x = title, y = price)) +
-  geom_boxplot() +
-  theme_minimal() +
-  scale_y_log10() +
-  labs(title = "Distribuzione Prezzi per Categoria Hotel",
-       x = "Categoria",
-       y = "Prezzo (log scale)")
-
-# Densità dei prezzi per principali città
-hotels_final %>%
-  filter(cityName %in% c("Roma", "Milano", "Firenze", "Venezia", "Napoli")) %>%
-  ggplot(aes(x = price, fill = cityName)) +
-  geom_density(alpha = 0.5) +
-  scale_x_log10() +
-  theme_minimal() +
-  labs(title = "Distribuzione Prezzi nelle Principali Città")
-
-# Prezzi medi per piattaforma e categoria
-hotels_final %>%
-  group_by(provider_code, title) %>%
-  summarise(
-    mean_price = mean(price, na.rm = TRUE),
-    n = n()
-  ) %>%
-  ggplot(aes(x = provider_code, y = mean_price, fill = title)) +
-  geom_col(position = "dodge") +
-  theme_minimal() +
-  coord_flip()
-
-
-# Distribuzione dei servizi offerti
-hotels_final %>%
-  mutate(has_breakfast = ifelse(breakfast, "Con colazione", "Senza colazione")) %>%
-  ggplot(aes(x = title, fill = has_breakfast)) +
-  geom_bar(position = "fill") +
-  theme_minimal() +
-  labs(title = "Proporzione Hotel con Colazione per Categoria")
-
-
-# Scatter plot prezzo vs rating
-# TODO:
-ggplot(hotels_final, aes(x = ratingScore, y = price, color = title)) +
-  geom_point(alpha = 0.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  scale_y_log10() +
-  theme_minimal() +
-  labs(title = "Relazione tra Prezzo e Rating",
-       x = "Rating Score",
-       y = "Prezzo (log scale)")
-
-
-summary_table <- hotels_final %>%
-  group_by(title) %>%
-  summarise(
-    n_hotels = n(),
-    mean_price = mean(price, na.rm = TRUE),
-    median_price = median(price, na.rm = TRUE),
-    mean_rating = mean(ratingScore, na.rm = TRUE),
-    perc_breakfast = mean(breakfast, na.rm = TRUE) * 100
-  )

@@ -41,5 +41,3 @@ write_csv(coverage_joined, "results/coverage.csv")
 
 hist(coverage_joined$cov_rate)
 # unique(coverage$DEN_UTS)[!unique(coverage$DEN_UTS) %in% unique(coverage_joined$DEN_UTS)]
-
-

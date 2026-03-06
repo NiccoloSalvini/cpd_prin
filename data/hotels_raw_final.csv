@@ -37,6 +37,7 @@ hotel 2*,Hotel Vittorio Veneto Napoli,booking.com,43,camera singola,NA,1,Napoli,
 hotel 2*,Hotel Zara Napoli,booking.com,29.5,camera singola,NA,1,Napoli,2732,72,90,2,2024-12-10,FALSE,"c(944210.348349515, 4535931.79912359)",532,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 4*,Hotel Sant'angelo Palace,booking.com,104.25,camera matrimoniale,NA,1,Napoli,1266,80,0,4,2024-12-10,FALSE,"c(944311.854761819, 4535846.9181707)",532,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 4*,Palazzo Firenze,booking.com,135,camera matrimoniale + 🥐,NA,1,Napoli,3676,82,0,4,2024-12-10,TRUE,"c(944241.248940925, 4535938.76645594)",532,"stesso hotel, nomi leggermente diversi",0.08333333333333338
+hotel 4*,Sant'angelo Suites,booking.com,107.4000015258789,camera matrimoniale,NA,1,Napoli,2649,81,0,4,2024-12-10,FALSE,"c(944311.562330695, 4535847.75104241)",532,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 1*,Hotel Iris,booking.com,52.599998474121094,camera singola,NA,1,Napoli,485,63,0,4,2024-12-10,FALSE,"c(944316.124636048, 4535904.58572567)",532,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 3*,Rex Lifestyle Hotel,booking.com,113.5,camera matrimoniale,NA,1,Napoli,3364,88,90,2,2024-12-10,FALSE,"c(942738.785257967, 4533274.69448226)",581,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 4*,Relais Sul Mare Boutique Hotel,booking.com,172.5,camera matrimoniale + 🥐,NA,1,Napoli,2700,84,0,4,2024-12-10,TRUE,"c(942753.271985302, 4533276.84056123)",581,"stesso hotel, nomi leggermente diversi",0.08333333333333338
@@ -178,6 +179,452 @@ hotel 4*,Hotel Caminetto,booking.com,246.5,camera tripla + 🥐,NA,1,Dimaro Folg
 hotel 3*,Hotel Della Rosa,booking.com,76,camera singola,NA,1,Ancona,2213,83,90,2,2024-12-10,FALSE,"c(863068.892857152, 4838063.17105484)",3286,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 3*,Hotel Fortuna,booking.com,83,camera singola,NA,1,Ancona,1883,78,0,4,2024-12-10,FALSE,"c(863006.486437578, 4838046.6106761)",3286,"stesso hotel, nomi leggermente diversi",0.08333333333333338
 hotel 2*,Albergo Italia,booking.com,58,camera singola,camera,1,Ancona,174,71,0,4,2024-12-10,FALSE,"c(863038.493911879, 4838054.29697079)",3286,"stesso hotel, nomi leggermente diversi",0.08333333333333338
+hotel 3*,Hotel Il Cavalier D'arpino,booking.com,62,camera matrimoniale o doppia,NA,1,Arpino,899,93,90,1,2024-12-10,FALSE,"c(884158.278329831, 4620593.31146195)",33,"stesso hotel, offerte diverse",1
+hotel 4*,Art & Hotel Aeroporto,booking.com,92.5,camera matrimoniale,NA,1,Stezzano,6699,80,0,4,2024-12-10,FALSE,"c(550369.90899988, 5056033.0479069)",44,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Capolago,booking.com,103,camera matrimoniale,NA,1,Varese,5577,83,0,4,2024-12-10,FALSE,"c(484659.683368352, 5071196.91712292)",76,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Rudy,booking.com,78,camera singola,NA,1,Riva del Garda,4334,83,90,2,2024-12-10,FALSE,"c(643922.152421985, 5084571.76074284)",99,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Rudy,trip.com,95.94000244140624,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Riva del Garda,31,82,90,2,2024-12-10,TRUE,"c(643922.004467138, 5084571.75730108)",99,"stesso hotel, offerte diverse",1
+hotel 3*,Santa Caterina Park Hotel,expedia.it,94.20999908447266,camera,NA,1,Sarzana,1443,83,90,1,2024-12-10,FALSE,"c(575594.275603944, 4885940.85991412)",136,"stesso hotel, offerte diverse",1
+hotel 3*,Santa Caterina Park Hotel,trip.com,107.56999969482422,camera (1 ospite),camera (1 🕺),1,Sarzana,35,82,90,1,2024-12-10,FALSE,"c(575596.543426044, 4885929.44451691)",136,"stesso hotel, offerte diverse",1
+hotel 3*,La Brace,expedia.it,92.70999908447266,camera + 🥐,NA,1,Forcola,1103,84,90,1,2024-12-10,TRUE,"c(552227.751010724, 5112594.00832255)",170,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Esperia,trip.com,55.779998779296875,camera,NA,1,Rho,1110,80,0,4,2024-12-10,FALSE,"c(503438.268434096, 5041270.81196726)",177,"stesso hotel, offerte diverse",1
+hotel 4*,Virginia Palace Hotel,trip.com,82.25,camera (1 ospite),camera (1 🕺),1,Garbagnate Milanese,2519,90,0,4,2024-12-10,FALSE,"c(504704.936058588, 5046619.63809739)",179,"stesso hotel, offerte diverse",1
+hotel 4*,Domina Milano Fiera,booking.com,88.0999984741211,camera doppia con letti singoli,camera,1,Novate Milanese,4347,86,90,1,2024-12-10,FALSE,"c(509724.523200794, 5042379.3029116)",190,"stesso hotel, offerte diverse",1
+hotel 4*,Living Hotel Milano,booking.com,106,camera matrimoniale,NA,1,Cornaredo,2760,85,0,4,2024-12-10,FALSE,"c(501713.392338807, 5037887.31161702)",192,"stesso hotel, offerte diverse",1
+hotel 3*,Groane Hotel Residence,booking.com,79.54000091552734,camera singola,NA,1,Cesano Maderno,1588,82,0,4,2024-12-10,FALSE,"c(508679.390137214, 5053099.70668918)",195,"stesso hotel, offerte diverse",1
+hotel 3*,Expo Hotel Milan,booking.com,82.80000305175781,camera singola,NA,1,Parabiago,1900,85,90,2,2024-12-10,FALSE,"c(496893.960138808, 5046521.1649006)",197,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Milano Fiera,booking.com,95.9000015258789,camera matrimoniale o doppia,NA,1,Rho,9847,83,0,4,2024-12-10,FALSE,"c(505962.207709781, 5040415.77273038)",198,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Sempione Fiera,booking.com,89,camera matrimoniale,NA,1,San Vittore Olona,1772,80,90,1,2024-12-10,FALSE,"c(496358.831269738, 5046852.44686565)",200,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Limbiate Fiera,booking.com,85,camera matrimoniale,NA,1,Limbiate,4953,80,90,1,2024-12-10,FALSE,"c(510858.219977468, 5050178.38821195)",201,"stesso hotel, offerte diverse",1
+hotel 4*,Italiana Hotels Milan Rho Fair,trip.com,100.52999877929688,camera (1 ospite),camera (1 🕺),1,Rho,6062,80,0,4,2024-12-10,FALSE,"c(502935.613357959, 5041167.14839593)",204,"stesso hotel, offerte diverse",1
+hotel 4*,Neo Hotel,booking.com,101,camera matrimoniale o doppia,NA,1,Bresso,10668,85,90,1,2024-12-10,FALSE,"c(515409.787049475, 5042489.87192986)",205,"stesso hotel, offerte diverse",1
+hotel 4*,"Hotel King, By R Collection Hotels",booking.com,95.4499969482422,camera matrimoniale + 🥐,NA,1,Varedo,1070,78,0,4,2024-12-10,TRUE,"c(513553.735897642, 5048802.4495542)",214,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Forum,booking.com,91,camera matrimoniale + 🥐,NA,1,Baranzate,1896,78,90,2,2024-12-10,TRUE,"c(509432.863527538, 5041087.94754927)",219,"stesso hotel, offerte diverse",1
+hotel 4*,Phi Hotel Milano,trip.com,82.45999908447266,camera (1 ospite),camera (1 🕺),1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495478715, 5042303.03015245)",222,"stesso hotel, offerte diverse",1
+hotel 4*,Klima Hotel Milano Fiere,booking.com,83.75,camera singola,camera,1,Milano,6025,79,0,4,2024-12-10,FALSE,"c(509128.013593542, 5040126.30876768)",225,"stesso hotel, offerte diverse",1
+hotel 4*,Best Western Plus The Hub Hotel,booking.com,87,camera matrimoniale,camera,1,Milano,4183,75,0,4,2024-12-10,FALSE,"c(509305.329897193, 5040053.25125174)",228,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Grand Milan,booking.com,352,camera comfort familiare,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909888784, 5052108.27805622)",244,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Minerva,trip.com,86.4000015258789,camera (1 ospite),camera (1 🕺),1,Arezzo,7788,85,0,4,2024-12-10,FALSE,"c(731712.609164552, 4817077.67012644)",252,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Il Gentiluomo,expedia.it,61.099998474121094,camera,NA,1,Arezzo,142,85,90,1,2024-12-10,FALSE,"c(726406.494533726, 4814030.2173774)",254,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Minerva,expedia.it,96.68000030517578,camera + 🥐,NA,1,Arezzo,506,88,0,4,2024-12-10,TRUE,"c(731694.151221057, 4817066.43015794)",252,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Il Gentiluomo,booking.com,93,camera matrimoniale/doppia + 🥐,NA,1,Arezzo,438,82,0,4,2024-12-10,TRUE,"c(726395.07047113, 4814034.49916414)",254,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Park,booking.com,101,camera matrimoniale o doppia,NA,1,Castiglion Fiorentino,831,82,0,4,2024-12-10,FALSE,"c(736204.167111556, 4803030.42746565)",264,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Park,trip.com,122,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Castiglion Fiorentino,32,80,90,1,2024-12-10,TRUE,"c(736185.29161715, 4803021.28418415)",264,"stesso hotel, offerte diverse",1
+hotel 3*,Miralago,trip.com,58.779998779296875,camera,NA,1,Albano Laziale,37,70,90,1,2024-12-10,FALSE,"c(805586.808400493, 4626531.78626161)",305,"stesso hotel, offerte diverse",1
+hotel 3*,Miralago,zenhotels.com,69,camera matrimoniale,camera,1,Albano Laziale,348,72,0,4,2024-12-10,FALSE,"c(805581.053488168, 4626530.69148024)",305,"stesso hotel, offerte diverse",1
+hotel 3*,Cascina Speranza Hotel,booking.com,122,camera tripla,NA,1,Riva presso Chieri,1110,91,0,4,2024-12-10,FALSE,"c(411585.809824269, 4981176.63595655)",326,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ristorante San Carlo,booking.com,152,camera matrimoniale/doppia + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.472756503, 5068954.22253772)",352,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Cavour Et Des Officiers,booking.com,100.5,camera matrimoniale o doppia,NA,1,Bard,1644,93,0,4,2024-12-10,FALSE,"c(402116.810420024, 5051275.54246065)",360,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Giardino,expedia.it,75,camera + 🥐,NA,1,Arona,3513,80,90,1,2024-12-10,TRUE,"c(465912.712104954, 5067481.57033961)",382,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Spagna,trip.com,67,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Arona,297,71,90,1,2024-12-10,TRUE,"c(465700.376724759, 5067629.80808858)",383,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Concorde,hrs.com,75.4000015258789,camera,NA,1,Arona,3013,77,90,1,2024-12-10,FALSE,"c(465319.228954655, 5068105.34481578)",385,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Concorde,expedia.it,70.37999725341797,camera + 🥐,NA,1,Arona,162,72,90,1,2024-12-10,TRUE,"c(465360.687051386, 5068105.96139095)",385,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ponti,booking.com,72,camera matrimoniale,NA,1,Angera,275,89,0,4,2024-12-10,FALSE,"c(466984.347467432, 5068810.8638255)",386,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Belvedere Ranco,booking.com,118,camera matrimoniale o doppia,NA,1,Ranco,401,87,90,2,2024-12-10,FALSE,"c(466579.188601888, 5071690.86817693)",390,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ponti,trip.com,80.0999984741211,camera (1 ospite),camera (1 🕺),1,Angera,38,90,90,1,2024-12-10,FALSE,"c(466984.423866079, 5068811.28725346)",386,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ristorante San Carlo,zenhotels.com,151,camera matrimoniale + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.472756503, 5068954.22253772)",352,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ponti,expedia.it,72.01000213623047,camera + 🥐,NA,1,Angera,36,92,90,1,2024-12-10,TRUE,"c(466984.053127165, 5068811.28922242)",386,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Cavalier D'arpino,expedia.it,59,camera + 🥐,NA,1,Arpino,899,93,90,1,2024-12-10,TRUE,"c(884158.278329831, 4620593.31146195)",33,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Splendid,booking.com,71,camera singola,NA,1,Galzignano Terme,6894,83,90,1,2024-12-10,FALSE,"c(716932.639509804, 5019038.89646836)",414,"stesso hotel, offerte diverse",1
+hotel 3*,Villa Casa Country,booking.com,120,camera matrimoniale,NA,1,Bovolenta,431,92,90,2,2024-12-10,FALSE,"c(728566.539815312, 5017476.00098795)",436,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Osteria Della Pista Dal 1875,booking.com,80,camera matrimoniale + 🥐,NA,1,Casorate Sempione,4124,91,90,2,2024-12-10,TRUE,"c(479754.7330108, 5057885.10469696)",438,"stesso hotel, offerte diverse",1
+hotel 4*,Hilton Garden Inn Milan Malpensa,booking.com,101.3000030517578,camera doppia con letti singoli + 🥐,NA,1,Somma Lombardo,5111,80,0,4,2024-12-10,TRUE,"c(476776.207694667, 5060267.61047554)",444,"stesso hotel, offerte diverse",1
+hotel 2*,Pasta Residence Italia Malpensa,booking.com,73.30000305175781,camera matrimoniale o doppia,NA,1,Gallarate,634,69,0,4,2024-12-10,FALSE,"c(482769.18614102, 5057223.37036445)",459,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Saint Pierre,booking.com,78.5,camera singola,NA,1,Saint-Pierre,463,90,90,1,2024-12-10,FALSE,"c(362523.562506915, 5063308.6372198)",485,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Residence Chateau,booking.com,58.7400016784668,camera singola,NA,1,Saint-Pierre,1851,87,90,2,2024-12-10,FALSE,"c(362047.479721098, 5063239.87216588)",486,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Europa,booking.com,62,camera matrimoniale o doppia,NA,1,Arzano,2563,81,90,2,2024-12-10,FALSE,"c(942999.567942001, 4541653.75455939)",502,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Europa,expedia.it,63.04999923706055,camera + 🥐,NA,1,Arzano,169,78,90,1,2024-12-10,TRUE,"c(942996.692741945, 4541650.60447998)",502,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Palazzo Argenta,agoda.com,74.720001220703125,camera matrimoniale/doppia + 🥐,NA,1,Napoli,1366,86,0,4,2024-12-10,TRUE,"c(942975.903855296, 4540481.60470472)",539,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Palazzo Argenta,roomdi.com,95.1147918701172,camera + 🥐,NA,1,Nápoles,NA,NA,0,0,2024-12-10,TRUE,"c(942976.199849187, 4540482.04779076)",539,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel & Residenza 100 Torri,booking.com,114,camera matrimoniale o doppia,NA,1,Ascoli Piceno,305,92,90,2,2024-12-10,FALSE,"c(873528.770764701, 4754900.39974482)",643,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel & Residenza 100 Torri,agoda.com,114,camera matrimoniale/doppia + 🥐,NA,1,Ascoli Piceno,65,94,90,2,2024-12-10,TRUE,"c(873564.247061889, 4754923.57721635)",643,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Asolo,hrs.com,70,camera,NA,1,Asolo,634,89,90,1,2024-12-10,FALSE,"c(725920.775264954, 5074472.78654443)",670,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Asolo,trip.com,71.5,camera (1 ospite),camera (1 🕺),1,Asolo,36,88,90,1,2024-12-10,FALSE,"c(725914.249700936, 5074484.85580178)",670,"stesso hotel, offerte diverse",1
+hotel 5*,Hotel Villa Cipriani,expedia.it,234.5,camera + 🥐,NA,1,Asolo,424,89,90,1,2024-12-10,TRUE,"c(726142.092657394, 5076222.89054302)",672,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Corone,booking.com,68,camera singola,NA,1,Caerano di San Marco,239,80,90,2,2024-12-10,FALSE,"c(732779.472820994, 5073940.18379242)",679,"stesso hotel, offerte diverse",1
+hotel 2*,Albergo La Rocca,expedia.it,57.86000061035156,camera + 🥐,NA,1,Assisi,2371,81,90,1,2024-12-10,TRUE,"c(794615.326443321, 4775140.87973904)",686,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Terrazza Restaurant & Spa,trip.com,73.63999938964844,camera (1 ospite),camera (1 🕺),1,Assisi,2365,90,90,2,2024-12-10,FALSE,"c(795372.192283893, 4773955.37286003)",687,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Duomo,expedia.it,60.88999938964844,camera + 🥐,NA,1,Assisi,1303,82,90,1,2024-12-10,TRUE,"c(794562.625556514, 4775096.58150771)",690,"stesso hotel, offerte diverse",1
+hotel 4*,Asisium Boutique Hotel,booking.com,84.69999694824219,camera matrimoniale/doppia + 🥐,NA,1,Assisi,1276,85,90,2,2024-12-10,TRUE,"c(794452.34539152, 4774947.92593999)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Giotto Hotel & Spa,zenhotels.com,82.45999908447266,camera singola + 🥐,NA,1,Assisi,1782,86,90,2,2024-12-10,TRUE,"c(793789.48411305, 4775193.97631546)",695,"stesso hotel, offerte diverse",1
+hotel 4*,Bv Grand Hotel Assisi,trip.com,68.80999755859375,camera (1 ospite),camera (1 🕺),1,Assisi,2396,80,0,4,2024-12-10,FALSE,"c(795578.269963264, 4773906.1427471)",696,"stesso hotel, offerte diverse",1
+hotel 3*,Villa Raffaello Park Hotel,booking.com,86,camera matrimoniale + 🥐,NA,1,Assisi,571,92,90,2,2024-12-10,TRUE,"c(791096.047905284, 4773381.14118546)",697,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Bellavista,trip.com,40.650001525878906,camera,NA,1,Assisi,1045,82,0,4,2024-12-10,FALSE,"c(792615.638175012, 4774298.00400363)",699,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Sole,agoda.com,94,camera matrimoniale o doppia,camera,1,Assisi,799,89,90,2,2024-12-10,FALSE,"c(794454.428285768, 4774950.13818019)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 2*,Hotel Santa Maria,booking.com,72,camera matrimoniale o doppia,NA,1,Assisi,236,88,0,4,2024-12-10,FALSE,"c(791053.041985524, 4773973.53330417)",705,"stesso hotel, offerte diverse",1
+hotel 4*,Dal Moro Gallery Hotel,booking.com,88,camera singola,NA,1,Assisi,843,88,0,4,2024-12-10,FALSE,"c(791444.908519322, 4773546.28382912)",706,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Windsor Savoia,trip.com,101.98999786376952,camera (1 ospite),camera (1 🕺),1,Assisi,430,84,90,1,2024-12-10,FALSE,"c(793651.75731821, 4775239.83064097)",707,"stesso hotel, offerte diverse",1
+hotel 4*,Valle Di Assisi Hotel & Spa,booking.com,107.94000244140624,camera matrimoniale o doppia,NA,1,Assisi,942,87,0,4,2024-12-10,FALSE,"c(790053.217526122, 4771663.17601697)",712,"stesso hotel, offerte diverse",1
+hotel 4*,Dei Priori Boutique Hotel,trip.com,128.02000427246094,camera (1 ospite),camera (1 🕺),1,Assisi,1233,87,90,1,2024-12-10,FALSE,"c(794396.427980734, 4775001.54238827)",692,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 2*,Hotel Sole,expedia.it,103.91999816894533,camera,NA,1,Assisi,16,94,90,1,2024-12-10,FALSE,"c(794452.363678163, 4774947.50226152)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Hotel Cristallo,booking.com,78.5,camera singola,NA,1,Assisi,1185,77,0,4,2024-12-10,FALSE,"c(790256.763821905, 4774007.10430187)",715,"stesso hotel, offerte diverse",1
+hotel 4*,Asisium Boutique Hotel,zenhotels.com,92.87000274658205,camera matrimoniale + 🥐,NA,1,Assisi,NA,NA,90,2,2024-12-10,TRUE,"c(794452.34539152, 4774947.92593999)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Bv Grand Hotel Assisi,roomdi.com,90.46687316894533,camera + 🥐,NA,1,Asís,NA,NA,0,0,2024-12-10,TRUE,"c(795578.31092942, 4773906.99346793)",696,"stesso hotel, offerte diverse",1
+hotel 5*,Nun Assisi Relais & Spa Museum,trip.com,512.6099853515625,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Assisi,656,95,0,4,2024-12-10,TRUE,"c(794731.399371116, 4775020.25073302)",717,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Santa Lucia,booking.com,50,camera singola,NA,1,Bastia Umbra,1856,72,90,1,2024-12-10,FALSE,"c(787849.64702735, 4774387.2956091)",724,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Alberi,booking.com,106,camera matrimoniale + 🥐,NA,1,Lecco,2086,88,0,4,2024-12-10,TRUE,"c(530154.240587174, 5077821.46426542)",728,"stesso hotel, offerte diverse",1
+hotel 3*,Parini Hotel,booking.com,108,camera matrimoniale o doppia,camera,1,Bosisio Parini,882,85,0,4,2024-12-10,FALSE,"c(522580.923450379, 5072165.85268909)",733,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Cavour,expedia.it,64.5,camera + 🥐,NA,1,Asti,1582,88,90,1,2024-12-10,TRUE,"c(437408.269662961, 4971628.87918796)",747,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Palio,hrs.com,75,camera,NA,1,Asti,828,82,0,4,2024-12-10,FALSE,"c(437312.398463597, 4971820.9488621)",748,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Hotel Aleramo,hrs.com,80,camera,NA,1,Asti,1144,81,0,4,2024-12-10,FALSE,"c(437347.272700045, 4971837.13594115)",748,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Hotel Lis,hrs.com,104.7699966430664,camera,NA,1,Asti,2999,93,90,2,2024-12-10,FALSE,"c(437717.803813132, 4972134.42032275)",749,"stesso hotel, offerte diverse",1
+hotel 4*,Viva Hotel Avellino,booking.com,70.80000305175781,camera matrimoniale,NA,1,Avellino,1515,84,0,4,2024-12-10,FALSE,"c(987878.970377348, 4545826.29911527)",781,"stesso hotel, offerte diverse",1
+hotel 4*,Bel Sito Hotel Due Torri,booking.com,67.5,camera singola,NA,1,Manocalzati,498,82,0,4,2024-12-10,FALSE,"c(991293.403148173, 4550103.39560299)",783,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Irpinia & Family Spa,booking.com,71.30000305175781,camera singola,NA,1,Mercogliano,841,75,0,4,2024-12-10,FALSE,"c(984184.841157694, 4544244.95086971)",784,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Cenobio Dei Dogi,booking.com,171,camera singola,NA,1,Camogli,4213,92,0,4,2024-12-10,FALSE,"c(512394.20835771, 4910471.22563073)",805,"stesso hotel, offerte diverse",1
+hotel 4*,Sublimis Boutique Hotel Adults-only,booking.com,182,camera matrimoniale + 🥐,NA,1,Camogli,1748,92,90,2,2024-12-10,TRUE,"c(512327.860953151, 4910666.4338685)",806,"stesso hotel, offerte diverse",1
+hotel 4*,Viva Hotel Avellino,zenhotels.com,69.94000244140625,camera singola + 🥐,NA,1,Avellino,1515,84,0,4,2024-12-10,TRUE,"c(987878.970377348, 4545826.29911527)",781,"stesso hotel, offerte diverse",1
+hotel 4*,Bel Sito Hotel Due Torri,booking.com,67.5,camera singola + 🥐,NA,1,Manocalzati,498,82,0,4,2024-12-10,TRUE,"c(991293.403148173, 4550103.39560299)",783,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Irpinia & Family Spa,booking.com,71.30000305175781,camera singola + 🥐,NA,1,Mercogliano,841,75,0,4,2024-12-10,TRUE,"c(984184.841157694, 4544244.95086971)",784,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Palazzo Argenta,airbnb.it,88,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Napoli,1366,86,0,0,2024-12-10,TRUE,"c(942975.903855296, 4540481.60470472)",539,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Oliva,expedia.it,99.12999725341795,camera + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192680661, 5108416.73921507)",844,"stesso hotel, offerte diverse",1
+hotel 3*,Ciasa De Gahja,booking.com,64.51000213623047,camera singola,NA,1,Budoia,650,91,0,4,2024-12-10,FALSE,"c(773416.616524318, 5105221.72316696)",846,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Green Hotel Ninfa,booking.com,84,camera matrimoniale + 🥐,NA,1,Avigliana,633,81,90,1,2024-12-10,TRUE,"c(375356.023428841, 4993471.32913467)",862,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Saint Pierre,hrs.com,77,camera,NA,1,Saint-Pierre,463,90,0,4,2024-12-10,FALSE,"c(362523.562506915, 5063308.6372198)",485,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Saint Pierre,trip.com,77.80000305175781,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Saint-Pierre,36,90,90,2,2024-12-10,TRUE,"c(362521.819025242, 5063313.76393408)",485,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Residence Chateau,expedia.it,51.310001373291016,camera + 🥐,NA,1,Saint-Pierre,1851,87,90,1,2024-12-10,TRUE,"c(362047.479721098, 5063239.87216588)",486,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Cavour,booking.com,78.5,camera matrimoniale/doppia + 🥐,NA,1,Asti,1582,88,90,1,2024-12-10,TRUE,"c(437408.269662961, 4971628.87918796)",747,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Aleramo,booking.com,101.5,camera matrimoniale,NA,1,Asti,1144,81,0,4,2024-12-10,FALSE,"c(437347.272700045, 4971837.13594115)",748,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Hotel Palio,booking.com,83.5,camera matrimoniale,NA,1,Asti,828,82,90,1,2024-12-10,FALSE,"c(437312.398463597, 4971820.9488621)",748,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Hotel Lis,booking.com,106.7699966430664,camera matrimoniale + 🥐,NA,1,Asti,2999,93,90,2,2024-12-10,TRUE,"c(437717.803813132, 4972134.42032275)",749,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Bergamo,booking.com,66.06999969482422,camera singola,camera,1,Bergamo,8075,82,0,4,2024-12-10,FALSE,"c(551991.923580768, 5059520.59239824)",919,"stesso hotel, offerte diverse",1
+hotel 4*,Le Funi Hotel,booking.com,104,camera singola,NA,1,Bergamo,2065,91,0,4,2024-12-10,FALSE,"c(551059.142900564, 5061697.37716661)",921,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Città Dei Mille,booking.com,68.4000015258789,camera singola,NA,1,Bergamo,6011,82,0,4,2024-12-10,FALSE,"c(552075.268670698, 5059447.11515528)",923,"stesso hotel, offerte diverse",1
+hotel 4*,Mercure Bergamo Centro Palazzo Dolci,booking.com,108,camera doppia con letti singoli + 🥐,NA,1,Bergamo,8009,83,0,4,2024-12-10,TRUE,"c(552371.66775516, 5060083.24624537)",926,"stesso hotel, offerte diverse",1
+hotel 4*,Airport Hotel Bergamo,booking.com,83,camera matrimoniale,NA,1,Bagnatica,8145,84,90,1,2024-12-10,FALSE,"c(558153.862977721, 5055973.5633857)",932,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Bergamo,booking.com,118.9000015258789,camera matrimoniale o doppia,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.925404276, 5060033.54500028)",935,"stesso hotel, offerte diverse",1
+hotel 4*,Art & Hotel Aeroporto,hrs.com,85,camera,NA,1,Stezzano,6699,80,0,4,2024-12-10,FALSE,"c(550369.90899988, 5056033.0479069)",44,"stesso hotel, offerte diverse",1
+hotel 4*,Palazzo Santo Spirito,booking.com,131.85000610351562,camera matrimoniale + 🥐,NA,1,Bergamo,2756,86,90,2,2024-12-10,TRUE,"c(552587.114717405, 5060731.84872716)",941,"stesso hotel, offerte diverse",1
+hotel 4*,Bes Hotel Bergamo Ovest,booking.com,114.4000015258789,camera singola + 🥐,NA,1,Mozzo,3703,84,0,4,2024-12-10,TRUE,"c(546948.393770858, 5060754.21304506)",942,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Cristallo Palace,booking.com,115,camera matrimoniale,camera,1,Bergamo,5738,82,90,1,2024-12-10,FALSE,"c(552596.565003306, 5058836.9156643)",943,"stesso hotel, offerte diverse",1
+hotel 4*,Relais San Vigilio Al Castello,booking.com,150,camera matrimoniale,NA,1,Bergamo,1804,95,0,4,2024-12-10,FALSE,"c(550701.093855024, 5061933.92553039)",944,"stesso hotel, offerte diverse",1
+hotel 4*,Settecento Hotel,booking.com,138,camera matrimoniale,NA,1,Presezzo,1040,84,0,4,2024-12-10,FALSE,"c(544941.27232206, 5059893.01254572)",945,"stesso hotel, offerte diverse",1
+hotel 4*,Petronilla - Hotel In Bergamo,booking.com,186,camera matrimoniale/doppia + 🥐,NA,1,Bergamo,1272,94,0,4,2024-12-10,TRUE,"c(551631.401229053, 5060081.30943525)",947,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Piazza Vecchia,booking.com,180,camera matrimoniale + 🥐,NA,1,Bergamo,2642,90,90,2,2024-12-10,TRUE,"c(551539.45449792, 5061447.8722168)",948,"stesso hotel, offerte diverse",1
+hotel 4*,Gombithotel,booking.com,175,camera singola,NA,1,Bergamo,2260,94,90,2,2024-12-10,FALSE,"c(551674.274255606, 5061340.9082211)",949,"stesso hotel, offerte diverse",1
+hotel 4*,Life Hotel,booking.com,187.1999969482422,camera matrimoniale o doppia,camera,1,Bergamo,1377,88,90,2,2024-12-10,FALSE,"c(549834.591870733, 5059661.49283311)",951,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Orio Al Serio,booking.com,165.89999389648438,camera matrimoniale o doppia,NA,1,Orio al Serio,9859,83,0,4,2024-12-10,FALSE,"c(554403.070782705, 5056969.26500192)",952,"stesso hotel, offerte diverse",1
+hotel 3*,Stay Hotel,trip.com,63.36000061035156,camera,NA,1,Brunello,2353,87,0,4,2024-12-10,FALSE,"c(485403.331572632, 5068108.83200726)",953,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Capolago,hrs.com,100,camera,NA,1,Varese,5577,83,90,1,2024-12-10,FALSE,"c(484659.683368352, 5071196.91712292)",76,"stesso hotel, offerte diverse",1
+hotel 4*,Hilton Garden Inn Milan Malpensa,vrbo.com,357.54998779296875,suite (2 ospiti),suite (2 🕺),1,Somma Lombardo,5111,80,0,4,2024-12-10,FALSE,"c(476776.207694667, 5060267.61047554)",444,"stesso hotel, offerte diverse",1
+hotel 3*,Il Leone D'oro,booking.com,103,camera matrimoniale o doppia,NA,1,Telgate,1174,79,0,4,2024-12-10,FALSE,"c(566736.273578958, 5053090.71161122)",1028,"stesso hotel, offerte diverse",1
+hotel 3*,Park Hotel Regina,zenhotels.com,69.13999938964844,camera singola,NA,1,Bagni di Lucca,108,83,0,4,2024-12-10,FALSE,"c(627454.210019081, 4874140.12931704)",1030,"stesso hotel, offerte diverse",1
+hotel 4*,Domus Hotel,hrs.com,55,camera,NA,1,Bagnoli del Trigno,745,89,90,1,2024-12-10,FALSE,"c(954745.922718709, 4631246.59063828)",1040,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Villa Maria,trip.com,60.099998474121094,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Ischia,115,73,0,4,2024-12-10,TRUE,"c(917411.182913078, 4521948.66155745)",1142,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Villa Maria,expedia.it,70.37000274658203,camera + 🥐,NA,1,Ischia,104,76,0,4,2024-12-10,TRUE,"c(917403.928638974, 4521955.47762937)",1142,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Corte Degli Aragonesi,zenhotels.com,210.27000427246097,camera matrimoniale,NA,1,Ischia,129,90,90,2,2024-12-10,FALSE,"c(918081.343795078, 4521691.12009621)",1145,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Villa Maria,trip.com,371.0199890136719,camera (3 ospiti),camera (3 🕺),1,Serrara Fontana,647,93,0,4,2024-12-10,FALSE,"c(913424.682629606, 4516963.00889665)",1146,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Corte Degli Aragonesi,expedia.it,205.4900054931641,camera,NA,1,Ischia,3,94,90,1,2024-12-10,FALSE,"c(918100.376682104, 4521683.27032957)",1145,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Villa Maria,zenhotels.com,294,camera matrimoniale + 🥐,NA,1,Serrara Fontana,NA,NA,0,4,2024-12-10,TRUE,"c(913450.605934379, 4516924.50624924)",1146,"stesso hotel, offerte diverse",1
+hotel 4*,Phi Hotel Milano,trip.com,82.62000274658203,camera (1 ospite),camera (1 🕺),1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495478715, 5042303.03015245)",222,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Forum,zenhotels.com,75.91999816894531,camera matrimoniale,NA,1,Baranzate,1896,78,0,4,2024-12-10,FALSE,"c(509432.863527538, 5041087.94754927)",219,"stesso hotel, offerte diverse",1
+hotel 4*,Virginia Palace Hotel,booking.com,90,camera matrimoniale o doppia,NA,1,Garbagnate Milanese,2519,90,0,4,2024-12-10,FALSE,"c(504704.936058588, 5046619.63809739)",179,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Esperia,booking.com,66,camera singola,camera,1,Rho,1110,80,0,4,2024-12-10,FALSE,"c(503438.268434096, 5041270.81196726)",177,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Soperga,booking.com,118.88999938964844,camera singola,NA,1,Milano,10120,81,0,4,2024-12-10,FALSE,"c(516423.399002115, 5037234.71432897)",1163,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Domina Milano Fiera,zenhotels.com,77.16999816894531,camera matrimoniale,camera,1,Novate Milanese,4347,86,90,2,2024-12-10,FALSE,"c(509724.523200794, 5042379.3029116)",190,"stesso hotel, offerte diverse",1
+hotel 4*,Italiana Hotels Milan Rho Fair,booking.com,111,camera doppia con letti singoli,NA,1,Rho,6062,80,0,4,2024-12-10,FALSE,"c(502935.613357959, 5041167.14839593)",204,"stesso hotel, offerte diverse",1
+hotel 4*,Andreola Central Hotel,booking.com,181,camera matrimoniale o doppia,NA,1,Milano,10693,84,0,4,2024-12-10,FALSE,"c(516221.630656144, 5036728.59216908)",1211,"stesso hotel, offerte diverse",1
+hotel 4*,Klima Hotel Milano Fiere,roomdi.com,72.80219268798828,camera,NA,1,Milano,6025,79,0,0,2024-12-10,FALSE,"c(509128.013593542, 5040126.30876768)",225,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Trentina,booking.com,74.63999938964844,camera matrimoniale + 🥐,NA,1,Milano,1745,56,0,4,2024-12-10,TRUE,"c(517293.652688339, 5036650.08270126)",1253,"stesso hotel, offerte diverse",1
+hotel 4*,Best Western Plus The Hub Hotel,roomdi.com,84.471466064453125,camera + 🥐,NA,1,Milano,4183,75,0,0,2024-12-10,TRUE,"c(509305.329897193, 5040053.25125174)",228,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Le Botti,booking.com,81.5,camera singola,camera,1,Guarene,430,85,0,4,2024-12-10,FALSE,"c(424959.76199649, 4953495.10959112)",1360,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Oliva,booking.com,100.94000244140624,camera matrimoniale + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192680661, 5108416.73921507)",844,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Cavour Et Des Officiers,expedia.it,94.55999755859376,camera + 🥐,NA,1,Bard,1644,93,90,1,2024-12-10,TRUE,"c(402116.810420024, 5051275.54246065)",360,"stesso hotel, offerte diverse",1
+hotel 4*,Living Hotel Milano,agoda.com,90.51000213623048,camera matrimoniale + 🥐,NA,1,Cornaredo,2760,85,0,4,2024-12-10,TRUE,"c(501713.392338807, 5037887.31161702)",192,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Milano Fiera,booking.com,97.9000015258789,camera singola,NA,1,Rho,9847,83,90,1,2024-12-10,FALSE,"c(505962.207709781, 5040415.77273038)",198,"stesso hotel, offerte diverse",1
+hotel 4*,Phi Hotel Milano,booking.com,110.5,camera,NA,1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495478715, 5042303.03015245)",222,"stesso hotel, offerte diverse",1
+hotel 3*,Park Hotel Regina,airbnb.it,136,camera (3 ospiti) + 🥐,camera (3 🕺) + 🥐,1,Bagni di Lucca,108,83,0,0,2024-12-10,TRUE,"c(627454.210019081, 4874140.12931704)",1030,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Adria,zenhotels.com,89,camera singola,NA,1,Bari,2079,85,0,4,2024-12-10,FALSE,"c(1161288.07246494, 4581877.53744839)",1447,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Adria,expedia.it,89,camera + 🥐,NA,1,Bari,281,88,0,4,2024-12-10,TRUE,"c(1161291.85527839, 4581882.15664575)",1447,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Pensione Romeo,expedia.it,56.75,camera,NA,1,Bari,874,58,0,4,2024-12-10,FALSE,"c(1160852.31347949, 4581994.3878298)",1444,"stesso hotel, offerte diverse",1
+hotel 3*,Executive Business Hotel,hrs.com,80,camera,NA,1,Bari,4029,77,90,1,2024-12-10,FALSE,"c(1160326.54339998, 4582625.49585178)",1456,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Excelsior Bari,roomdi.com,111.11956024169922,camera + 🥐,NA,1,Bari,2433,82,0,0,2024-12-10,TRUE,"c(1160876.14731551, 4581604.09967246)",1457,"stesso hotel, offerte diverse",1
+hotel 4*,Jr Hotels Oriente Bari,agoda.com,122.62999725341795,camera singola + 🥐,NA,1,Bari,4261,83,0,4,2024-12-10,TRUE,"c(1161158.7750757, 4582362.55088494)",1460,"stesso hotel, offerte diverse",1
+hotel 4*,B21 Lifestyle Hotel,trip.com,102.63999938964844,camera,NA,1,Bari,44,86,0,4,2024-12-10,FALSE,"c(1157817.85851155, 4583479.13354383)",1463,"stesso hotel, offerte diverse",1
+hotel 4*,Mercure Villa Romanazzi Carducci Bari,hrs.com,102,camera,NA,1,Bari,2980,84,0,4,2024-12-10,FALSE,"c(1160112.35003792, 4581538.14308327)",1464,"stesso hotel, offerte diverse",1
+hotel 4*,The Nicolaus Hotel,zenhotels.com,130,camera singola,camera,1,Bari,7311,91,0,4,2024-12-10,FALSE,"c(1159890.38874457, 4579567.33218321)",1465,"stesso hotel, offerte diverse",1
+hotel 5*,Jr Hotels Bari Grande Albergo Delle Nazioni,trip.com,241.33999633789065,camera (2 ospiti),camera (2 🕺),1,Bari,7805,85,0,4,2024-12-10,FALSE,"c(1161753.56672512, 4582320.47621422)",1470,"stesso hotel, offerte diverse",1
+hotel 4*,B21 Lifestyle Hotel,booking.com,144.1300048828125,camera matrimoniale + 🥐,NA,1,Bari,670,88,0,4,2024-12-10,TRUE,"c(1157814.23530846, 4583474.53080868)",1463,"stesso hotel, offerte diverse",1
+hotel 4*,Vittoria Parc Hotel,booking.com,158,camera doppia con letti singoli,NA,1,Bari,1563,85,90,1,2024-12-10,FALSE,"c(1152306.42076126, 4585081.36568663)",1474,"stesso hotel, offerte diverse",1
+hotel 4*,Vittoria Parc Hotel,trip.com,113,camera (1 ospite),camera (1 🕺),1,Bari,25,84,90,1,2024-12-10,FALSE,"c(1152306.22245064, 4585081.77528857)",1474,"stesso hotel, offerte diverse",1
+hotel 4*,Cconforthotels R&b Skyline,trip.com,233.44000244140625,camera (6 ospiti),camera (6 🕺),1,Bari,0,90,0,4,2024-12-10,FALSE,"c(1161010.9833118, 4581950.66976967)",1477,"stesso hotel, offerte diverse",1
+hotel 4*,Cconforthotels R&b Skyline,zenhotels.com,244,appartamento,NA,1,Bari,NA,NA,0,4,2024-12-10,FALSE,"c(1161010.9833118, 4581950.66976967)",1477,"stesso hotel, offerte diverse",1
+hotel 3*,Grand Hotel Garden,hrs.com,75,camera,NA,1,Barile,369,81,90,1,2024-12-10,FALSE,"c(1061880.03839242, 4555679.27115255)",1486,"stesso hotel, offerte diverse",1
+hotel 3*,Grand Hotel Garden,trip.com,95,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Barile,17,78,90,1,2024-12-10,TRUE,"c(1061895.94405623, 4555680.49135581)",1486,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Dei Giovi,booking.com,79,camera matrimoniale,NA,1,Cesano Maderno,4404,79,90,1,2024-12-10,FALSE,"c(512934.068234308, 5052091.18678979)",1496,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Grand Milan,booking.com,252,camera matrimoniale o doppia,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909888784, 5052108.27805622)",244,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Perlo,booking.com,183,camera matrimoniale + 🥐,NA,1,Bellagio,1754,90,0,4,2024-12-10,TRUE,"c(519558.935360332, 5090466.10075536)",1514,"stesso hotel, offerte diverse",1
+hotel 4*,Inverigo Hotel,booking.com,85,camera singola,NA,1,Inverigo,1039,79,0,4,2024-12-10,FALSE,"c(517012.47774554, 5065818.69430135)",1549,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Bergamo,booking.com,119.9000015258789,camera matrimoniale o doppia,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.925404276, 5060033.54500028)",935,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Sosta,booking.com,138,camera matrimoniale + 🥐,NA,1,Cisano Bergamasco,381,93,0,4,2024-12-10,TRUE,"c(535035.9998353, 5065311.72883096)",1559,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Gelso,airbnb.it,73,camera (1 ospite),camera (1 🕺),1,Pontevico,574,86,0,0,2024-12-10,FALSE,"c(587948.722007056, 5013667.99886181)",1587,"stesso hotel, offerte diverse",1
+hotel 4*,Bonotto Hotel Belvedere,zenhotels.com,64,camera singola + 🥐,NA,1,Bassano del Grappa,973,81,0,4,2024-12-10,TRUE,"c(712912.874484246, 5072040.45537737)",1590,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Bonotto Hotel Belvedere,roomdi.com,59.77106857299805,camera + 🥐,NA,1,Bassano del Grappa,NA,NA,0,0,2024-12-10,TRUE,"c(712912.652035493, 5072040.44775375)",1590,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Hotel Due Mori,booking.com,114.8000030517578,suite,camera,1,Marostica,211,89,0,4,2024-12-10,FALSE,"c(706437.15869081, 5069199.87232177)",1609,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Santa Lucia,agoda.com,47.5,camera singola + 🥐,NA,1,Bastia Umbra,1856,72,90,1,2024-12-10,TRUE,"c(787849.64702735, 4774387.2956091)",724,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Terrazza Restaurant & Spa,booking.com,77,camera singola,NA,1,Assisi,2365,90,90,2,2024-12-10,FALSE,"c(795372.192283893, 4773955.37286003)",687,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Santa Maria,booking.com,72,camera matrimoniale/doppia + 🥐,NA,1,Assisi,236,88,0,4,2024-12-10,TRUE,"c(791053.041985524, 4773973.53330417)",705,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Bellavista,booking.com,69.19999694824219,camera singola,NA,1,Assisi,1045,82,90,2,2024-12-10,FALSE,"c(792615.638175012, 4774298.00400363)",699,"stesso hotel, offerte diverse",1
+hotel 4*,Giotto Hotel & Spa,booking.com,94,camera singola,NA,1,Assisi,1782,86,90,2,2024-12-10,FALSE,"c(793789.48411305, 4775193.97631546)",695,"stesso hotel, offerte diverse",1
+hotel 4*,Asisium Boutique Hotel,booking.com,84.69999694824219,camera matrimoniale o doppia,NA,1,Assisi,1276,85,90,2,2024-12-10,FALSE,"c(794452.34539152, 4774947.92593999)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Hotel Il Duomo,booking.com,80,camera matrimoniale,NA,1,Assisi,1303,82,90,1,2024-12-10,FALSE,"c(794562.625556514, 4775096.58150771)",690,"stesso hotel, offerte diverse",1
+hotel 2*,Albergo La Rocca,booking.com,79.3499984741211,camera matrimoniale,NA,1,Assisi,2371,81,90,1,2024-12-10,FALSE,"c(794615.326443321, 4775140.87973904)",686,"stesso hotel, offerte diverse",1
+hotel 3*,Villa Raffaello Park Hotel,trip.com,92,camera (1 ospite),camera (1 🕺),1,Assisi,37,92,90,1,2024-12-10,FALSE,"c(791086.147608345, 4773381.56784631)",697,"stesso hotel, offerte diverse",1
+hotel 4*,Dal Moro Gallery Hotel,hrs.com,85,camera,NA,1,Assisi,843,88,90,1,2024-12-10,FALSE,"c(791444.908519322, 4773546.28382912)",706,"stesso hotel, offerte diverse",1
+hotel 4*,Bv Grand Hotel Assisi,booking.com,86.9000015258789,camera singola,NA,1,Assisi,2396,80,0,4,2024-12-10,FALSE,"c(795578.269963264, 4773906.1427471)",696,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Cristallo,trip.com,64.94000244140625,camera (1 ospite),camera (1 🕺),1,Assisi,1185,77,0,4,2024-12-10,FALSE,"c(790256.763821905, 4774007.10430187)",715,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Sole,booking.com,102,camera matrimoniale o doppia,NA,1,Assisi,799,89,90,2,2024-12-10,FALSE,"c(794454.428285768, 4774950.13818019)",691,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 4*,Valle Di Assisi Hotel & Spa,booking.com,107.94000244140624,camera matrimoniale/doppia + 🥐,NA,1,Assisi,942,87,0,4,2024-12-10,TRUE,"c(790053.217526122, 4771663.17601697)",712,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Windsor Savoia,booking.com,112,camera singola,NA,1,Assisi,430,84,90,2,2024-12-10,FALSE,"c(793651.75731821, 4775239.83064097)",707,"stesso hotel, offerte diverse",1
+hotel 4*,Dei Priori Boutique Hotel,booking.com,134.5,camera matrimoniale/doppia + 🥐,NA,1,Assisi,1233,87,90,2,2024-12-10,TRUE,"c(794396.427980734, 4775001.54238827)",692,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 5*,Nun Assisi Relais & Spa Museum,booking.com,655,camera matrimoniale + 🥐,NA,1,Assisi,656,95,0,4,2024-12-10,TRUE,"c(794731.399371116, 4775020.25073302)",717,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Le Cardinal,zenhotels.com,72,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Bastiglia,344,60,90,2,2024-12-10,TRUE,"c(657891.509521227, 4954581.89262479)",1640,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Splendid,zenhotels.com,67.5,camera matrimoniale + 🥐,NA,1,Galzignano Terme,6894,83,90,2,2024-12-10,TRUE,"c(716932.639509804, 5019038.89646836)",414,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Splendid,roomdi.com,66.500640869140625,camera + 🥐,NA,1,Galzignano Terme,NA,NA,0,0,2024-12-10,TRUE,"c(716932.415165487, 5019038.88876391)",414,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel San Luca,trip.com,100.0999984741211,camera (1 ospite),camera (1 🕺),1,Battipaglia,1443,85,90,1,2024-12-10,FALSE,"c(1006564.38239066, 4510153.10392128)",1672,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel San Luca,zenhotels.com,122,camera singola,NA,1,Battipaglia,NA,NA,90,2,2024-12-10,FALSE,"c(1006533.69590887, 4510143.77311353)",1672,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Il Castelletto,booking.com,99.4499969482422,camera matrimoniale,NA,1,Casarile,1236,75,0,4,2024-12-10,FALSE,"c(508072.832078264, 5018994.7941376)",1688,"stesso hotel, offerte diverse",1
+hotel 4*,Caroline Hotel,booking.com,81.66999816894531,camera matrimoniale,camera,1,Brusimpiano,1672,82,90,2,2024-12-10,FALSE,"c(491415.227874327, 5087964.18941088)",1693,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Locanda Mel,booking.com,104,camera tripla,camera,1,Calolziocorte,222,72,90,2,2024-12-10,FALSE,"c(533585.150130023, 5072042.6909912)",1722,"stesso hotel, offerte diverse",1
+hotel 4*,Torino Hotel San Luigi - Ristorante Trait D'union,trip.com,97.33000183105467,camera (1 ospite),camera (1 🕺),1,Beinasco,677,82,0,4,2024-12-10,FALSE,"c(388481.09790794, 4987037.69485969)",1723,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Torino Orbassano,hotel-bb.com,48,camera (1 ospite),camera (1 🕺),1,Torino,1746,82,0,4,2024-12-10,FALSE,"c(390680.311195241, 4987423.09291848)",1768,"stesso hotel, offerte diverse",1
+hotel 4*,Doubletree By Hilton Turin Lingotto,booking.com,139.60000610351562,camera matrimoniale o doppia,NA,1,Torino,19516,89,0,4,2024-12-10,FALSE,"c(394853.761711967, 4987700.50831113)",1793,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Perlo,expedia.it,146.00999450683594,camera + 🥐,NA,1,Bellagio,1754,90,0,4,2024-12-10,TRUE,"c(519558.935360332, 5090466.10075536)",1514,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel San Luca,booking.com,105,camera singola,NA,1,Battipaglia,1443,85,90,1,2024-12-10,FALSE,"c(1006564.38239066, 4510153.10392128)",1672,"stesso hotel, offerte diverse",1
+hotel 4*,Domus Hotel,booking.com,75,camera matrimoniale o doppia,NA,1,Bagnoli del Trigno,745,89,90,2,2024-12-10,FALSE,"c(954745.922718709, 4631246.59063828)",1040,"stesso hotel, offerte diverse",1
+hotel 4*,Pineta Hotel,booking.com,114.4000015258789,camera matrimoniale o doppia,NA,1,Monsano,2285,89,90,2,2024-12-10,FALSE,"c(845443.726951587, 4832251.53062775)",1900,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Ristorante S'astore,booking.com,47.5,camera singola + 🥐,NA,1,Benetutti,320,80,0,4,2024-12-10,TRUE,"c(513781.628023624, 4478584.71294349)",1905,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Santo Stefano,booking.com,98.37000274658205,camera singola,NA,1,Sandigliano,2166,85,0,4,2024-12-10,FALSE,"c(427715.008203555, 5040774.81003593)",1910,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Cascina Era,booking.com,148.5,camera singola,NA,1,Sandigliano,357,91,90,2,2024-12-10,FALSE,"c(427988.975729377, 5041427.79092635)",1914,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Bologna,booking.com,57,camera doppia con letti singoli,camera,1,Castel Maggiore,5160,79,0,4,2024-12-10,FALSE,"c(688754.480551222, 4936731.8877285)",1916,"stesso hotel, offerte diverse",1
+hotel 3*,La Brace,booking.com,108.83000183105467,camera matrimoniale + 🥐,NA,1,Forcola,1103,84,0,4,2024-12-10,TRUE,"c(552227.751010724, 5112594.00832255)",170,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Bergamo,trip.com,113.4000015258789,camera,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.925404276, 5060033.54500028)",935,"stesso hotel, offerte diverse",1
+hotel 4*,Le Funi Hotel,booking.com,104,camera singola + 🥐,NA,1,Bergamo,2065,91,0,4,2024-12-10,TRUE,"c(551059.142900564, 5061697.37716661)",921,"stesso hotel, offerte diverse",1
+hotel 4*,Palazzo Santo Spirito,zenhotels.com,117.1500015258789,camera matrimoniale + 🥐,NA,1,Bergamo,2756,86,0,4,2024-12-10,TRUE,"c(552587.114717405, 5060731.84872716)",941,"stesso hotel, offerte diverse",1
+hotel 4*,Mercure Bergamo Centro Palazzo Dolci,trip.com,102,camera,NA,1,Bergamo,8009,83,0,4,2024-12-10,FALSE,"c(552371.66775516, 5060083.24624537)",926,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Città Dei Mille,roomdi.com,66.759063720703125,camera + 🥐,NA,1,Bergamo,6011,82,0,0,2024-12-10,TRUE,"c(552075.268670698, 5059447.11515528)",923,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Bergamo,hotel-bb.com,56,camera (1 ospite),camera (1 🕺),1,Bergamo,8075,82,0,4,2024-12-10,FALSE,"c(551991.923580768, 5059520.59239824)",919,"stesso hotel, offerte diverse",1
+hotel 4*,Palazzo Santo Spirito,trip.com,131.3000030517578,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bergamo,50,86,0,4,2024-12-10,TRUE,"c(552586.598574013, 5060731.42052614)",941,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Cristallo Palace,hrs.com,110,camera,NA,1,Bergamo,5738,82,0,4,2024-12-10,FALSE,"c(552596.565003306, 5058836.9156643)",943,"stesso hotel, offerte diverse",1
+hotel 4*,Gombithotel,booking.com,175,camera singola + 🥐,NA,1,Bergamo,2260,94,90,2,2024-12-10,TRUE,"c(551674.274255606, 5061340.9082211)",949,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Piazza Vecchia,trip.com,157.14999389648438,camera (1 ospite),camera (1 🕺),1,Bergamo,2642,90,90,1,2024-12-10,FALSE,"c(551539.45449792, 5061447.8722168)",948,"stesso hotel, offerte diverse",1
+hotel 4*,Relais San Vigilio Al Castello,zenhotels.com,140,camera matrimoniale + 🥐,NA,1,Bergamo,1804,95,0,4,2024-12-10,TRUE,"c(550701.093855024, 5061933.92553039)",944,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Cristallo Palace,roomdi.com,102.2228775024414,camera,NA,1,Bérgamo,NA,NA,0,0,2024-12-10,FALSE,"c(552597.461775297, 5058853.87701854)",943,"stesso hotel, offerte diverse",1
+hotel 4*,Le Funi Hotel,roomdi.com,122.67127227783205,camera + 🥐,NA,1,Bérgamo,NA,NA,0,0,2024-12-10,TRUE,"c(551059.087330229, 5061704.15823149)",921,"stesso hotel, offerte diverse",1
+hotel 4*,Petronilla - Hotel In Bergamo,trip.com,251.5,camera (2 ospiti),camera (2 🕺),1,Bergamo,73,94,90,1,2024-12-10,FALSE,"c(551628.515881426, 5060080.01400422)",947,"stesso hotel, offerte diverse",1
+hotel 4*,Life Hotel,expedia.it,159.8000030517578,camera,NA,1,Bergamo,1377,88,90,1,2024-12-10,FALSE,"c(549834.591870733, 5059661.49283311)",951,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Orio Al Serio,roomdi.com,143.06173706054688,camera,NA,1,Orio al Serio,9859,83,0,0,2024-12-10,FALSE,"c(554403.070782705, 5056969.26500192)",952,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Panorama,zenhotels.com,95,camera matrimoniale + 🥐,NA,1,Bertinoro,346,93,0,4,2024-12-10,TRUE,"c(750629.001622392, 4893229.53033323)",1953,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Panorama,expedia.it,95,camera + 🥐,NA,1,Bertinoro,11,98,0,4,2024-12-10,TRUE,"c(750640.36350232, 4893224.02292301)",1953,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Osteria Della Pista Dal 1875,booking.com,80,camera matrimoniale,NA,1,Casorate Sempione,4124,91,90,2,2024-12-10,FALSE,"c(479754.7330108, 5057885.10469696)",438,"stesso hotel, offerte diverse",1
+hotel 3*,Stay Hotel,booking.com,74.91999816894531,camera matrimoniale o doppia,camera,1,Brunello,2353,87,0,4,2024-12-10,FALSE,"c(485403.331572632, 5068108.83200726)",953,"stesso hotel, offerte diverse",1
+hotel 2*,Pasta Residence Italia Malpensa,airbnb.it,71,camera (2 ospiti),camera (2 🕺),1,Gallarate,634,69,0,0,2024-12-10,FALSE,"c(482769.18614102, 5057223.37036445)",459,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Sporting Brugherio,booking.com,115.9000015258789,camera matrimoniale,NA,1,Brugherio,3066,81,0,4,2024-12-10,FALSE,"c(523772.443634312, 5044708.80861909)",2057,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Dei Giovi,booking.com,75,camera matrimoniale,NA,1,Cesano Maderno,4404,79,90,1,2024-12-10,FALSE,"c(512934.068234308, 5052091.18678979)",1496,"stesso hotel, offerte diverse",1
+hotel 4*,La Bergamina Hotel & Restaurant,booking.com,99.75,camera matrimoniale o doppia,NA,1,Arcore,1226,77,90,2,2024-12-10,FALSE,"c(525725.252673147, 5050736.81588317)",2059,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Duca Di Mantova,booking.com,82.25,camera doppia con letti singoli,NA,1,Sesto San Giovanni,2558,74,0,4,2024-12-10,FALSE,"c(519978.130483628, 5044097.13793197)",2063,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Barrage,booking.com,74.80000305175781,camera matrimoniale/doppia + 🥐,NA,1,Pinerolo,2074,77,90,1,2024-12-10,TRUE,"c(366675.508567343, 4970673.04491478)",2082,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Il Castelletto,booking.com,99.4499969482422,camera matrimoniale + 🥐,NA,1,Casarile,1236,75,0,4,2024-12-10,TRUE,"c(508072.832078264, 5018994.7941376)",1688,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Village,booking.com,109.5,camera matrimoniale,NA,1,Quart,2253,88,0,4,2024-12-10,FALSE,"c(373976.566750656, 5066710.97461573)",2103,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Monteverde,zenhotels.com,73.779998779296875,camera singola + 🥐,NA,1,Bistagno,431,93,0,4,2024-12-10,TRUE,"c(449994.558523265, 4945508.35666453)",2123,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Almaranto,booking.com,203.5,camera matrimoniale + 🥐,NA,1,Calamandrana,104,85,0,4,2024-12-10,TRUE,"c(447031.122488371, 4953754.39617071)",2130,"stesso hotel, offerte diverse",1
+hotel 3*,Executive Business Hotel,booking.com,82,camera singola,NA,1,Bari,4029,77,90,1,2024-12-10,FALSE,"c(1160326.54339998, 4582625.49585178)",1456,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Pensione Romeo,booking.com,60,camera matrimoniale o doppia,NA,1,Bari,874,58,0,4,2024-12-10,FALSE,"c(1160852.31347949, 4581994.3878298)",1444,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Adria,booking.com,107.8000030517578,camera matrimoniale,NA,1,Bari,2079,85,0,4,2024-12-10,FALSE,"c(1161288.07246494, 4581877.53744839)",1447,"stesso hotel, offerte diverse",1
+hotel 5*,Jr Hotels Bari Grande Albergo Delle Nazioni,booking.com,266.6499938964844,camera matrimoniale,camera,1,Bari,7805,85,0,4,2024-12-10,FALSE,"c(1161753.56672512, 4582320.47621422)",1470,"stesso hotel, offerte diverse",1
+hotel 4*,Jr Hotels Oriente Bari,booking.com,146.1699981689453,camera matrimoniale,NA,1,Bari,4261,83,0,4,2024-12-10,FALSE,"c(1161158.7750757, 4582362.55088494)",1460,"stesso hotel, offerte diverse",1
+hotel 4*,The Nicolaus Hotel,booking.com,145,camera matrimoniale,NA,1,Bari,7311,91,0,4,2024-12-10,FALSE,"c(1159890.38874457, 4579567.33218321)",1465,"stesso hotel, offerte diverse",1
+hotel 4*,Mercure Villa Romanazzi Carducci Bari,booking.com,120,camera singola + 🥐,NA,1,Bari,2980,84,0,4,2024-12-10,TRUE,"c(1160112.35003792, 4581538.14308327)",1464,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Excelsior Bari,booking.com,158.25,camera matrimoniale,NA,1,Bari,2433,82,90,2,2024-12-10,FALSE,"c(1160876.14731551, 4581604.09967246)",1457,"stesso hotel, offerte diverse",1
+hotel 4*,Avenue Boutique Hotel,booking.com,111.25,camera matrimoniale,NA,1,Como,825,88,0,4,2024-12-10,FALSE,"c(506438.641974478, 5072860.9298172)",2146,"stesso hotel, offerte diverse",1
+hotel 3*,Posta Design Hotel,booking.com,99,camera singola,NA,1,Como,1222,86,90,1,2024-12-10,FALSE,"c(506152.978866033, 5073098.40614004)",2147,"stesso hotel, offerte diverse",1
+hotel 3*,Bellavista Boutique Hotel,booking.com,118.87999725341795,camera matrimoniale,NA,1,Brunate,1635,87,0,4,2024-12-10,FALSE,"c(507406.24531879, 5073958.869764)",2148,"stesso hotel, offerte diverse",1
+hotel 4*,Palace Hotel Lake Como,booking.com,158,camera matrimoniale/doppia + 🥐,NA,1,Como,7110,86,0,4,2024-12-10,TRUE,"c(506385.694547519, 5073405.06699656)",2152,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Como City Center,booking.com,60.15999984741211,camera singola + 🥐,NA,1,Como,5157,79,0,4,2024-12-10,TRUE,"c(505953.187001, 5072743.04579031)",2159,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Marco's,booking.com,114,camera matrimoniale,NA,1,Como,1889,78,90,2,2024-12-10,FALSE,"c(506436.918009411, 5073737.39928017)",2161,"stesso hotel, offerte diverse",1
+hotel 4*,Dbh – Boutique Hotel Lake Como,booking.com,178.61000061035156,camera matrimoniale o doppia,NA,1,Como,1511,92,0,4,2024-12-10,FALSE,"c(506490.636391146, 5073095.35937295)",2163,"stesso hotel, offerte diverse",1
+hotel 4*,Albergo Le Due Corti,booking.com,97,camera singola,NA,1,Como,6718,77,0,4,2024-12-10,FALSE,"c(506647.093072694, 5072503.86486881)",2164,"stesso hotel, offerte diverse",1
+hotel 4*,Albergo Terminus,booking.com,199,camera matrimoniale/doppia + 🥐,NA,1,Como,3012,86,90,2,2024-12-10,TRUE,"c(506388.363168569, 5073403.79826545)",2152,"stesso hotel, offerte diverse",1
+hotel 5*,Vista Lago Di Como,booking.com,860,camera matrimoniale + 🥐,NA,1,Como,628,93,0,4,2024-12-10,TRUE,"c(506309.324201244, 5073313.86640545)",2166,"stesso hotel, offerte diverse",1
+hotel 3*,Santa Caterina Park Hotel,booking.com,109.94000244140624,camera matrimoniale,NA,1,Sarzana,1443,83,90,2,2024-12-10,FALSE,"c(575594.275603944, 4885940.85991412)",136,"stesso hotel, offerte diverse",1
+hotel 4*,Royal Hotel Carlton,trip.com,113.4000015258789,camera (1 ospite),camera (1 🕺),1,Bologna,17874,85,0,4,2024-12-10,FALSE,"c(686222.619504463, 4930385.16062918)",2203,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Cosmopolitan Bologna,expedia.it,68.5999984741211,camera + 🥐,NA,1,Bologna,10234,85,0,4,2024-12-10,TRUE,"c(690877.425096121, 4932102.62728318)",2207,"stesso hotel, offerte diverse",1
+hotel 4*,Best Western City Hotel,trip.com,91.839996337890625,camera (1 ospite),camera (1 🕺),1,Bologna,4928,83,90,1,2024-12-10,FALSE,"c(686623.448106764, 4931639.65836896)",2246,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Cosmopolitan Bologna,trip.com,93.94000244140624,camera (1 ospite),camera (1 🕺),1,Bologna,58,86,90,1,2024-12-10,FALSE,"c(690907.921303441, 4932107.76517298)",2207,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Astoria,expedia.it,85.95999908447266,camera + 🥐,NA,1,Bologna,656,76,0,4,2024-12-10,TRUE,"c(685854.249897325, 4930451.36686407)",2249,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Astoria,booking.com,77.9000015258789,camera singola,NA,1,Bologna,13646,73,0,4,2024-12-10,FALSE,"c(685845.10695366, 4930444.74399509)",2249,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Elite,expedia.it,48.04999923706055,camera,NA,1,Bologna,29,70,0,4,2024-12-10,FALSE,"c(684435.943696237, 4930208.64779122)",2210,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Elite,booking.com,44,camera singola,NA,1,Bologna,813,68,0,4,2024-12-10,FALSE,"c(684435.943696237, 4930208.64779122)",2210,"stesso hotel, offerte diverse",1
+hotel 4*,Living Place Hotel,booking.com,64.18000030517578,camera matrimoniale,NA,1,Castenaso,11454,84,0,4,2024-12-10,FALSE,"c(692308.79123155, 4929321.6021913)",2262,"stesso hotel, offerte diverse",1
+hotel 4*,Best Western City Hotel,roomdi.com,91.32636260986328,camera,NA,1,Bolonia,NA,NA,0,0,2024-12-10,FALSE,"c(686623.532032905, 4931647.2943116)",2246,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Brun,booking.com,189.67999267578125,camera singola,NA,1,Bologna,288,92,0,4,2024-12-10,FALSE,"c(686096.384757256, 4929285.29121143)",2269,"stesso hotel, offerte diverse",1
+hotel 4*,Royal Hotel Carlton,roomdi.com,123.18865203857422,camera,NA,1,Bolonia,NA,NA,0,0,2024-12-10,FALSE,"c(686222.846942164, 4930385.1671509)",2203,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Bologna,trip.com,49.650001525878906,camera,NA,1,Castel Maggiore,5160,79,0,4,2024-12-10,FALSE,"c(688754.480551222, 4936731.8877285)",1916,"stesso hotel, offerte diverse",1
+hotel 4*,Living Place Hotel,roomdi.com,65.04341888427734,camera + 🥐,NA,1,Castenaso,NA,NA,0,0,2024-12-10,TRUE,"c(692309.094540084, 4929321.61116969)",2262,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Brun,expedia.it,342.8399963378906,suite + 🥐,NA,1,Bologna,66,98,0,4,2024-12-10,TRUE,"c(686095.581096894, 4929278.906973)",2269,"stesso hotel, offerte diverse",1
+hotel 1*,Hotel Caselle,expedia.it,72,camera + 🥐,NA,1,San Lazzaro di Savena,12,56,0,4,2024-12-10,TRUE,"c(692489.544899854, 4928241.24544685)",2287,"stesso hotel, offerte diverse",1
+hotel 1*,Hotel Caselle,booking.com,72,camera singola,NA,1,San Lazzaro di Savena,289,48,90,2,2024-12-10,FALSE,"c(692476.251618606, 4928259.51234069)",2287,"stesso hotel, offerte diverse",1
+hotel 4*,Emma Hotel Fiera,expedia.it,270,camera + 🥐,NA,1,Granarolo dell'Emilia,15,84,0,4,2024-12-10,TRUE,"c(693792.573690321, 4934905.03611127)",2289,"stesso hotel, offerte diverse",1
+hotel 4*,Emma Hotel Fiera,zenhotels.com,270,camera matrimoniale + 🥐,NA,1,Granarolo dell'Emilia,NA,NA,0,4,2024-12-10,TRUE,"c(693792.573690321, 4934905.03611127)",2289,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Royal,booking.com,61.20000076293945,camera singola,NA,1,Bolsena,877,84,90,2,2024-12-10,FALSE,"c(744508.810985887, 4725299.6928442)",2292,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Royal,trip.com,64.19999694824219,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Bolsena,38,84,90,1,2024-12-10,TRUE,"c(744501.95880023, 4725307.51014175)",2292,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Giardino,booking.com,80,camera matrimoniale,NA,1,Arona,3513,80,90,2,2024-12-10,FALSE,"c(465912.712104954, 5067481.57033961)",382,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Concorde,booking.com,78,camera singola,NA,1,Arona,3013,77,90,2,2024-12-10,FALSE,"c(465319.228954655, 5068105.34481578)",385,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Spagna,booking.com,84.5999984741211,camera matrimoniale,camera,1,Arona,297,71,0,4,2024-12-10,FALSE,"c(465700.376724759, 5067629.80808858)",383,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ristorante San Carlo,booking.com,132,camera matrimoniale/doppia + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.472756503, 5068954.22253772)",352,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Le Cardinal,booking.com,75,camera singola,NA,1,Bastiglia,344,60,90,1,2024-12-10,FALSE,"c(657891.509521227, 4954581.89262479)",1640,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Cristallo Palace,booking.com,116,camera matrimoniale,camera,1,Bergamo,5738,82,90,1,2024-12-10,FALSE,"c(552596.565003306, 5058836.9156643)",943,"stesso hotel, offerte diverse",1
+hotel 4*,Settecento Hotel,trip.com,131.19000244140625,camera (2 ospiti),camera (2 🕺),1,Presezzo,1040,84,0,4,2024-12-10,FALSE,"c(544941.27232206, 5059893.01254572)",945,"stesso hotel, offerte diverse",1
+hotel 4*,Villa Appiani Hotel,booking.com,140.5399932861328,camera singola,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671067807, 5050768.83804807)",2307,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Ristorante S'astore,booking.com,47.5,camera singola,NA,1,Benetutti,320,80,0,4,2024-12-10,FALSE,"c(513781.628023624, 4478584.71294349)",1905,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Il Gelso,booking.com,73.5,camera singola,NA,1,Pontevico,574,86,90,2,2024-12-10,FALSE,"c(587948.722007056, 5013667.99886181)",1587,"stesso hotel, offerte diverse",1
+hotel 3*,Park Hotel Regina,airbnb.it,97,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bagni di Lucca,108,83,0,0,2024-12-10,TRUE,"c(627454.210019081, 4874140.12931704)",1030,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Milano,booking.com,116,camera matrimoniale o doppia,NA,1,Fondo,68,80,0,4,2024-12-10,FALSE,"c(664528.254322383, 5145859.18439737)",2368,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Milano,agoda.com,116,camera matrimoniale + 🥐,NA,1,Fondo,NA,NA,0,4,2024-12-10,TRUE,"c(664528.181075584, 5145859.18241179)",2368,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Baita Dei Pini,booking.com,84.30000305175781,camera singola,NA,1,Bormio,3673,90,90,2,2024-12-10,FALSE,"c(605424.370192137, 5146672.14238085)",2449,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Baita Dei Pini,trip.com,180.16000366210935,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bormio,40,88,0,4,2024-12-10,TRUE,"c(605424.582494589, 5146672.57006557)",2449,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Fenice,trip.com,73.05000305175781,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Boscoreale,110,78,90,2,2024-12-10,TRUE,"c(965939.376114287, 4530147.60028504)",2510,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Diana,expedia.it,58.939998626708984,camera,NA,1,Pompei,2509,86,0,4,2024-12-10,FALSE,"c(964461.24827508, 4525191.05794031)",2511,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Del Sole,hrs.com,64,camera,NA,1,Pompei,3855,80,90,2,2024-12-10,FALSE,"c(963944.968296298, 4525420.25142094)",2520,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Zeus,agoda.com,80.279998779296875,camera matrimoniale/doppia + 🥐,NA,1,Pompei,1888,79,0,4,2024-12-10,TRUE,"c(962795.398038247, 4525377.93852027)",2545,"stesso hotel, offerte diverse",1
+hotel 4*,Abalon Pompei Resort,trip.com,70.5199966430664,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Pompei,397,76,0,4,2024-12-10,TRUE,"c(965299.986184995, 4525396.12423)",2546,"stesso hotel, offerte diverse",1
+hotel 4*,Habita79 Pompeii - Mgallery,trip.com,139.5500030517578,camera (1 ospite),camera (1 🕺),1,Pompei,1769,92,0,4,2024-12-10,FALSE,"c(964302.821324265, 4525520.15428437)",2556,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Forum,hrs.com,114,camera,NA,1,Pompei,2067,91,0,4,2024-12-10,FALSE,"c(964103.838256372, 4525474.04563213)",2557,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Forum,expedia.it,189.6300048828125,suite + 🥐,NA,1,Pompei,1073,94,0,4,2024-12-10,TRUE,"c(964099.758282841, 4525477.19263725)",2557,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Diana,booking.com,63.20000076293945,camera singola,NA,1,Pompei,2509,86,90,2,2024-12-10,FALSE,"c(964461.24827508, 4525191.05794031)",2511,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Del Sole,booking.com,67,camera singola,NA,1,Pompei,3855,80,90,2,2024-12-10,FALSE,"c(963944.968296298, 4525420.25142094)",2520,"stesso hotel, offerte diverse",1
+hotel 4*,Habita79 Pompeii - Mgallery,booking.com,152.39999389648438,camera matrimoniale,camera,1,Pompei,1769,92,0,4,2024-12-10,FALSE,"c(964302.821324265, 4525520.15428437)",2556,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Forum,booking.com,129.72000122070312,camera matrimoniale,NA,1,Pompei,2067,91,0,4,2024-12-10,FALSE,"c(964103.838256372, 4525474.04563213)",2557,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Fenice,booking.com,85,camera matrimoniale,NA,1,Boscoreale,110,78,90,2,2024-12-10,FALSE,"c(965939.376114287, 4530147.60028504)",2510,"stesso hotel, offerte diverse",1
+hotel 4*,Abalon Pompei Resort,booking.com,99.8000030517578,camera singola,NA,1,Pompei,397,76,0,4,2024-12-10,FALSE,"c(965299.986184995, 4525396.12423)",2546,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Zeus,booking.com,94,camera matrimoniale,NA,1,Pompei,1888,79,90,2,2024-12-10,FALSE,"c(962795.398038247, 4525377.93852027)",2545,"stesso hotel, offerte diverse",1
+hotel 3*,Parini Hotel,zenhotels.com,87.75,camera singola,camera,1,Bosisio Parini,882,85,0,4,2024-12-10,FALSE,"c(522580.923450379, 5072165.85268909)",733,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Alberi,booking.com,83.5,camera singola,NA,1,Lecco,2086,88,0,4,2024-12-10,FALSE,"c(530154.240587174, 5077821.46426542)",728,"stesso hotel, offerte diverse",1
+hotel 4*,Inverigo Hotel,booking.com,99,camera matrimoniale + 🥐,NA,1,Inverigo,1039,79,0,4,2024-12-10,TRUE,"c(517012.47774554, 5065818.69430135)",1549,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Cambiago,booking.com,85,camera singola,NA,1,Cambiago,6398,81,90,1,2024-12-10,FALSE,"c(532583.589291761, 5047081.14039471)",2593,"stesso hotel, offerte diverse",1
+hotel 4*,"Devero Hotel & Spa, Bw Signature Collection",booking.com,120.5,camera doppia con letti singoli,camera,1,Cavenago di Brianza,3102,87,0,4,2024-12-10,FALSE,"c(532502.533692617, 5047472.75137883)",2595,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Daniel,booking.com,110,camera matrimoniale + 🥐,NA,1,Basiano,603,79,0,4,2024-12-10,TRUE,"c(535781.151989896, 5047577.09710507)",2596,"stesso hotel, offerte diverse",1
+hotel 3*,Regal Hotel,booking.com,80.5199966430664,camera singola,camera,1,Brescia,3769,77,0,4,2024-12-10,FALSE,"c(596340.285989645, 5045739.09272262)",2609,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Limbiate Fiera,agoda.com,75.80000305175781,camera matrimoniale + 🥐,NA,1,Limbiate,4953,80,90,2,2024-12-10,TRUE,"c(510858.219977468, 5050178.38821195)",201,"stesso hotel, offerte diverse",1
+hotel 3*,Groane Hotel Residence,agoda.com,75.55999755859375,camera singola + 🥐,NA,1,Cesano Maderno,1588,82,0,4,2024-12-10,TRUE,"c(508679.390137214, 5053099.70668918)",195,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Dei Giovi,zenhotels.com,74,camera matrimoniale + 🥐,NA,1,Cesano Maderno,4404,79,90,2,2024-12-10,TRUE,"c(512934.068234308, 5052091.18678979)",1496,"stesso hotel, offerte diverse",1
+hotel 4*,"Hotel King, By R Collection Hotels",zenhotels.com,73,camera singola,camera,1,Varedo,1070,78,0,4,2024-12-10,FALSE,"c(513553.735897642, 5048802.4495542)",214,"stesso hotel, offerte diverse",1
+hotel 4*,Starhotels Grand Milan,booking.com,277,camera tripla,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909888784, 5052108.27805622)",244,"stesso hotel, offerte diverse",1
+hotel 3*,Villa Casa Country,booking.com,120,camera matrimoniale + 🥐,NA,1,Bovolenta,431,92,90,2,2024-12-10,TRUE,"c(728566.539815312, 5017476.00098795)",436,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Due Mori,booking.com,72,camera singola,camera,1,Marostica,211,89,0,4,2024-12-10,FALSE,"c(706437.15869081, 5069199.87232177)",1609,"stesso hotel, offerte diverse",1
+hotel 4*,Bes Hotel Bergamo Ovest,hrs.com,109,camera,NA,1,Mozzo,3703,84,90,1,2024-12-10,FALSE,"c(546948.393770858, 5060754.21304506)",942,"stesso hotel, offerte diverse",1
+hotel 2*,Garni Castel Ferari,airbnb.it,117,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Ville d'Anaunia,95,90,0,0,2024-12-10,TRUE,"c(655628.836794084, 5132378.37635663)",2693,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Barrage,booking.com,85,camera matrimoniale/doppia + 🥐,NA,1,Pinerolo,2074,77,90,1,2024-12-10,TRUE,"c(366675.508567343, 4970673.04491478)",2082,"stesso hotel, offerte diverse",1
+hotel 4*,Grande Albergo Internazionale,zenhotels.com,62,camera singola + 🥐,NA,1,Brindisi,2660,79,0,4,2024-12-10,TRUE,"c(1256914.95439871, 4537616.97770432)",2717,"stesso hotel, offerte diverse",1
+hotel 4*,Grande Albergo Internazionale,roomdi.com,62.22782897949219,camera + 🥐,NA,1,Brindisi,NA,NA,0,0,2024-12-10,TRUE,"c(1256915.11596757, 4537616.99427134)",2717,"stesso hotel, offerte diverse",1
+hotel 3*,Regal Hotel,airbnb.it,82,camera (2 ospiti),camera (2 🕺),1,Brescia,3769,77,0,0,2024-12-10,FALSE,"c(596340.285989645, 5045739.09272262)",2609,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Village,zenhotels.com,108,camera (2 ospiti),camera (2 🕺),1,Quart,2253,88,0,4,2024-12-10,FALSE,"c(373976.566750656, 5066710.97461573)",2103,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel La Sosta,expedia.it,90,camera + 🥐,NA,1,Cisano Bergamasco,381,93,0,4,2024-12-10,TRUE,"c(535035.9998353, 5065311.72883096)",1559,"stesso hotel, offerte diverse",1
+hotel 3*,Locanda Perinella,booking.com,88,camera matrimoniale,NA,1,Brogliano,33,89,90,2,2024-12-10,FALSE,"c(683909.894218317, 5051484.6770316)",2744,"stesso hotel, offerte diverse",1
+hotel 3*,Locanda Perinella,trip.com,92,camera (1 ospite),camera (1 🕺),1,Brogliano,0,88,90,1,2024-12-10,FALSE,"c(683911.792048744, 5051478.37033162)",2744,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Sporting Brugherio,zenhotels.com,106.1999969482422,camera singola,NA,1,Brugherio,3066,81,0,4,2024-12-10,FALSE,"c(523772.443634312, 5044708.80861909)",2057,"stesso hotel, offerte diverse",1
+hotel 4*,Neo Hotel,booking.com,94.4000015258789,camera matrimoniale,camera,1,Bresso,10668,85,90,1,2024-12-10,FALSE,"c(515409.787049475, 5042489.87192986)",205,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Soperga,booking.com,142.13999938964844,camera doppia con letti singoli,NA,1,Milano,10120,81,0,4,2024-12-10,FALSE,"c(516423.399002115, 5037234.71432897)",1163,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 2*,Hotel Trentina,booking.com,66.279998779296875,camera doppia con letti singoli + 🥐,NA,1,Milano,1745,56,0,4,2024-12-10,TRUE,"c(517293.652688339, 5036650.08270126)",1253,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Sporting Cologno,booking.com,89.0999984741211,camera singola + 🥐,NA,1,Cologno Monzese,2805,77,0,4,2024-12-10,TRUE,"c(520961.554588366, 5041635.47598595)",2776,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Duca Di Mantova,roomdi.com,76.09095764160156,camera + 🥐,NA,1,Sesto San Giovanni,NA,NA,0,0,2024-12-10,TRUE,"c(519978.054690806, 5044097.56150002)",2063,"stesso hotel, offerte diverse",1
+hotel 4*,Grand Hotel Duca Di Mantova,expedia.it,69.06999969482422,camera + 🥐,NA,1,Sesto San Giovanni,2558,74,0,4,2024-12-10,TRUE,"c(519978.130483628, 5044097.13793197)",2063,"stesso hotel, offerte diverse",1
+hotel 4*,Andreola Central Hotel,booking.com,212,camera matrimoniale + 🥐,NA,1,Milano,10693,84,0,4,2024-12-10,TRUE,"c(516221.630656144, 5036728.59216908)",1211,"stesso hotel, offerte diverse",1
+hotel 3*,Green Hotel Ninfa,booking.com,84,camera matrimoniale,NA,1,Avigliana,633,81,90,1,2024-12-10,FALSE,"c(375356.023428841, 4993471.32913467)",862,"stesso hotel, offerte diverse",1
+hotel 4*,Torino Hotel San Luigi - Ristorante Trait D'union,booking.com,129.5,camera matrimoniale,NA,1,Beinasco,677,82,90,2,2024-12-10,FALSE,"c(388481.09790794, 4987037.69485969)",1723,"stesso hotel, offerte diverse",1
+hotel 3*,Bellavista Boutique Hotel,zenhotels.com,109.61000061035156,camera matrimoniale + 🥐,NA,1,Brunate,1635,87,0,4,2024-12-10,TRUE,"c(507406.24531879, 5073958.869764)",2148,"stesso hotel, offerte diverse",1
+hotel 4*,Palace Hotel Lake Como,expedia.it,139.63999938964844,camera + 🥐,NA,1,Como,7110,86,0,4,2024-12-10,TRUE,"c(506385.694547519, 5073405.06699656)",2152,"stesso hotel, offerte diverse",1
+hotel 3*,Posta Design Hotel,hrs.com,95,camera,NA,1,Como,1222,86,90,1,2024-12-10,FALSE,"c(506152.978866033, 5073098.40614004)",2147,"stesso hotel, offerte diverse",1
+hotel 4*,Dbh – Boutique Hotel Lake Como,trip.com,173.80999755859375,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Como,1511,92,0,4,2024-12-10,TRUE,"c(506490.636391146, 5073095.35937295)",2163,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Como City Center,trip.com,51.84000015258789,camera,NA,1,Como,5157,79,0,4,2024-12-10,FALSE,"c(505953.187001, 5072743.04579031)",2159,"stesso hotel, offerte diverse",1
+hotel 4*,Albergo Le Due Corti,expedia.it,91.38999938964844,camera + 🥐,NA,1,Como,6718,77,0,4,2024-12-10,TRUE,"c(506647.093072694, 5072503.86486881)",2164,"stesso hotel, offerte diverse",1
+hotel 4*,Avenue Boutique Hotel,expedia.it,176.42999267578125,suite + 🥐,NA,1,Como,152,96,0,4,2024-12-10,TRUE,"c(506434.185522566, 5072871.09700364)",2146,"stesso hotel, offerte diverse",1
+hotel 4*,Albergo Terminus,roomdi.com,189.52833557128903,camera + 🥐,NA,1,Como,3012,86,0,0,2024-12-10,TRUE,"c(506388.363168569, 5073403.79826545)",2152,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Marco's,trip.com,123,camera,NA,1,Como,0,70,0,4,2024-12-10,FALSE,"c(506466.634382022, 5073730.64895499)",2161,"stesso hotel, offerte diverse",1
+hotel 4*,Dbh – Boutique Hotel Lake Como,zenhotels.com,169,camera matrimoniale + 🥐,NA,1,Como,NA,NA,0,4,2024-12-10,TRUE,"c(506503.080919285, 5073098.76299953)",2163,"stesso hotel, offerte diverse",1
+hotel 5*,Vista Lago Di Como,roomdi.com,1778.1912841796875,camera + 🥐,NA,1,Como,NA,NA,0,0,2024-12-10,TRUE,"c(506315.615215989, 5073320.65401138)",2166,"stesso hotel, offerte diverse",1
+hotel 4*,Caroline Hotel,trip.com,82,camera (1 ospite),camera (1 🕺),1,Brusimpiano,61,82,90,1,2024-12-10,FALSE,"c(491423.364157426, 5087967.99263433)",1693,"stesso hotel, offerte diverse",1
+hotel 4*,Caroline Hotel,zenhotels.com,79,camera matrimoniale,NA,1,Brusimpiano,1672,82,0,4,2024-12-10,FALSE,"c(491415.227874327, 5087964.18941088)",1693,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Monteverde,booking.com,117.41999816894533,camera matrimoniale/doppia + 🥐,NA,1,Bistagno,431,93,0,4,2024-12-10,TRUE,"c(449994.558523265, 4945508.35666453)",2123,"stesso hotel, offerte diverse",1
+hotel 3*,Ciasa De Gahja,booking.com,64.51000213623047,camera singola + 🥐,NA,1,Budoia,650,91,0,4,2024-12-10,TRUE,"c(773416.616524318, 5105221.72316696)",846,"stesso hotel, offerte diverse",0.08333333333333338
+hotel 3*,Hotel Oliva,booking.com,93.5,camera matrimoniale + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192680661, 5108416.73921507)",844,"stesso hotel, offerte diverse",1
+hotel 5*,Palazzo Belvedere,trip.com,123.25,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Montecatini Terme,961,85,90,1,2024-12-10,TRUE,"c(642739.253010743, 4861284.41468606)",2875,"stesso hotel, offerte diverse",1
+hotel 5*,Palazzo Belvedere,zenhotels.com,122.4000015258789,camera matrimoniale + 🥐,NA,1,Montecatini Terme,NA,NA,90,2,2024-12-10,TRUE,"c(642744.55327384, 4861298.09305443)",2875,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Massimo D'azeglio,booking.com,270.1000061035156,camera singola,NA,1,Montecatini Terme,201,79,0,4,2024-12-10,FALSE,"c(642442.96451538, 4860274.2886083)",2888,"stesso hotel, offerte diverse",1
+hotel 5*,Palazzo Belvedere,roomdi.com,147.13198852539062,camera + 🥐,NA,1,Montecatini Terme,NA,NA,0,0,2024-12-10,TRUE,"c(642748.540022044, 4861283.7666846)",2875,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Massimo D'azeglio,trip.com,300,camera (1 ospite),camera (1 🕺),1,Montecatini Terme,13,58,90,1,2024-12-10,FALSE,"c(642438.098972107, 4860265.28262675)",2888,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Barrage,booking.com,112.1999969482422,camera tripla + 🥐,NA,1,Pinerolo,2074,77,0,4,2024-12-10,TRUE,"c(366675.508567343, 4970673.04491478)",2082,"stesso hotel, offerte diverse",1
+hotel 4*,Villa Appiani Hotel,booking.com,148.86000061035156,camera matrimoniale,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671067807, 5050768.83804807)",2307,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Sporting Cologno,booking.com,89.0999984741211,camera singola,NA,1,Cologno Monzese,2805,77,0,4,2024-12-10,FALSE,"c(520961.554588366, 5041635.47598595)",2776,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Mediterraneo,trip.com,80,camera (1 ospite),camera (1 🕺),1,Villa Cortese,843,81,90,1,2024-12-10,FALSE,"c(491224.360691145, 5045156.79939897)",2909,"stesso hotel, offerte diverse",1
+hotel 4*,Poli Hotel,booking.com,124.1999969482422,camera matrimoniale,NA,1,San Vittore Olona,1793,88,0,4,2024-12-10,FALSE,"c(496062.085167081, 5047552.75696398)",2919,"stesso hotel, offerte diverse",1
+hotel 3*,Cascina Speranza Hotel,booking.com,165,appartamento + 🥐,NA,1,Riva presso Chieri,1110,91,0,4,2024-12-10,TRUE,"c(411585.809824269, 4981176.63595655)",326,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Limbiate Fiera,booking.com,79,camera matrimoniale,NA,1,Limbiate,4953,80,90,1,2024-12-10,FALSE,"c(510858.219977468, 5050178.38821195)",201,"stesso hotel, offerte diverse",1
+hotel 4*,Valdenza Hotel,booking.com,65,camera matrimoniale,NA,1,Campegine,1227,80,0,4,2024-12-10,FALSE,"c(619325.885322295, 4959794.26538068)",2960,"stesso hotel, offerte diverse",1
+hotel 3*,Relais Delle Vele,booking.com,82,camera singola,NA,1,Reggio Emilia,84,85,90,1,2024-12-10,FALSE,"c(627855.23562548, 4956030.11563175)",2963,"stesso hotel, offerte diverse",1
+hotel 3*,Relais Delle Vele,agoda.com,82,camera singola + 🥐,NA,1,Reggio Emilia,85,84,90,1,2024-12-10,TRUE,"c(627855.386616427, 4956030.11862882)",2963,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Sagittario,hrs.com,78,camera,NA,1,Padova,5450,85,90,1,2024-12-10,FALSE,"c(729642.260572418, 5035191.5999946)",3003,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Ariston,booking.com,89,camera singola,NA,1,Campodarsego,1579,83,90,1,2024-12-10,FALSE,"c(727140.391892277, 5042979.94137015)",3009,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Como City Center,booking.com,61.20000076293945,camera singola + 🥐,NA,1,Como,5157,79,0,4,2024-12-10,TRUE,"c(505953.187001, 5072743.04579031)",2159,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Belvedere Ranco,booking.com,118,camera matrimoniale,NA,1,Ranco,401,87,90,2,2024-12-10,FALSE,"c(466579.188601888, 5071690.86817693)",390,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Corone,expedia.it,66.63999938964844,camera + 🥐,NA,1,Caerano di San Marco,239,80,90,1,2024-12-10,TRUE,"c(732779.472820994, 5073940.18379242)",679,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Asolo,booking.com,71.5,camera singola,NA,1,Asolo,634,89,90,2,2024-12-10,FALSE,"c(725920.775264954, 5074472.78654443)",670,"stesso hotel, offerte diverse",1
+hotel 5*,Hotel Villa Cipriani,booking.com,252,camera matrimoniale + 🥐,NA,1,Asolo,424,89,90,2,2024-12-10,TRUE,"c(726142.092657394, 5076222.89054302)",672,"stesso hotel, offerte diverse",1
+hotel 3*,Locanda Ai Dogi,booking.com,79.05000305175781,camera matrimoniale,NA,1,Pieve di Cadore,1545,80,0,4,2024-12-10,FALSE,"c(759297.063148961, 5147289.48667886)",3067,"stesso hotel, offerte diverse",1
+hotel 3*,Locanda Ai Dogi,trip.com,111.5,camera (1 ospite),camera (1 🕺),1,Pieve di Cadore,0,78,90,1,2024-12-10,FALSE,"c(759288.370111883, 5147303.97655086)",3067,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Almaranto,expedia.it,335.5,suite + 🥐,NA,1,Calamandrana,3,94,0,4,2024-12-10,TRUE,"c(447013.988879115, 4953727.83925865)",2130,"stesso hotel, offerte diverse",1
+hotel 4*,Airport Hotel Bergamo,booking.com,80,camera singola,NA,1,Bagnatica,8145,84,90,1,2024-12-10,FALSE,"c(558153.862977721, 5055973.5633857)",932,"stesso hotel, offerte diverse",1
+hotel 4*,Nh Orio Al Serio,booking.com,163.89999389648438,camera matrimoniale o doppia,NA,1,Orio al Serio,9859,83,0,4,2024-12-10,FALSE,"c(554403.070782705, 5056969.26500192)",952,"stesso hotel, offerte diverse",1
+hotel 3*,Il Leone D'oro,booking.com,144,camera tripla + 🥐,NA,1,Telgate,1174,79,0,4,2024-12-10,TRUE,"c(566736.273578958, 5053090.71161122)",1028,"stesso hotel, offerte diverse",1
+hotel 2*,Garni Castel Ferari,booking.com,78.5,camera matrimoniale o doppia,NA,1,Ville d'Anaunia,95,90,0,4,2024-12-10,FALSE,"c(655628.836794084, 5132378.37635663)",2693,"stesso hotel, offerte diverse",1
+hotel 3*,Energy Hotel,hrs.com,70,camera,NA,1,Calceranica al Lago,1226,86,0,4,2024-12-10,FALSE,"c(673662.951683237, 5096983.43472795)",3155,"stesso hotel, offerte diverse",1
+hotel 3*,Energy Hotel,trip.com,70,camera (1 ospite),camera (1 🕺),1,Calceranica al Lago,10,86,90,1,2024-12-10,FALSE,"c(673681.563068744, 5096989.04914218)",3155,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Delta Florence,trip.com,56.43000030517578,camera,NA,1,Calenzano,2498,55,0,4,2024-12-10,FALSE,"c(674316.826193338, 4857582.33674897)",3159,"stesso hotel, offerte diverse",1
+hotel 4*,Petit Hotel,booking.com,97.93000030517578,camera matrimoniale + 🥐,NA,1,Prato,362,89,0,4,2024-12-10,TRUE,"c(671947.837882677, 4858531.36388247)",3161,"stesso hotel, offerte diverse",1
+hotel 4*,Art Hotel Museo,booking.com,116,camera matrimoniale,camera,1,Prato,7709,83,90,1,2024-12-10,FALSE,"c(669529.173927253, 4858475.12741098)",3172,"stesso hotel, offerte diverse",1
+hotel 4*,Petit Hotel,trip.com,142.92999267578125,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Prato,16,86,0,4,2024-12-10,TRUE,"c(671949.381826566, 4858528.01204547)",3161,"stesso hotel, offerte diverse",1
+hotel 4*,Petit Hotel,expedia.it,124.37999725341795,camera + 🥐,NA,1,Prato,43,90,0,4,2024-12-10,TRUE,"c(671947.837882677, 4858531.36388247)",3161,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Datini,booking.com,88.66999816894531,camera matrimoniale,NA,1,Prato,3073,79,0,4,2024-12-10,FALSE,"c(670543.67877781, 4858220.42941748)",3191,"stesso hotel, offerte diverse",1
+hotel 4*,Petit Hotel,zenhotels.com,130.27000427246094,camera matrimoniale + 🥐,NA,1,Prato,NA,NA,0,4,2024-12-10,TRUE,"c(671947.837882677, 4858531.36388247)",3161,"stesso hotel, offerte diverse",1
+hotel 4*,West Florence,booking.com,99.3000030517578,camera doppia con letti singoli,NA,1,Campi Bisenzio,503,71,90,2,2024-12-10,FALSE,"c(670895.467140199, 4854565.94124443)",3202,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Medici,vrbo.com,525.9000244140625,appartamento,NA,3,Firenze,8340,69,0,4,2024-12-10,FALSE,"c(681302.769611011, 4848974.16714525)",3207,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Locanda Mel,hrs.com,80,camera,NA,1,Calolziocorte,222,72,0,4,2024-12-10,FALSE,"c(533585.150130023, 5072042.6909912)",1722,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Cambiago,agoda.com,83.160003662109375,camera,NA,1,Cambiago,6398,81,0,4,2024-12-10,FALSE,"c(532583.589291761, 5047081.14039471)",2593,"stesso hotel, offerte diverse",1
+hotel 4*,"Devero Hotel & Spa, Bw Signature Collection",expedia.it,108.4499969482422,camera,NA,1,Cavenago di Brianza,3102,87,0,4,2024-12-10,FALSE,"c(532502.533692617, 5047472.75137883)",2595,"stesso hotel, offerte diverse",1
+hotel 4*,La Bergamina Hotel & Restaurant,booking.com,84,camera singola,camera,1,Arcore,1226,77,0,4,2024-12-10,FALSE,"c(525725.252673147, 5050736.81588317)",2059,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Daniel,trip.com,104.5,camera (1 ospite),camera (1 🕺),1,Basiano,603,79,0,4,2024-12-10,FALSE,"c(535781.151989896, 5047577.09710507)",2596,"stesso hotel, offerte diverse",1
+hotel 4*,Villa Appiani Hotel,booking.com,165.5,camera matrimoniale,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671067807, 5050768.83804807)",2307,"stesso hotel, offerte diverse",1
+hotel 4*,Pineta Hotel,booking.com,119.5999984741211,camera matrimoniale,NA,1,Monsano,2285,89,90,2,2024-12-10,FALSE,"c(845443.726951587, 4832251.53062775)",1900,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Posta 77,booking.com,79.30000305175781,camera singola,NA,1,San Giorgio in Bosco,286,72,0,4,2024-12-10,FALSE,"c(719607.458854771, 5049509.54366679)",3315,"stesso hotel, offerte diverse",1
+hotel 4*,Sublimis Boutique Hotel Adults-only,zenhotels.com,169,camera matrimoniale + 🥐,NA,1,Camogli,1748,92,90,2,2024-12-10,TRUE,"c(512327.860953151, 4910666.4338685)",806,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Cenobio Dei Dogi,booking.com,171,camera singola + 🥐,NA,1,Camogli,4213,92,0,4,2024-12-10,TRUE,"c(512394.20835771, 4910471.22563073)",805,"stesso hotel, offerte diverse",1
+hotel 4*,Sublimis Boutique Hotel Adults-only,trip.com,182,camera (1 ospite),camera (1 🕺),1,Camogli,67,92,90,1,2024-12-10,FALSE,"c(512326.568780235, 4910666.4314302)",806,"stesso hotel, offerte diverse",1
+hotel 4*,Valdenza Hotel,trip.com,65,camera (1 ospite),camera (1 🕺),1,Campegine,24,78,0,4,2024-12-10,FALSE,"c(619340.402991955, 4959813.18605852)",2960,"stesso hotel, offerte diverse",1
+hotel 4*,West Florence,hrs.com,75,camera,NA,1,Campi Bisenzio,503,71,90,1,2024-12-10,FALSE,"c(670895.467140199, 4854565.94124443)",3202,"stesso hotel, offerte diverse",1
+hotel 4*,Art Hotel Museo,trip.com,109.6500015258789,camera (1 ospite),camera (1 🕺),1,Prato,7709,83,90,1,2024-12-10,FALSE,"c(669529.173927253, 4858475.12741098)",3172,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Datini,booking.com,88.66999816894531,camera matrimoniale + 🥐,NA,1,Prato,3073,79,0,4,2024-12-10,TRUE,"c(670543.67877781, 4858220.42941748)",3191,"stesso hotel, offerte diverse",1
+hotel 4*,Petit Hotel,trip.com,142.9499969482422,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Prato,16,86,0,4,2024-12-10,TRUE,"c(671949.381826566, 4858528.01204547)",3161,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Delta Florence,booking.com,73,camera singola,NA,1,Calenzano,2498,55,0,4,2024-12-10,FALSE,"c(674316.826193338, 4857582.33674897)",3159,"stesso hotel, offerte diverse",1
+hotel 2*,Hotel Medici,vrbo.com,551.29998779296875,suite (3 camere),NA,3,Firenze,8340,69,0,4,2024-12-10,FALSE,"c(681302.769611011, 4848974.16714525)",3207,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ladina,expedia.it,119.80999755859376,camera + 🥐,NA,1,Campitello di Fassa,317,91,0,4,2024-12-10,TRUE,"c(710492.288650919, 5150609.39197893)",3342,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Rododendro Val Di Fassa,booking.com,143.60000610351562,camera matrimoniale,NA,1,Campitello di Fassa,338,81,0,4,2024-12-10,FALSE,"c(710198.454172659, 5150415.02271376)",3343,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ladina,trip.com,114,camera (1 ospite),camera (1 🕺),1,Campitello di Fassa,0,90,0,4,2024-12-10,FALSE,"c(710484.82213592, 5150607.01088064)",3342,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Ladina,zenhotels.com,110.63999938964844,camera singola,NA,1,Campitello di Fassa,NA,NA,0,4,2024-12-10,FALSE,"c(710483.062880248, 5150619.68061982)",3342,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Rododendro Val Di Fassa,trip.com,145.9600067138672,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Campitello di Fassa,0,76,0,4,2024-12-10,TRUE,"c(710205.379172682, 5150418.23337678)",3343,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Rododendro Val Di Fassa,zenhotels.com,129.4499969482422,camera matrimoniale + 🥐,NA,1,Campitello di Fassa,25,58,0,4,2024-12-10,TRUE,"c(710208.719595988, 5150402.22355263)",3343,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Posta 77,trip.com,77.279998779296875,camera,NA,1,San Giorgio in Bosco,286,72,90,1,2024-12-10,FALSE,"c(719607.458854771, 5049509.54366679)",3315,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Ariston,hrs.com,85,camera,NA,1,Campodarsego,1579,83,0,4,2024-12-10,FALSE,"c(727140.391892277, 5042979.94137015)",3009,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Ariston,expedia.it,95,camera + 🥐,NA,1,Campodarsego,72,84,0,4,2024-12-10,TRUE,"c(727114.728153178, 5042984.10387013)",3009,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Sagittario,booking.com,80.5,camera matrimoniale,NA,1,Padova,5450,85,90,1,2024-12-10,FALSE,"c(729642.260572418, 5035191.5999946)",3003,"stesso hotel, offerte diverse",1
+hotel 3*,Hotel Le Botti,booking.com,101.5,camera doppia con letti singoli,NA,1,Guarene,430,85,0,4,2024-12-10,FALSE,"c(424959.76199649, 4953495.10959112)",1360,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Santo Stefano,booking.com,98.37000274658205,camera singola + 🥐,NA,1,Sandigliano,2166,85,0,4,2024-12-10,TRUE,"c(427715.008203555, 5040774.81003593)",1910,"stesso hotel, offerte diverse",1
+hotel 4*,Relais Cascina Era,booking.com,148.5,camera singola + 🥐,NA,1,Sandigliano,357,91,90,2,2024-12-10,TRUE,"c(427988.975729377, 5041427.79092635)",1914,"stesso hotel, offerte diverse",1
+hotel 3*,B&b Hotel Torino Orbassano,booking.com,81.80000305175781,camera matrimoniale,NA,1,Torino,1746,82,0,4,2024-12-10,FALSE,"c(390680.311195241, 4987423.09291848)",1768,"stesso hotel, offerte diverse",1
+hotel 4*,Doubletree By Hilton Turin Lingotto,booking.com,141.39999389648438,camera doppia con letti singoli,camera,1,Torino,19516,89,0,4,2024-12-10,FALSE,"c(394853.761711967, 4987700.50831113)",1793,"stesso hotel, offerte diverse",1
+hotel 4*,As Hotel Sempione Fiera,trip.com,78.83000183105469,camera (1 ospite),camera (1 🕺),1,San Vittore Olona,1772,80,90,1,2024-12-10,FALSE,"c(496358.831269738, 5046852.44686565)",200,"stesso hotel, offerte diverse",1
+hotel 4*,Hotel Mediterraneo,booking.com,88,camera matrimoniale + 🥐,NA,1,Villa Cortese,843,81,0,4,2024-12-10,TRUE,"c(491224.360691145, 5045156.79939897)",2909,"stesso hotel, offerte diverse",1
+hotel 3*,Expo Hotel Milan,expedia.it,74.51000213623047,camera + 🥐,NA,1,Parabiago,1900,85,90,1,2024-12-10,TRUE,"c(496893.960138808, 5046521.1649006)",197,"stesso hotel, offerte diverse",1
+hotel 4*,Poli Hotel,trip.com,102.2300033569336,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,San Vittore Olona,1793,88,0,4,2024-12-10,TRUE,"c(496062.085167081, 5047552.75696398)",2919,"stesso hotel, offerte diverse",1
 hotel 4*,Relais La Fattoria,booking.com,90,camera singola,NA,1,Melfi,404,83,90,2,2024-12-10,FALSE,"c(1057789.52666252, 4560511.47973032)",1,duplicati esatti,1
 hotel 3*,Domus Romulea,booking.com,90,camera matrimoniale + 🥐,NA,1,Bisaccia,83,86,90,2,2024-12-10,TRUE,"c(1036677.28967415, 4559059.70174888)",2,duplicati esatti,1
 hotel 4*,Il Castagneto Hotel,booking.com,126,camera matrimoniale o doppia,NA,1,Melfi,462,81,0,4,2024-12-10,FALSE,"c(1056980.75003006, 4557880.00443064)",3,duplicati esatti,1
@@ -605,7 +1052,10 @@ hotel 4*,Best Western Hotel Leonardo Da Vinci,booking.com,91,camera matrimoniale
 hotel 3*,Hotel Mirabeau,booking.com,115.5,camera singola,NA,1,Bellagio,312,70,0,4,2024-12-10,FALSE,"c(520813.757908932, 5085979.19705144)",741,duplicati esatti,1
 hotel 5*,Bianca Relais,booking.com,209.52000427246097,camera matrimoniale,NA,1,Oggiono,201,91,0,4,2024-12-10,FALSE,"c(527618.96805186, 5071916.65824568)",742,duplicati esatti,1
 hotel 3*,Hotel Nautilus,booking.com,165,camera matrimoniale/doppia + 🥐,NA,1,Mandello del Lario,418,77,90,2,2024-12-10,TRUE,"c(525754.004857881, 5081210.96148609)",743,duplicati esatti,1
+hotel 3*,Pet Friendly Hotel Mirabeau,booking.com,172,camera matrimoniale,NA,1,Bellagio,NA,NA,0,4,2024-12-10,FALSE,"c(520771.781257172, 5086038.39324821)",744,duplicati esatti,0.08333333333333338
 hotel 4*,Relais & Spa Castello Di Casiglio,booking.com,269.510009765625,camera matrimoniale,NA,1,Erba,1815,82,0,4,2024-12-10,FALSE,"c(515601.020177997, 5071274.70279119)",745,duplicati esatti,1
+hotel 3*,Il Mirabeau,booking.com,190,camera matrimoniale,NA,1,Bellagio,19,74,0,4,2024-12-10,FALSE,"c(520771.781257172, 5086038.39324821)",744,duplicati esatti,0.08333333333333338
+hotel 2*,Nouveau Mirabeau,booking.com,245,camera tripla,NA,1,Bellagio,21,71,0,4,2024-12-10,FALSE,"c(520771.781257172, 5086038.39324821)",744,duplicati esatti,0.08333333333333338
 hotel 3*,Hotel Su Nuraxi,booking.com,80,camera singola,NA,1,Barumini,399,80,0,4,2024-12-10,FALSE,"c(498888.678796426, 4395365.50547642)",746,duplicati esatti,1
 hotel 3*,Albergo Antica Dogana,booking.com,72,camera matrimoniale,NA,1,Asti,140,82,0,4,2024-12-10,FALSE,"c(443385.294381492, 4972913.3207235)",750,duplicati esatti,1
 hotel 3*,Hotel Rainero,booking.com,97,camera matrimoniale,NA,1,Asti,424,77,90,2,2024-12-10,FALSE,"c(437316.349928369, 4971793.7871668)",748,duplicati esatti,0.08333333333333338
@@ -871,7 +1321,9 @@ hotel 3*,Hotel Florence Milano,booking.com,90.5,camera matrimoniale,camera,1,Mil
 hotel 3*,Hotel Charly,booking.com,107.6999969482422,camera matrimoniale + 🥐,NA,1,Milano,3082,85,0,4,2024-12-10,TRUE,"c(516263.55915447, 5036568.07916405)",1154,duplicati esatti,1
 hotel 3*,Hotel Stradivari,booking.com,100.08000183105467,camera singola,NA,1,Milano,3517,83,0,4,2024-12-10,FALSE,"c(516878.59409356, 5036760.83751754)",1157,duplicati esatti,1
 hotel 3*,Hotel Midway,booking.com,120.75,camera singola,NA,1,Milano,3274,86,0,4,2024-12-10,FALSE,"c(515938.865499648, 5037169.47122766)",1159,duplicati esatti,1
+hotel 3*,Hotel Folen,booking.com,106.13999938964844,camera matrimoniale + 🥐,NA,1,Milano,8176,85,0,4,2024-12-10,TRUE,"c(515938.865499648, 5037169.47122766)",1159,duplicati esatti,1
 hotel 3*,Biocity,booking.com,113.5,camera singola,NA,1,Milano,3829,88,90,2,2024-12-10,FALSE,"c(516145.021245353, 5037682.37675648)",1162,duplicati esatti,1
+hotel 3*,Hotel Metropoli,booking.com,96.3000030517578,camera singola,NA,1,Milano,6294,82,0,4,2024-12-10,FALSE,"c(515938.865499648, 5037169.47122766)",1159,duplicati esatti,1
 hotel 3*,Il Girasole High Quality Inn,booking.com,115.0500030517578,camera matrimoniale o doppia,NA,1,Milano,1734,90,90,2,2024-12-10,FALSE,"c(517489.054965665, 5040639.4774374)",1167,duplicati esatti,1
 hotel 4*,Abacus Hotel,booking.com,95.160003662109375,camera singola,NA,1,Sesto San Giovanni,4412,83,0,4,2024-12-10,FALSE,"c(518505.680553222, 5043159.81229381)",1169,duplicati esatti,1
 hotel 3*,Hotel San Francisco,booking.com,111.5,camera singola,NA,1,Milano,6145,84,0,4,2024-12-10,FALSE,"c(517465.259304399, 5036904.41613557)",1170,duplicati esatti,0.08333333333333338
@@ -1998,6 +2450,7 @@ hotel 4*,Ranch Palace Hotel,booking.com,109.5,camera matrimoniale o doppia,NA,1,
 hotel 3*,Hotel Angioino & Spa,booking.com,103.5,camera matrimoniale + 🥐,NA,1,Napoli,1149,79,90,2,2024-12-10,TRUE,"c(943149.668165938, 4534601.92257473)",516,unico,1
 hotel 1*,Hotel Ginevra,booking.com,42,camera singola,NA,1,Napoli,1953,73,0,4,2024-12-10,FALSE,"c(944434.631241326, 4536042.29229984)",577,unico,1
 hotel 4*,Capodichino International Hotel,booking.com,94.5,camera singola,camera,1,Napoli,6183,70,90,2,2024-12-10,FALSE,"c(945128.465384437, 4538094.86553154)",579,unico,1
+hotel 3*,Jazz Hotel,booking.com,64.51000213623047,camera doppia con letti singoli,camera,1,Napoli,165,64,90,2,2024-12-10,FALSE,"c(944072.677983821, 4535951.13672609)",556,unico,1
 hotel 3*,Hotel Luxor,agoda.com,57.31999969482422,camera + 🥐,NA,1,Casoria,1541,73,90,1,2024-12-10,TRUE,"c(945959.52912711, 4540546.71972976)",580,unico,1
 hotel 4*,Culture Hotel Villa Capodimonte,booking.com,88.5,camera singola,camera,1,Napoli,1381,78,0,4,2024-12-10,FALSE,"c(943221.022958193, 4537120.7173213)",582,unico,1
 hotel 3*,Hotel Federico Ii,booking.com,68.5,camera matrimoniale + 🥐,NA,1,Napoli,221,69,0,4,2024-12-10,TRUE,"c(939634.246870607, 4537084.20516978)",583,unico,1
@@ -3504,449 +3957,3 @@ hotel 3*,Hotel Belvedere,booking.com,50,camera singola,NA,1,Canicattì,221,80,90
 hotel 3*,Albergo Rio,booking.com,50,camera singola,NA,1,Canistro,126,85,90,1,2024-12-10,FALSE,"c(865705.114184203, 4652577.7322421)",3530,unico,1
 hotel 3*,Hotel De Meis,booking.com,70,camera singola,NA,1,Capistrello,412,89,90,1,2024-12-10,FALSE,"c(863940.868140811, 4655349.63068134)",3531,unico,1
 hotel 3*,Hotel River,booking.com,48.5,camera matrimoniale,camera,1,Civitella Roveto,72,75,0,4,2024-12-10,FALSE,"c(867246.993547478, 4649577.54722944)",3532,unico,1
-hotel 3*,Hotel Il Cavalier D'arpino,booking.com,62,camera matrimoniale o doppia,NA,1,Arpino,899,93,90,1,2024-12-10,FALSE,"c(884158.27825141, 4620593.31153135)",33,"stesso hotel, offerte diverse",1
-hotel 4*,Art & Hotel Aeroporto,booking.com,92.5,camera matrimoniale,NA,1,Stezzano,6699,80,0,4,2024-12-10,FALSE,"c(550369.909042038, 5056033.04796795)",44,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Capolago,booking.com,103,camera matrimoniale,NA,1,Varese,5577,83,0,4,2024-12-10,FALSE,"c(484659.683271255, 5071196.91707365)",76,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Rudy,booking.com,78,camera singola,NA,1,Riva del Garda,4334,83,90,2,2024-12-10,FALSE,"c(643922.152402474, 5084571.76070916)",99,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Rudy,trip.com,95.94000244140624,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Riva del Garda,31,82,90,2,2024-12-10,TRUE,"c(643922.004540561, 5084571.75723607)",99,"stesso hotel, offerte diverse",1
-hotel 3*,Santa Caterina Park Hotel,expedia.it,94.20999908447266,camera,NA,1,Sarzana,1443,83,90,1,2024-12-10,FALSE,"c(575594.275577203, 4885940.85981968)",136,"stesso hotel, offerte diverse",1
-hotel 3*,Santa Caterina Park Hotel,trip.com,107.56999969482422,camera (1 ospite),camera (1 🕺),1,Sarzana,35,82,90,1,2024-12-10,FALSE,"c(575596.54350687, 4885929.44458513)",136,"stesso hotel, offerte diverse",1
-hotel 3*,La Brace,expedia.it,92.70999908447266,camera + 🥐,NA,1,Forcola,1103,84,90,1,2024-12-10,TRUE,"c(552227.751103464, 5112594.00834574)",170,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Esperia,trip.com,55.779998779296875,camera,NA,1,Rho,1110,80,0,4,2024-12-10,FALSE,"c(503438.268358383, 5041270.81205233)",177,"stesso hotel, offerte diverse",1
-hotel 4*,Virginia Palace Hotel,trip.com,82.25,camera (1 ospite),camera (1 🕺),1,Garbagnate Milanese,2519,90,0,4,2024-12-10,FALSE,"c(504704.935983509, 5046619.6381086)",179,"stesso hotel, offerte diverse",1
-hotel 4*,Domina Milano Fiera,booking.com,88.0999984741211,camera doppia con letti singoli,camera,1,Novate Milanese,4347,86,90,1,2024-12-10,FALSE,"c(509724.523136841, 5042379.30300926)",190,"stesso hotel, offerte diverse",1
-hotel 4*,Living Hotel Milano,booking.com,106,camera matrimoniale,NA,1,Cornaredo,2760,85,0,4,2024-12-10,FALSE,"c(501713.392379108, 5037887.31156796)",192,"stesso hotel, offerte diverse",1
-hotel 3*,Groane Hotel Residence,booking.com,79.54000091552734,camera singola,NA,1,Cesano Maderno,1588,82,0,4,2024-12-10,FALSE,"c(508679.390196847, 5053099.70666404)",195,"stesso hotel, offerte diverse",1
-hotel 3*,Expo Hotel Milan,booking.com,82.80000305175781,camera singola,NA,1,Parabiago,1900,85,90,2,2024-12-10,FALSE,"c(496893.960216147, 5046521.16482791)",197,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Milano Fiera,booking.com,95.9000015258789,camera matrimoniale o doppia,NA,1,Rho,9847,83,0,4,2024-12-10,FALSE,"c(505962.207790403, 5040415.77281085)",198,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Sempione Fiera,booking.com,89,camera matrimoniale,NA,1,San Vittore Olona,1772,80,90,1,2024-12-10,FALSE,"c(496358.831341533, 5046852.44687203)",200,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Limbiate Fiera,booking.com,85,camera matrimoniale,NA,1,Limbiate,4953,80,90,1,2024-12-10,FALSE,"c(510858.220042736, 5050178.38829897)",201,"stesso hotel, offerte diverse",1
-hotel 4*,Italiana Hotels Milan Rho Fair,trip.com,100.52999877929688,camera (1 ospite),camera (1 🕺),1,Rho,6062,80,0,4,2024-12-10,FALSE,"c(502935.613370937, 5041167.14837483)",204,"stesso hotel, offerte diverse",1
-hotel 4*,Neo Hotel,booking.com,101,camera matrimoniale o doppia,NA,1,Bresso,10668,85,90,1,2024-12-10,FALSE,"c(515409.786986921, 5042489.87200656)",205,"stesso hotel, offerte diverse",1
-hotel 4*,"Hotel King, By R Collection Hotels",booking.com,95.4499969482422,camera matrimoniale + 🥐,NA,1,Varedo,1070,78,0,4,2024-12-10,TRUE,"c(513553.735844416, 5048802.44964307)",214,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Forum,booking.com,91,camera matrimoniale + 🥐,NA,1,Baranzate,1896,78,90,2,2024-12-10,TRUE,"c(509432.863559181, 5041087.94748118)",219,"stesso hotel, offerte diverse",1
-hotel 4*,Phi Hotel Milano,trip.com,82.45999908447266,camera (1 ospite),camera (1 🕺),1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495569488, 5042303.03008351)",222,"stesso hotel, offerte diverse",1
-hotel 4*,Klima Hotel Milano Fiere,booking.com,83.75,camera singola,camera,1,Milano,6025,79,0,4,2024-12-10,FALSE,"c(509128.013684741, 5040126.30879815)",225,"stesso hotel, offerte diverse",1
-hotel 4*,Best Western Plus The Hub Hotel,booking.com,87,camera matrimoniale,camera,1,Milano,4183,75,0,4,2024-12-10,FALSE,"c(509305.329802601, 5040053.25123631)",228,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Grand Milan,booking.com,352,camera comfort familiare,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909829212, 5052108.27808023)",244,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Minerva,trip.com,86.4000015258789,camera (1 ospite),camera (1 🕺),1,Arezzo,7788,85,0,4,2024-12-10,FALSE,"c(731712.609248966, 4817077.6701418)",252,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Il Gentiluomo,expedia.it,61.099998474121094,camera,NA,1,Arezzo,142,85,90,1,2024-12-10,FALSE,"c(726406.494462454, 4814030.21735041)",254,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Minerva,expedia.it,96.68000030517578,camera + 🥐,NA,1,Arezzo,506,88,0,4,2024-12-10,TRUE,"c(731694.151131719, 4817066.43008105)",252,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Il Gentiluomo,booking.com,93,camera matrimoniale/doppia + 🥐,NA,1,Arezzo,438,82,0,4,2024-12-10,TRUE,"c(726395.070516266, 4814034.49909777)",254,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Park,booking.com,101,camera matrimoniale o doppia,NA,1,Castiglion Fiorentino,831,82,0,4,2024-12-10,FALSE,"c(736204.167203246, 4803030.42737774)",264,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Park,trip.com,122,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Castiglion Fiorentino,32,80,90,1,2024-12-10,TRUE,"c(736185.291711845, 4803021.28418259)",264,"stesso hotel, offerte diverse",1
-hotel 3*,Miralago,trip.com,58.779998779296875,camera,NA,1,Albano Laziale,37,70,90,1,2024-12-10,FALSE,"c(805586.808441077, 4626531.78630637)",305,"stesso hotel, offerte diverse",1
-hotel 3*,Miralago,zenhotels.com,69,camera matrimoniale,camera,1,Albano Laziale,348,72,0,4,2024-12-10,FALSE,"c(805581.053540995, 4626530.69155613)",305,"stesso hotel, offerte diverse",1
-hotel 3*,Cascina Speranza Hotel,booking.com,122,camera tripla,NA,1,Riva presso Chieri,1110,91,0,4,2024-12-10,FALSE,"c(411585.809866727, 4981176.63590555)",326,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ristorante San Carlo,booking.com,152,camera matrimoniale/doppia + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.47275506, 5068954.22258925)",352,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Cavour Et Des Officiers,booking.com,100.5,camera matrimoniale o doppia,NA,1,Bard,1644,93,0,4,2024-12-10,FALSE,"c(402116.810320099, 5051275.54237742)",360,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Giardino,expedia.it,75,camera + 🥐,NA,1,Arona,3513,80,90,1,2024-12-10,TRUE,"c(465912.71216027, 5067481.57029831)",382,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Spagna,trip.com,67,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Arona,297,71,90,1,2024-12-10,TRUE,"c(465700.376694322, 5067629.80811841)",383,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Concorde,hrs.com,75.4000015258789,camera,NA,1,Arona,3013,77,90,1,2024-12-10,FALSE,"c(465319.2290234, 5068105.34472959)",385,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Concorde,expedia.it,70.37999725341797,camera + 🥐,NA,1,Arona,162,72,90,1,2024-12-10,TRUE,"c(465360.687004454, 5068105.96143302)",385,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ponti,booking.com,72,camera matrimoniale,NA,1,Angera,275,89,0,4,2024-12-10,FALSE,"c(466984.347377646, 5068810.8637926)",386,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Belvedere Ranco,booking.com,118,camera matrimoniale o doppia,NA,1,Ranco,401,87,90,2,2024-12-10,FALSE,"c(466579.188680584, 5071690.86812253)",390,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ponti,trip.com,80.0999984741211,camera (1 ospite),camera (1 🕺),1,Angera,38,90,90,1,2024-12-10,FALSE,"c(466984.423880472, 5068811.28719167)",386,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ristorante San Carlo,zenhotels.com,151,camera matrimoniale + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.472856455, 5068954.22253809)",352,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ponti,expedia.it,72.01000213623047,camera + 🥐,NA,1,Angera,36,92,90,1,2024-12-10,TRUE,"c(466984.053191177, 5068811.28924984)",386,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Cavalier D'arpino,expedia.it,59,camera + 🥐,NA,1,Arpino,899,93,90,1,2024-12-10,TRUE,"c(884158.27840039, 4620593.31149937)",33,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Splendid,booking.com,71,camera singola,NA,1,Galzignano Terme,6894,83,90,1,2024-12-10,FALSE,"c(716932.639565307, 5019038.89639769)",414,"stesso hotel, offerte diverse",1
-hotel 3*,Villa Casa Country,booking.com,120,camera matrimoniale,NA,1,Bovolenta,431,92,90,2,2024-12-10,FALSE,"c(728566.539769937, 5017476.00094003)",436,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Osteria Della Pista Dal 1875,booking.com,80,camera matrimoniale + 🥐,NA,1,Casorate Sempione,4124,91,90,2,2024-12-10,TRUE,"c(479754.732981906, 5057885.10464914)",438,"stesso hotel, offerte diverse",1
-hotel 4*,Hilton Garden Inn Milan Malpensa,booking.com,101.3000030517578,camera doppia con letti singoli + 🥐,NA,1,Somma Lombardo,5111,80,0,4,2024-12-10,TRUE,"c(476776.207765745, 5060267.61052252)",444,"stesso hotel, offerte diverse",1
-hotel 2*,Pasta Residence Italia Malpensa,booking.com,73.30000305175781,camera matrimoniale o doppia,NA,1,Gallarate,634,69,0,4,2024-12-10,FALSE,"c(482769.186211882, 5057223.37041131)",459,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Saint Pierre,booking.com,78.5,camera singola,NA,1,Saint-Pierre,463,90,90,1,2024-12-10,FALSE,"c(362523.562550924, 5063308.63731646)",485,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Residence Chateau,booking.com,58.7400016784668,camera singola,NA,1,Saint-Pierre,1851,87,90,2,2024-12-10,FALSE,"c(362047.479653483, 5063239.87221912)",486,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Europa,booking.com,62,camera matrimoniale o doppia,NA,1,Arzano,2563,81,90,2,2024-12-10,FALSE,"c(942999.568032795, 4541653.75451258)",502,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Europa,expedia.it,63.04999923706055,camera + 🥐,NA,1,Arzano,169,78,90,1,2024-12-10,TRUE,"c(942996.692659113, 4541650.60442577)",502,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Palazzo Argenta,agoda.com,74.720001220703125,camera matrimoniale/doppia + 🥐,NA,1,Napoli,1366,86,0,4,2024-12-10,TRUE,"c(942975.903821782, 4540481.60479508)",539,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Palazzo Argenta,roomdi.com,95.1147918701172,camera + 🥐,NA,1,Nápoles,NA,NA,0,0,2024-12-10,TRUE,"c(942976.19994718, 4540482.04777846)",539,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel & Residenza 100 Torri,booking.com,114,camera matrimoniale o doppia,NA,1,Ascoli Piceno,305,92,90,2,2024-12-10,FALSE,"c(873528.770804681, 4754900.39982263)",643,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel & Residenza 100 Torri,agoda.com,114,camera matrimoniale/doppia + 🥐,NA,1,Ascoli Piceno,65,94,90,2,2024-12-10,TRUE,"c(873564.247128721, 4754923.57726323)",643,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Asolo,hrs.com,70,camera,NA,1,Asolo,634,89,90,1,2024-12-10,FALSE,"c(725920.775294334, 5074472.78661301)",670,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Asolo,trip.com,71.5,camera (1 ospite),camera (1 🕺),1,Asolo,36,88,90,1,2024-12-10,FALSE,"c(725914.249632865, 5074484.85577452)",670,"stesso hotel, offerte diverse",1
-hotel 5*,Hotel Villa Cipriani,expedia.it,234.5,camera + 🥐,NA,1,Asolo,424,89,90,1,2024-12-10,TRUE,"c(726142.092612412, 5076222.89046798)",672,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Corone,booking.com,68,camera singola,NA,1,Caerano di San Marco,239,80,90,2,2024-12-10,FALSE,"c(732779.47283412, 5073940.18382706)",679,"stesso hotel, offerte diverse",1
-hotel 2*,Albergo La Rocca,expedia.it,57.86000061035156,camera + 🥐,NA,1,Assisi,2371,81,90,1,2024-12-10,TRUE,"c(794615.326343662, 4775140.87979922)",686,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Terrazza Restaurant & Spa,trip.com,73.63999938964844,camera (1 ospite),camera (1 🕺),1,Assisi,2365,90,90,2,2024-12-10,FALSE,"c(795372.192223541, 4773955.37289338)",687,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Duomo,expedia.it,60.88999938964844,camera + 🥐,NA,1,Assisi,1303,82,90,1,2024-12-10,TRUE,"c(794562.625614061, 4775096.58159815)",690,"stesso hotel, offerte diverse",1
-hotel 4*,Asisium Boutique Hotel,booking.com,84.69999694824219,camera matrimoniale/doppia + 🥐,NA,1,Assisi,1276,85,90,2,2024-12-10,TRUE,"c(794452.345368055, 4774947.92594527)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Giotto Hotel & Spa,zenhotels.com,82.45999908447266,camera singola + 🥐,NA,1,Assisi,1782,86,90,2,2024-12-10,TRUE,"c(793789.484090721, 4775193.97624181)",695,"stesso hotel, offerte diverse",1
-hotel 4*,Bv Grand Hotel Assisi,trip.com,68.80999755859375,camera (1 ospite),camera (1 🕺),1,Assisi,2396,80,0,4,2024-12-10,FALSE,"c(795578.270024808, 4773906.14278435)",696,"stesso hotel, offerte diverse",1
-hotel 3*,Villa Raffaello Park Hotel,booking.com,86,camera matrimoniale + 🥐,NA,1,Assisi,571,92,90,2,2024-12-10,TRUE,"c(791096.047863903, 4773381.14116944)",697,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Bellavista,trip.com,40.650001525878906,camera,NA,1,Assisi,1045,82,0,4,2024-12-10,FALSE,"c(792615.638222064, 4774298.00407359)",699,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Sole,agoda.com,94,camera matrimoniale o doppia,camera,1,Assisi,799,89,90,2,2024-12-10,FALSE,"c(794454.428201261, 4774950.13813696)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 2*,Hotel Santa Maria,booking.com,72,camera matrimoniale o doppia,NA,1,Assisi,236,88,0,4,2024-12-10,FALSE,"c(791053.041907487, 4773973.53324856)",705,"stesso hotel, offerte diverse",1
-hotel 4*,Dal Moro Gallery Hotel,booking.com,88,camera singola,NA,1,Assisi,843,88,0,4,2024-12-10,FALSE,"c(791444.908428733, 4773546.2837413)",706,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Windsor Savoia,trip.com,101.98999786376952,camera (1 ospite),camera (1 🕺),1,Assisi,430,84,90,1,2024-12-10,FALSE,"c(793651.757324936, 4775239.83056063)",707,"stesso hotel, offerte diverse",1
-hotel 4*,Valle Di Assisi Hotel & Spa,booking.com,107.94000244140624,camera matrimoniale o doppia,NA,1,Assisi,942,87,0,4,2024-12-10,FALSE,"c(790053.217509792, 4771663.17594112)",712,"stesso hotel, offerte diverse",1
-hotel 4*,Dei Priori Boutique Hotel,trip.com,128.02000427246094,camera (1 ospite),camera (1 🕺),1,Assisi,1233,87,90,1,2024-12-10,FALSE,"c(794396.4280658, 4775001.54229019)",692,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 2*,Hotel Sole,expedia.it,103.91999816894533,camera,NA,1,Assisi,16,94,90,1,2024-12-10,FALSE,"c(794452.36367483, 4774947.50231297)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Hotel Cristallo,booking.com,78.5,camera singola,NA,1,Assisi,1185,77,0,4,2024-12-10,FALSE,"c(790256.763904323, 4774007.10435737)",715,"stesso hotel, offerte diverse",1
-hotel 4*,Asisium Boutique Hotel,zenhotels.com,92.87000274658205,camera matrimoniale + 🥐,NA,1,Assisi,NA,NA,90,2,2024-12-10,TRUE,"c(794452.345486345, 4774947.9258724)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Bv Grand Hotel Assisi,roomdi.com,90.46687316894533,camera + 🥐,NA,1,Asís,NA,NA,0,0,2024-12-10,TRUE,"c(795578.310891767, 4773906.99345591)",696,"stesso hotel, offerte diverse",1
-hotel 5*,Nun Assisi Relais & Spa Museum,trip.com,512.6099853515625,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Assisi,656,95,0,4,2024-12-10,TRUE,"c(794731.399401347, 4775020.25077114)",717,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Santa Lucia,booking.com,50,camera singola,NA,1,Bastia Umbra,1856,72,90,1,2024-12-10,FALSE,"c(787849.646967167, 4774387.29566903)",724,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Alberi,booking.com,106,camera matrimoniale + 🥐,NA,1,Lecco,2086,88,0,4,2024-12-10,TRUE,"c(530154.240641122, 5077821.46429729)",728,"stesso hotel, offerte diverse",1
-hotel 3*,Parini Hotel,booking.com,108,camera matrimoniale o doppia,camera,1,Bosisio Parini,882,85,0,4,2024-12-10,FALSE,"c(522580.923378404, 5072165.85272275)",733,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Cavour,expedia.it,64.5,camera + 🥐,NA,1,Asti,1582,88,90,1,2024-12-10,TRUE,"c(437408.269593428, 4971628.87920353)",747,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Palio,hrs.com,75,camera,NA,1,Asti,828,82,0,4,2024-12-10,FALSE,"c(437312.398486323, 4971820.94879224)",748,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Hotel Aleramo,hrs.com,80,camera,NA,1,Asti,1144,81,0,4,2024-12-10,FALSE,"c(437347.272707281, 4971837.13595544)",748,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Hotel Lis,hrs.com,104.7699966430664,camera,NA,1,Asti,2999,93,90,2,2024-12-10,FALSE,"c(437717.803833848, 4972134.42039102)",749,"stesso hotel, offerte diverse",1
-hotel 4*,Viva Hotel Avellino,booking.com,70.80000305175781,camera matrimoniale,NA,1,Avellino,1515,84,0,4,2024-12-10,FALSE,"c(987878.970382876, 4545826.29906439)",781,"stesso hotel, offerte diverse",1
-hotel 4*,Bel Sito Hotel Due Torri,booking.com,67.5,camera singola,NA,1,Manocalzati,498,82,0,4,2024-12-10,FALSE,"c(991293.403107879, 4550103.39567222)",783,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Irpinia & Family Spa,booking.com,71.30000305175781,camera singola,NA,1,Mercogliano,841,75,0,4,2024-12-10,FALSE,"c(984184.841147335, 4544244.95090919)",784,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Cenobio Dei Dogi,booking.com,171,camera singola,NA,1,Camogli,4213,92,0,4,2024-12-10,FALSE,"c(512394.20844719, 4910471.22564534)",805,"stesso hotel, offerte diverse",1
-hotel 4*,Sublimis Boutique Hotel Adults-only,booking.com,182,camera matrimoniale + 🥐,NA,1,Camogli,1748,92,90,2,2024-12-10,TRUE,"c(512327.860951723, 4910666.43386796)",806,"stesso hotel, offerte diverse",1
-hotel 4*,Viva Hotel Avellino,zenhotels.com,69.94000244140625,camera singola + 🥐,NA,1,Avellino,1515,84,0,4,2024-12-10,TRUE,"c(987878.970296082, 4545826.29920701)",781,"stesso hotel, offerte diverse",1
-hotel 4*,Bel Sito Hotel Due Torri,booking.com,67.5,camera singola + 🥐,NA,1,Manocalzati,498,82,0,4,2024-12-10,TRUE,"c(991293.403088009, 4550103.39560956)",783,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Irpinia & Family Spa,booking.com,71.30000305175781,camera singola + 🥐,NA,1,Mercogliano,841,75,0,4,2024-12-10,TRUE,"c(984184.841084748, 4544244.95081785)",784,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Palazzo Argenta,airbnb.it,88,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Napoli,1366,86,0,0,2024-12-10,TRUE,"c(942975.903792104, 4540481.60473683)",539,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Oliva,expedia.it,99.12999725341795,camera + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192601389, 5108416.73917112)",844,"stesso hotel, offerte diverse",1
-hotel 3*,Ciasa De Gahja,booking.com,64.51000213623047,camera singola,NA,1,Budoia,650,91,0,4,2024-12-10,FALSE,"c(773416.616425183, 5105221.72311206)",846,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Green Hotel Ninfa,booking.com,84,camera matrimoniale + 🥐,NA,1,Avigliana,633,81,90,1,2024-12-10,TRUE,"c(375356.023478496, 4993471.32904037)",862,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Saint Pierre,hrs.com,77,camera,NA,1,Saint-Pierre,463,90,0,4,2024-12-10,FALSE,"c(362523.562555992, 5063308.63724401)",485,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Saint Pierre,trip.com,77.80000305175781,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Saint-Pierre,36,90,90,2,2024-12-10,TRUE,"c(362521.819005454, 5063313.76390261)",485,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Residence Chateau,expedia.it,51.310001373291016,camera + 🥐,NA,1,Saint-Pierre,1851,87,90,1,2024-12-10,TRUE,"c(362047.479668017, 5063239.87221867)",486,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Cavour,booking.com,78.5,camera matrimoniale/doppia + 🥐,NA,1,Asti,1582,88,90,1,2024-12-10,TRUE,"c(437408.26960463, 4971628.87913292)",747,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Aleramo,booking.com,101.5,camera matrimoniale,NA,1,Asti,1144,81,0,4,2024-12-10,FALSE,"c(437347.272731036, 4971837.13594049)",748,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Hotel Palio,booking.com,83.5,camera matrimoniale,NA,1,Asti,828,82,90,1,2024-12-10,FALSE,"c(437312.398481521, 4971820.94884865)",748,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Hotel Lis,booking.com,106.7699966430664,camera matrimoniale + 🥐,NA,1,Asti,2999,93,90,2,2024-12-10,TRUE,"c(437717.803845803, 4972134.42034759)",749,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Bergamo,booking.com,66.06999969482422,camera singola,camera,1,Bergamo,8075,82,0,4,2024-12-10,FALSE,"c(551991.923581154, 5059520.59235785)",919,"stesso hotel, offerte diverse",1
-hotel 4*,Le Funi Hotel,booking.com,104,camera singola,NA,1,Bergamo,2065,91,0,4,2024-12-10,FALSE,"c(551059.142946971, 5061697.37723537)",921,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Città Dei Mille,booking.com,68.4000015258789,camera singola,NA,1,Bergamo,6011,82,0,4,2024-12-10,FALSE,"c(552075.268704061, 5059447.11515622)",923,"stesso hotel, offerte diverse",1
-hotel 4*,Mercure Bergamo Centro Palazzo Dolci,booking.com,108,camera doppia con letti singoli + 🥐,NA,1,Bergamo,8009,83,0,4,2024-12-10,TRUE,"c(552371.667797497, 5060083.2463405)",926,"stesso hotel, offerte diverse",1
-hotel 4*,Airport Hotel Bergamo,booking.com,83,camera matrimoniale,NA,1,Bagnatica,8145,84,90,1,2024-12-10,FALSE,"c(558153.863015728, 5055973.56348479)",932,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Bergamo,booking.com,118.9000015258789,camera matrimoniale o doppia,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.925494623, 5060033.54505258)",935,"stesso hotel, offerte diverse",1
-hotel 4*,Art & Hotel Aeroporto,hrs.com,85,camera,NA,1,Stezzano,6699,80,0,4,2024-12-10,FALSE,"c(550369.908929021, 5056033.04784194)",44,"stesso hotel, offerte diverse",1
-hotel 4*,Palazzo Santo Spirito,booking.com,131.85000610351562,camera matrimoniale + 🥐,NA,1,Bergamo,2756,86,90,2,2024-12-10,TRUE,"c(552587.114804257, 5060731.84872312)",941,"stesso hotel, offerte diverse",1
-hotel 4*,Bes Hotel Bergamo Ovest,booking.com,114.4000015258789,camera singola + 🥐,NA,1,Mozzo,3703,84,0,4,2024-12-10,TRUE,"c(546948.393744681, 5060754.21301014)",942,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Cristallo Palace,booking.com,115,camera matrimoniale,camera,1,Bergamo,5738,82,90,1,2024-12-10,FALSE,"c(552596.564998125, 5058836.9157505)",943,"stesso hotel, offerte diverse",1
-hotel 4*,Relais San Vigilio Al Castello,booking.com,150,camera matrimoniale,NA,1,Bergamo,1804,95,0,4,2024-12-10,FALSE,"c(550701.093861487, 5061933.92561369)",944,"stesso hotel, offerte diverse",1
-hotel 4*,Settecento Hotel,booking.com,138,camera matrimoniale,NA,1,Presezzo,1040,84,0,4,2024-12-10,FALSE,"c(544941.27228746, 5059893.01250655)",945,"stesso hotel, offerte diverse",1
-hotel 4*,Petronilla - Hotel In Bergamo,booking.com,186,camera matrimoniale/doppia + 🥐,NA,1,Bergamo,1272,94,0,4,2024-12-10,TRUE,"c(551631.401130118, 5060081.30943175)",947,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Piazza Vecchia,booking.com,180,camera matrimoniale + 🥐,NA,1,Bergamo,2642,90,90,2,2024-12-10,TRUE,"c(551539.454473354, 5061447.87214433)",948,"stesso hotel, offerte diverse",1
-hotel 4*,Gombithotel,booking.com,175,camera singola,NA,1,Bergamo,2260,94,90,2,2024-12-10,FALSE,"c(551674.274258907, 5061340.90828176)",949,"stesso hotel, offerte diverse",1
-hotel 4*,Life Hotel,booking.com,187.1999969482422,camera matrimoniale o doppia,camera,1,Bergamo,1377,88,90,2,2024-12-10,FALSE,"c(549834.591778959, 5059661.49287579)",951,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Orio Al Serio,booking.com,165.89999389648438,camera matrimoniale o doppia,NA,1,Orio al Serio,9859,83,0,4,2024-12-10,FALSE,"c(554403.070824469, 5056969.26508102)",952,"stesso hotel, offerte diverse",1
-hotel 3*,Stay Hotel,trip.com,63.36000061035156,camera,NA,1,Brunello,2353,87,0,4,2024-12-10,FALSE,"c(485403.331527665, 5068108.83193422)",953,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Capolago,hrs.com,100,camera,NA,1,Varese,5577,83,90,1,2024-12-10,FALSE,"c(484659.683453583, 5071196.91715154)",76,"stesso hotel, offerte diverse",1
-hotel 4*,Hilton Garden Inn Milan Malpensa,vrbo.com,357.54998779296875,suite (2 ospiti),suite (2 🕺),1,Somma Lombardo,5111,80,0,4,2024-12-10,FALSE,"c(476776.207715556, 5060267.61043612)",444,"stesso hotel, offerte diverse",1
-hotel 3*,Il Leone D'oro,booking.com,103,camera matrimoniale o doppia,NA,1,Telgate,1174,79,0,4,2024-12-10,FALSE,"c(566736.273521982, 5053090.71167516)",1028,"stesso hotel, offerte diverse",1
-hotel 3*,Park Hotel Regina,zenhotels.com,69.13999938964844,camera singola,NA,1,Bagni di Lucca,108,83,0,4,2024-12-10,FALSE,"c(627454.210032401, 4874140.12939795)",1030,"stesso hotel, offerte diverse",1
-hotel 4*,Domus Hotel,hrs.com,55,camera,NA,1,Bagnoli del Trigno,745,89,90,1,2024-12-10,FALSE,"c(954745.922739036, 4631246.59057843)",1040,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Villa Maria,trip.com,60.099998474121094,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Ischia,115,73,0,4,2024-12-10,TRUE,"c(917411.182976903, 4521948.66158872)",1142,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Villa Maria,expedia.it,70.37000274658203,camera + 🥐,NA,1,Ischia,104,76,0,4,2024-12-10,TRUE,"c(917403.928626508, 4521955.47755691)",1142,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Corte Degli Aragonesi,zenhotels.com,210.27000427246097,camera matrimoniale,NA,1,Ischia,129,90,90,2,2024-12-10,FALSE,"c(918081.34369928, 4521691.12013787)",1145,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Villa Maria,trip.com,371.0199890136719,camera (3 ospiti),camera (3 🕺),1,Serrara Fontana,647,93,0,4,2024-12-10,FALSE,"c(913424.682548977, 4516963.00881349)",1146,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Corte Degli Aragonesi,expedia.it,205.4900054931641,camera,NA,1,Ischia,3,94,90,1,2024-12-10,FALSE,"c(918100.376621235, 4521683.27042664)",1145,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Villa Maria,zenhotels.com,294,camera matrimoniale + 🥐,NA,1,Serrara Fontana,NA,NA,0,4,2024-12-10,TRUE,"c(913450.605967388, 4516924.50634688)",1146,"stesso hotel, offerte diverse",1
-hotel 4*,Phi Hotel Milano,trip.com,82.62000274658203,camera (1 ospite),camera (1 🕺),1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495456292, 5042303.03021523)",222,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Forum,zenhotels.com,75.91999816894531,camera matrimoniale,NA,1,Baranzate,1896,78,0,4,2024-12-10,FALSE,"c(509432.863481436, 5041087.94754477)",219,"stesso hotel, offerte diverse",1
-hotel 4*,Virginia Palace Hotel,booking.com,90,camera matrimoniale o doppia,NA,1,Garbagnate Milanese,2519,90,0,4,2024-12-10,FALSE,"c(504704.935998406, 5046619.63814661)",179,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Esperia,booking.com,66,camera singola,camera,1,Rho,1110,80,0,4,2024-12-10,FALSE,"c(503438.268446311, 5041270.81191043)",177,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Soperga,booking.com,118.88999938964844,camera singola,NA,1,Milano,10120,81,0,4,2024-12-10,FALSE,"c(516423.398941568, 5037234.71424051)",1163,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Domina Milano Fiera,zenhotels.com,77.16999816894531,camera matrimoniale,camera,1,Novate Milanese,4347,86,90,2,2024-12-10,FALSE,"c(509724.523169863, 5042379.30293601)",190,"stesso hotel, offerte diverse",1
-hotel 4*,Italiana Hotels Milan Rho Fair,booking.com,111,camera doppia con letti singoli,NA,1,Rho,6062,80,0,4,2024-12-10,FALSE,"c(502935.613292682, 5041167.14829711)",204,"stesso hotel, offerte diverse",1
-hotel 4*,Andreola Central Hotel,booking.com,181,camera matrimoniale o doppia,NA,1,Milano,10693,84,0,4,2024-12-10,FALSE,"c(516221.63057265, 5036728.59210708)",1211,"stesso hotel, offerte diverse",1
-hotel 4*,Klima Hotel Milano Fiere,roomdi.com,72.80219268798828,camera,NA,1,Milano,6025,79,0,0,2024-12-10,FALSE,"c(509128.013659594, 5040126.30874719)",225,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Trentina,booking.com,74.63999938964844,camera matrimoniale + 🥐,NA,1,Milano,1745,56,0,4,2024-12-10,TRUE,"c(517293.652607106, 5036650.08277923)",1253,"stesso hotel, offerte diverse",1
-hotel 4*,Best Western Plus The Hub Hotel,roomdi.com,84.471466064453125,camera + 🥐,NA,1,Milano,4183,75,0,0,2024-12-10,TRUE,"c(509305.329903014, 5040053.25131691)",228,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Le Botti,booking.com,81.5,camera singola,camera,1,Guarene,430,85,0,4,2024-12-10,FALSE,"c(424959.761953481, 4953495.10964675)",1360,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Oliva,booking.com,100.94000244140624,camera matrimoniale + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192609646, 5108416.73916048)",844,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Cavour Et Des Officiers,expedia.it,94.55999755859376,camera + 🥐,NA,1,Bard,1644,93,90,1,2024-12-10,TRUE,"c(402116.810440485, 5051275.54253911)",360,"stesso hotel, offerte diverse",1
-hotel 4*,Living Hotel Milano,agoda.com,90.51000213623048,camera matrimoniale + 🥐,NA,1,Cornaredo,2760,85,0,4,2024-12-10,TRUE,"c(501713.392367902, 5037887.31160355)",192,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Milano Fiera,booking.com,97.9000015258789,camera singola,NA,1,Rho,9847,83,90,1,2024-12-10,FALSE,"c(505962.207789182, 5040415.77281949)",198,"stesso hotel, offerte diverse",1
-hotel 4*,Phi Hotel Milano,booking.com,110.5,camera,NA,1,Baranzate,1915,77,0,4,2024-12-10,FALSE,"c(508255.495504214, 5042303.03006905)",222,"stesso hotel, offerte diverse",1
-hotel 3*,Park Hotel Regina,airbnb.it,136,camera (3 ospiti) + 🥐,camera (3 🕺) + 🥐,1,Bagni di Lucca,108,83,0,0,2024-12-10,TRUE,"c(627454.210008068, 4874140.12928936)",1030,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Adria,zenhotels.com,89,camera singola,NA,1,Bari,2079,85,0,4,2024-12-10,FALSE,"c(1161288.07256401, 4581877.53744826)",1447,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Adria,expedia.it,89,camera + 🥐,NA,1,Bari,281,88,0,4,2024-12-10,TRUE,"c(1161291.85522994, 4581882.15669064)",1447,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Pensione Romeo,expedia.it,56.75,camera,NA,1,Bari,874,58,0,4,2024-12-10,FALSE,"c(1160852.31341107, 4581994.3877929)",1444,"stesso hotel, offerte diverse",1
-hotel 3*,Executive Business Hotel,hrs.com,80,camera,NA,1,Bari,4029,77,90,1,2024-12-10,FALSE,"c(1160326.54335924, 4582625.49588768)",1456,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Excelsior Bari,roomdi.com,111.11956024169922,camera + 🥐,NA,1,Bari,2433,82,0,0,2024-12-10,TRUE,"c(1160876.14730672, 4581604.09957634)",1457,"stesso hotel, offerte diverse",1
-hotel 4*,Jr Hotels Oriente Bari,agoda.com,122.62999725341795,camera singola + 🥐,NA,1,Bari,4261,83,0,4,2024-12-10,TRUE,"c(1161158.77512088, 4582362.55085036)",1460,"stesso hotel, offerte diverse",1
-hotel 4*,B21 Lifestyle Hotel,trip.com,102.63999938964844,camera,NA,1,Bari,44,86,0,4,2024-12-10,FALSE,"c(1157817.8585438, 4583479.13351484)",1463,"stesso hotel, offerte diverse",1
-hotel 4*,Mercure Villa Romanazzi Carducci Bari,hrs.com,102,camera,NA,1,Bari,2980,84,0,4,2024-12-10,FALSE,"c(1160112.3500295, 4581538.14310027)",1464,"stesso hotel, offerte diverse",1
-hotel 4*,The Nicolaus Hotel,zenhotels.com,130,camera singola,camera,1,Bari,7311,91,0,4,2024-12-10,FALSE,"c(1159890.38868374, 4579567.332135)",1465,"stesso hotel, offerte diverse",1
-hotel 5*,Jr Hotels Bari Grande Albergo Delle Nazioni,trip.com,241.33999633789065,camera (2 ospiti),camera (2 🕺),1,Bari,7805,85,0,4,2024-12-10,FALSE,"c(1161753.56679916, 4582320.47613808)",1470,"stesso hotel, offerte diverse",1
-hotel 4*,B21 Lifestyle Hotel,booking.com,144.1300048828125,camera matrimoniale + 🥐,NA,1,Bari,670,88,0,4,2024-12-10,TRUE,"c(1157814.2353725, 4583474.53082311)",1463,"stesso hotel, offerte diverse",1
-hotel 4*,Vittoria Parc Hotel,booking.com,158,camera doppia con letti singoli,NA,1,Bari,1563,85,90,1,2024-12-10,FALSE,"c(1152306.42070814, 4585081.36570143)",1474,"stesso hotel, offerte diverse",1
-hotel 4*,Vittoria Parc Hotel,trip.com,113,camera (1 ospite),camera (1 🕺),1,Bari,25,84,90,1,2024-12-10,FALSE,"c(1152306.22250141, 4585081.77520914)",1474,"stesso hotel, offerte diverse",1
-hotel 4*,Cconforthotels R&b Skyline,trip.com,233.44000244140625,camera (6 ospiti),camera (6 🕺),1,Bari,0,90,0,4,2024-12-10,FALSE,"c(1161010.98334654, 4581950.66969231)",1477,"stesso hotel, offerte diverse",1
-hotel 4*,Cconforthotels R&b Skyline,zenhotels.com,244,appartamento,NA,1,Bari,NA,NA,0,4,2024-12-10,FALSE,"c(1161010.98338221, 4581950.66974946)",1477,"stesso hotel, offerte diverse",1
-hotel 3*,Grand Hotel Garden,hrs.com,75,camera,NA,1,Barile,369,81,90,1,2024-12-10,FALSE,"c(1061880.03840431, 4555679.27114965)",1486,"stesso hotel, offerte diverse",1
-hotel 3*,Grand Hotel Garden,trip.com,95,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Barile,17,78,90,1,2024-12-10,TRUE,"c(1061895.94398161, 4555680.49142352)",1486,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Dei Giovi,booking.com,79,camera matrimoniale,NA,1,Cesano Maderno,4404,79,90,1,2024-12-10,FALSE,"c(512934.068292081, 5052091.1868225)",1496,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Grand Milan,booking.com,252,camera matrimoniale o doppia,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909835401, 5052108.27814697)",244,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Perlo,booking.com,183,camera matrimoniale + 🥐,NA,1,Bellagio,1754,90,0,4,2024-12-10,TRUE,"c(519558.935400527, 5090466.10077236)",1514,"stesso hotel, offerte diverse",1
-hotel 4*,Inverigo Hotel,booking.com,85,camera singola,NA,1,Inverigo,1039,79,0,4,2024-12-10,FALSE,"c(517012.477836117, 5065818.69438372)",1549,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Bergamo,booking.com,119.9000015258789,camera matrimoniale o doppia,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.925319871, 5060033.54491379)",935,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Sosta,booking.com,138,camera matrimoniale + 🥐,NA,1,Cisano Bergamasco,381,93,0,4,2024-12-10,TRUE,"c(535035.999923469, 5065311.72876442)",1559,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Gelso,airbnb.it,73,camera (1 ospite),camera (1 🕺),1,Pontevico,574,86,0,0,2024-12-10,FALSE,"c(587948.722089455, 5013667.99879547)",1587,"stesso hotel, offerte diverse",1
-hotel 4*,Bonotto Hotel Belvedere,zenhotels.com,64,camera singola + 🥐,NA,1,Bassano del Grappa,973,81,0,4,2024-12-10,TRUE,"c(712912.874443947, 5072040.45528508)",1590,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Bonotto Hotel Belvedere,roomdi.com,59.77106857299805,camera + 🥐,NA,1,Bassano del Grappa,NA,NA,0,0,2024-12-10,TRUE,"c(712912.652015653, 5072040.44777631)",1590,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Hotel Due Mori,booking.com,114.8000030517578,suite,camera,1,Marostica,211,89,0,4,2024-12-10,FALSE,"c(706437.158640091, 5069199.87222638)",1609,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Santa Lucia,agoda.com,47.5,camera singola + 🥐,NA,1,Bastia Umbra,1856,72,90,1,2024-12-10,TRUE,"c(787849.646984193, 4774387.29567168)",724,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Terrazza Restaurant & Spa,booking.com,77,camera singola,NA,1,Assisi,2365,90,90,2,2024-12-10,FALSE,"c(795372.192327676, 4773955.37286595)",687,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Santa Maria,booking.com,72,camera matrimoniale/doppia + 🥐,NA,1,Assisi,236,88,0,4,2024-12-10,TRUE,"c(791053.041922391, 4773973.53333849)",705,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Bellavista,booking.com,69.19999694824219,camera singola,NA,1,Assisi,1045,82,90,2,2024-12-10,FALSE,"c(792615.638159917, 4774298.00401596)",699,"stesso hotel, offerte diverse",1
-hotel 4*,Giotto Hotel & Spa,booking.com,94,camera singola,NA,1,Assisi,1782,86,90,2,2024-12-10,FALSE,"c(793789.484101608, 4775193.97640208)",695,"stesso hotel, offerte diverse",1
-hotel 4*,Asisium Boutique Hotel,booking.com,84.69999694824219,camera matrimoniale o doppia,NA,1,Assisi,1276,85,90,2,2024-12-10,FALSE,"c(794452.345383826, 4774947.92596579)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Hotel Il Duomo,booking.com,80,camera matrimoniale,NA,1,Assisi,1303,82,90,1,2024-12-10,FALSE,"c(794562.625570912, 4775096.58154453)",690,"stesso hotel, offerte diverse",1
-hotel 2*,Albergo La Rocca,booking.com,79.3499984741211,camera matrimoniale,NA,1,Assisi,2371,81,90,1,2024-12-10,FALSE,"c(794615.326532285, 4775140.87964579)",686,"stesso hotel, offerte diverse",1
-hotel 3*,Villa Raffaello Park Hotel,trip.com,92,camera (1 ospite),camera (1 🕺),1,Assisi,37,92,90,1,2024-12-10,FALSE,"c(791086.14757352, 4773381.56790725)",697,"stesso hotel, offerte diverse",1
-hotel 4*,Dal Moro Gallery Hotel,hrs.com,85,camera,NA,1,Assisi,843,88,90,1,2024-12-10,FALSE,"c(791444.90846199, 4773546.28380804)",706,"stesso hotel, offerte diverse",1
-hotel 4*,Bv Grand Hotel Assisi,booking.com,86.9000015258789,camera singola,NA,1,Assisi,2396,80,0,4,2024-12-10,FALSE,"c(795578.270020445, 4773906.14265149)",696,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Cristallo,trip.com,64.94000244140625,camera (1 ospite),camera (1 🕺),1,Assisi,1185,77,0,4,2024-12-10,FALSE,"c(790256.763851545, 4774007.10431687)",715,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Sole,booking.com,102,camera matrimoniale o doppia,NA,1,Assisi,799,89,90,2,2024-12-10,FALSE,"c(794454.428304409, 4774950.13819876)",691,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 4*,Valle Di Assisi Hotel & Spa,booking.com,107.94000244140624,camera matrimoniale/doppia + 🥐,NA,1,Assisi,942,87,0,4,2024-12-10,TRUE,"c(790053.21757067, 4771663.17606742)",712,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Windsor Savoia,booking.com,112,camera singola,NA,1,Assisi,430,84,90,2,2024-12-10,FALSE,"c(793651.757234007, 4775239.8306868)",707,"stesso hotel, offerte diverse",1
-hotel 4*,Dei Priori Boutique Hotel,booking.com,134.5,camera matrimoniale/doppia + 🥐,NA,1,Assisi,1233,87,90,2,2024-12-10,TRUE,"c(794396.428051969, 4775001.54243073)",692,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 5*,Nun Assisi Relais & Spa Museum,booking.com,655,camera matrimoniale + 🥐,NA,1,Assisi,656,95,0,4,2024-12-10,TRUE,"c(794731.399406128, 4775020.25082831)",717,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Le Cardinal,zenhotels.com,72,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Bastiglia,344,60,90,2,2024-12-10,TRUE,"c(657891.509587083, 4954581.89271425)",1640,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Splendid,zenhotels.com,67.5,camera matrimoniale + 🥐,NA,1,Galzignano Terme,6894,83,90,2,2024-12-10,TRUE,"c(716932.639464753, 5019038.89648319)",414,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Splendid,roomdi.com,66.500640869140625,camera + 🥐,NA,1,Galzignano Terme,NA,NA,0,0,2024-12-10,TRUE,"c(716932.415072035, 5019038.88875266)",414,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel San Luca,trip.com,100.0999984741211,camera (1 ospite),camera (1 🕺),1,Battipaglia,1443,85,90,1,2024-12-10,FALSE,"c(1006564.38235346, 4510153.1038668)",1672,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel San Luca,zenhotels.com,122,camera singola,NA,1,Battipaglia,NA,NA,90,2,2024-12-10,FALSE,"c(1006533.69584532, 4510143.77318012)",1672,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Il Castelletto,booking.com,99.4499969482422,camera matrimoniale,NA,1,Casarile,1236,75,0,4,2024-12-10,FALSE,"c(508072.83217564, 5018994.79407554)",1688,"stesso hotel, offerte diverse",1
-hotel 4*,Caroline Hotel,booking.com,81.66999816894531,camera matrimoniale,camera,1,Brusimpiano,1672,82,90,2,2024-12-10,FALSE,"c(491415.227842253, 5087964.18940307)",1693,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Locanda Mel,booking.com,104,camera tripla,camera,1,Calolziocorte,222,72,90,2,2024-12-10,FALSE,"c(533585.150112947, 5072042.69106039)",1722,"stesso hotel, offerte diverse",1
-hotel 4*,Torino Hotel San Luigi - Ristorante Trait D'union,trip.com,97.33000183105467,camera (1 ospite),camera (1 🕺),1,Beinasco,677,82,0,4,2024-12-10,FALSE,"c(388481.097979161, 4987037.69485)",1723,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Torino Orbassano,hotel-bb.com,48,camera (1 ospite),camera (1 🕺),1,Torino,1746,82,0,4,2024-12-10,FALSE,"c(390680.311241738, 4987423.09295367)",1768,"stesso hotel, offerte diverse",1
-hotel 4*,Doubletree By Hilton Turin Lingotto,booking.com,139.60000610351562,camera matrimoniale o doppia,NA,1,Torino,19516,89,0,4,2024-12-10,FALSE,"c(394853.761761876, 4987700.50840297)",1793,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Perlo,expedia.it,146.00999450683594,camera + 🥐,NA,1,Bellagio,1754,90,0,4,2024-12-10,TRUE,"c(519558.935459487, 5090466.10085143)",1514,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel San Luca,booking.com,105,camera singola,NA,1,Battipaglia,1443,85,90,1,2024-12-10,FALSE,"c(1006564.38240385, 4510153.10400448)",1672,"stesso hotel, offerte diverse",1
-hotel 4*,Domus Hotel,booking.com,75,camera matrimoniale o doppia,NA,1,Bagnoli del Trigno,745,89,90,2,2024-12-10,FALSE,"c(954745.922813033, 4631246.59073097)",1040,"stesso hotel, offerte diverse",1
-hotel 4*,Pineta Hotel,booking.com,114.4000015258789,camera matrimoniale o doppia,NA,1,Monsano,2285,89,90,2,2024-12-10,FALSE,"c(845443.726971615, 4832251.53056696)",1900,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Ristorante S'astore,booking.com,47.5,camera singola + 🥐,NA,1,Benetutti,320,80,0,4,2024-12-10,TRUE,"c(513781.62793808, 4478584.71292502)",1905,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Santo Stefano,booking.com,98.37000274658205,camera singola,NA,1,Sandigliano,2166,85,0,4,2024-12-10,FALSE,"c(427715.008106148, 5040774.81013379)",1910,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Cascina Era,booking.com,148.5,camera singola,NA,1,Sandigliano,357,91,90,2,2024-12-10,FALSE,"c(427988.975777788, 5041427.79098721)",1914,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Bologna,booking.com,57,camera doppia con letti singoli,camera,1,Castel Maggiore,5160,79,0,4,2024-12-10,FALSE,"c(688754.480482989, 4936731.88779207)",1916,"stesso hotel, offerte diverse",1
-hotel 3*,La Brace,booking.com,108.83000183105467,camera matrimoniale + 🥐,NA,1,Forcola,1103,84,0,4,2024-12-10,TRUE,"c(552227.751014072, 5112594.00840156)",170,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Bergamo,trip.com,113.4000015258789,camera,NA,1,Bergamo,7188,85,0,4,2024-12-10,FALSE,"c(552307.92549672, 5060033.54505336)",935,"stesso hotel, offerte diverse",1
-hotel 4*,Le Funi Hotel,booking.com,104,camera singola + 🥐,NA,1,Bergamo,2065,91,0,4,2024-12-10,TRUE,"c(551059.142927718, 5061697.3772573)",921,"stesso hotel, offerte diverse",1
-hotel 4*,Palazzo Santo Spirito,zenhotels.com,117.1500015258789,camera matrimoniale + 🥐,NA,1,Bergamo,2756,86,0,4,2024-12-10,TRUE,"c(552587.114694808, 5060731.84867697)",941,"stesso hotel, offerte diverse",1
-hotel 4*,Mercure Bergamo Centro Palazzo Dolci,trip.com,102,camera,NA,1,Bergamo,8009,83,0,4,2024-12-10,FALSE,"c(552371.667660588, 5060083.24621564)",926,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Città Dei Mille,roomdi.com,66.759063720703125,camera + 🥐,NA,1,Bergamo,6011,82,0,0,2024-12-10,TRUE,"c(552075.268613031, 5059447.11511811)",923,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Bergamo,hotel-bb.com,56,camera (1 ospite),camera (1 🕺),1,Bergamo,8075,82,0,4,2024-12-10,FALSE,"c(551991.923537255, 5059520.59235707)",919,"stesso hotel, offerte diverse",1
-hotel 4*,Palazzo Santo Spirito,trip.com,131.3000030517578,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bergamo,50,86,0,4,2024-12-10,TRUE,"c(552586.598624629, 5060731.42051031)",941,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Cristallo Palace,hrs.com,110,camera,NA,1,Bergamo,5738,82,0,4,2024-12-10,FALSE,"c(552596.565040429, 5058836.91575435)",943,"stesso hotel, offerte diverse",1
-hotel 4*,Gombithotel,booking.com,175,camera singola + 🥐,NA,1,Bergamo,2260,94,90,2,2024-12-10,TRUE,"c(551674.27425672, 5061340.90815901)",949,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Piazza Vecchia,trip.com,157.14999389648438,camera (1 ospite),camera (1 🕺),1,Bergamo,2642,90,90,1,2024-12-10,FALSE,"c(551539.454512224, 5061447.87225148)",948,"stesso hotel, offerte diverse",1
-hotel 4*,Relais San Vigilio Al Castello,zenhotels.com,140,camera matrimoniale + 🥐,NA,1,Bergamo,1804,95,0,4,2024-12-10,TRUE,"c(550701.09383235, 5061933.92562373)",944,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Cristallo Palace,roomdi.com,102.2228775024414,camera,NA,1,Bérgamo,NA,NA,0,0,2024-12-10,FALSE,"c(552597.461777708, 5058853.87692591)",943,"stesso hotel, offerte diverse",1
-hotel 4*,Le Funi Hotel,roomdi.com,122.67127227783205,camera + 🥐,NA,1,Bérgamo,NA,NA,0,0,2024-12-10,TRUE,"c(551059.087351641, 5061704.15829481)",921,"stesso hotel, offerte diverse",1
-hotel 4*,Petronilla - Hotel In Bergamo,trip.com,251.5,camera (2 ospiti),camera (2 🕺),1,Bergamo,73,94,90,1,2024-12-10,FALSE,"c(551628.515916094, 5060080.01393553)",947,"stesso hotel, offerte diverse",1
-hotel 4*,Life Hotel,expedia.it,159.8000030517578,camera,NA,1,Bergamo,1377,88,90,1,2024-12-10,FALSE,"c(549834.591963972, 5059661.49291791)",951,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Orio Al Serio,roomdi.com,143.06173706054688,camera,NA,1,Orio al Serio,9859,83,0,0,2024-12-10,FALSE,"c(554403.070709318, 5056969.26505965)",952,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Panorama,zenhotels.com,95,camera matrimoniale + 🥐,NA,1,Bertinoro,346,93,0,4,2024-12-10,TRUE,"c(750629.001708365, 4893229.53036225)",1953,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Panorama,expedia.it,95,camera + 🥐,NA,1,Bertinoro,11,98,0,4,2024-12-10,TRUE,"c(750640.36355213, 4893224.02291474)",1953,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Osteria Della Pista Dal 1875,booking.com,80,camera matrimoniale,NA,1,Casorate Sempione,4124,91,90,2,2024-12-10,FALSE,"c(479754.732923027, 5057885.10460364)",438,"stesso hotel, offerte diverse",1
-hotel 3*,Stay Hotel,booking.com,74.91999816894531,camera matrimoniale o doppia,camera,1,Brunello,2353,87,0,4,2024-12-10,FALSE,"c(485403.331550807, 5068108.83194489)",953,"stesso hotel, offerte diverse",1
-hotel 2*,Pasta Residence Italia Malpensa,airbnb.it,71,camera (2 ospiti),camera (2 🕺),1,Gallarate,634,69,0,0,2024-12-10,FALSE,"c(482769.186093932, 5057223.37030457)",459,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Sporting Brugherio,booking.com,115.9000015258789,camera matrimoniale,NA,1,Brugherio,3066,81,0,4,2024-12-10,FALSE,"c(523772.443569394, 5044708.80869834)",2057,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Dei Giovi,booking.com,75,camera matrimoniale,NA,1,Cesano Maderno,4404,79,90,1,2024-12-10,FALSE,"c(512934.068146715, 5052091.18677202)",1496,"stesso hotel, offerte diverse",1
-hotel 4*,La Bergamina Hotel & Restaurant,booking.com,99.75,camera matrimoniale o doppia,NA,1,Arcore,1226,77,90,2,2024-12-10,FALSE,"c(525725.252635271, 5050736.81586931)",2059,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Duca Di Mantova,booking.com,82.25,camera doppia con letti singoli,NA,1,Sesto San Giovanni,2558,74,0,4,2024-12-10,FALSE,"c(519978.130449958, 5044097.13787961)",2063,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Barrage,booking.com,74.80000305175781,camera matrimoniale/doppia + 🥐,NA,1,Pinerolo,2074,77,90,1,2024-12-10,TRUE,"c(366675.508541971, 4970673.04491292)",2082,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Il Castelletto,booking.com,99.4499969482422,camera matrimoniale + 🥐,NA,1,Casarile,1236,75,0,4,2024-12-10,TRUE,"c(508072.831982193, 5018994.79404351)",1688,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Village,booking.com,109.5,camera matrimoniale,NA,1,Quart,2253,88,0,4,2024-12-10,FALSE,"c(373976.566784771, 5066710.97468064)",2103,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Monteverde,zenhotels.com,73.779998779296875,camera singola + 🥐,NA,1,Bistagno,431,93,0,4,2024-12-10,TRUE,"c(449994.55857772, 4945508.35671789)",2123,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Almaranto,booking.com,203.5,camera matrimoniale + 🥐,NA,1,Calamandrana,104,85,0,4,2024-12-10,TRUE,"c(447031.122545397, 4953754.39625427)",2130,"stesso hotel, offerte diverse",1
-hotel 3*,Executive Business Hotel,booking.com,82,camera singola,NA,1,Bari,4029,77,90,1,2024-12-10,FALSE,"c(1160326.54345589, 4582625.4958359)",1456,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Pensione Romeo,booking.com,60,camera matrimoniale o doppia,NA,1,Bari,874,58,0,4,2024-12-10,FALSE,"c(1160852.31349538, 4581994.38788934)",1444,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Adria,booking.com,107.8000030517578,camera matrimoniale,NA,1,Bari,2079,85,0,4,2024-12-10,FALSE,"c(1161288.07255074, 4581877.53737106)",1447,"stesso hotel, offerte diverse",1
-hotel 5*,Jr Hotels Bari Grande Albergo Delle Nazioni,booking.com,266.6499938964844,camera matrimoniale,camera,1,Bari,7805,85,0,4,2024-12-10,FALSE,"c(1161753.5666632, 4582320.47626846)",1470,"stesso hotel, offerte diverse",1
-hotel 4*,Jr Hotels Oriente Bari,booking.com,146.1699981689453,camera matrimoniale,NA,1,Bari,4261,83,0,4,2024-12-10,FALSE,"c(1161158.7749977, 4582362.55091026)",1460,"stesso hotel, offerte diverse",1
-hotel 4*,The Nicolaus Hotel,booking.com,145,camera matrimoniale,NA,1,Bari,7311,91,0,4,2024-12-10,FALSE,"c(1159890.38877102, 4579567.33225653)",1465,"stesso hotel, offerte diverse",1
-hotel 4*,Mercure Villa Romanazzi Carducci Bari,booking.com,120,camera singola + 🥐,NA,1,Bari,2980,84,0,4,2024-12-10,TRUE,"c(1160112.35007199, 4581538.14315261)",1464,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Excelsior Bari,booking.com,158.25,camera matrimoniale,NA,1,Bari,2433,82,90,2,2024-12-10,FALSE,"c(1160876.14726105, 4581604.09959911)",1457,"stesso hotel, offerte diverse",1
-hotel 4*,Avenue Boutique Hotel,booking.com,111.25,camera matrimoniale,NA,1,Como,825,88,0,4,2024-12-10,FALSE,"c(506438.641977398, 5072860.92985374)",2146,"stesso hotel, offerte diverse",1
-hotel 3*,Posta Design Hotel,booking.com,99,camera singola,NA,1,Como,1222,86,90,1,2024-12-10,FALSE,"c(506152.978891387, 5073098.40623446)",2147,"stesso hotel, offerte diverse",1
-hotel 3*,Bellavista Boutique Hotel,booking.com,118.87999725341795,camera matrimoniale,NA,1,Brunate,1635,87,0,4,2024-12-10,FALSE,"c(507406.245348372, 5073958.86972253)",2148,"stesso hotel, offerte diverse",1
-hotel 4*,Palace Hotel Lake Como,booking.com,158,camera matrimoniale/doppia + 🥐,NA,1,Como,7110,86,0,4,2024-12-10,TRUE,"c(506385.694609447, 5073405.06705162)",2152,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Como City Center,booking.com,60.15999984741211,camera singola + 🥐,NA,1,Como,5157,79,0,4,2024-12-10,TRUE,"c(505953.187065938, 5072743.0458017)",2159,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Marco's,booking.com,114,camera matrimoniale,NA,1,Como,1889,78,90,2,2024-12-10,FALSE,"c(506436.917910926, 5073737.39927319)",2161,"stesso hotel, offerte diverse",1
-hotel 4*,Dbh – Boutique Hotel Lake Como,booking.com,178.61000061035156,camera matrimoniale o doppia,NA,1,Como,1511,92,0,4,2024-12-10,FALSE,"c(506490.636482747, 5073095.3594259)",2163,"stesso hotel, offerte diverse",1
-hotel 4*,Albergo Le Due Corti,booking.com,97,camera singola,NA,1,Como,6718,77,0,4,2024-12-10,FALSE,"c(506647.093107856, 5072503.86493607)",2164,"stesso hotel, offerte diverse",1
-hotel 4*,Albergo Terminus,booking.com,199,camera matrimoniale/doppia + 🥐,NA,1,Como,3012,86,90,2,2024-12-10,TRUE,"c(506388.363125412, 5073403.79822756)",2152,"stesso hotel, offerte diverse",1
-hotel 5*,Vista Lago Di Como,booking.com,860,camera matrimoniale + 🥐,NA,1,Como,628,93,0,4,2024-12-10,TRUE,"c(506309.324127745, 5073313.86642463)",2166,"stesso hotel, offerte diverse",1
-hotel 3*,Santa Caterina Park Hotel,booking.com,109.94000244140624,camera matrimoniale,NA,1,Sarzana,1443,83,90,2,2024-12-10,FALSE,"c(575594.2756674, 4885940.8599688)",136,"stesso hotel, offerte diverse",1
-hotel 4*,Royal Hotel Carlton,trip.com,113.4000015258789,camera (1 ospite),camera (1 🕺),1,Bologna,17874,85,0,4,2024-12-10,FALSE,"c(686222.619530179, 4930385.16055052)",2203,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Cosmopolitan Bologna,expedia.it,68.5999984741211,camera + 🥐,NA,1,Bologna,10234,85,0,4,2024-12-10,TRUE,"c(690877.425168022, 4932102.6273687)",2207,"stesso hotel, offerte diverse",1
-hotel 4*,Best Western City Hotel,trip.com,91.839996337890625,camera (1 ospite),camera (1 🕺),1,Bologna,4928,83,90,1,2024-12-10,FALSE,"c(686623.448101955, 4931639.65830466)",2246,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Cosmopolitan Bologna,trip.com,93.94000244140624,camera (1 ospite),camera (1 🕺),1,Bologna,58,86,90,1,2024-12-10,FALSE,"c(690907.921284201, 4932107.76526772)",2207,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Astoria,expedia.it,85.95999908447266,camera + 🥐,NA,1,Bologna,656,76,0,4,2024-12-10,TRUE,"c(685854.249994825, 4930451.36687099)",2249,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Astoria,booking.com,77.9000015258789,camera singola,NA,1,Bologna,13646,73,0,4,2024-12-10,FALSE,"c(685845.106857835, 4930444.74395147)",2249,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Elite,expedia.it,48.04999923706055,camera,NA,1,Bologna,29,70,0,4,2024-12-10,FALSE,"c(684435.943726651, 4930208.6478768)",2210,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Elite,booking.com,44,camera singola,NA,1,Bologna,813,68,0,4,2024-12-10,FALSE,"c(684435.943726199, 4930208.6477997)",2210,"stesso hotel, offerte diverse",1
-hotel 4*,Living Place Hotel,booking.com,64.18000030517578,camera matrimoniale,NA,1,Castenaso,11454,84,0,4,2024-12-10,FALSE,"c(692308.791265461, 4929321.60228239)",2262,"stesso hotel, offerte diverse",1
-hotel 4*,Best Western City Hotel,roomdi.com,91.32636260986328,camera,NA,1,Bolonia,NA,NA,0,0,2024-12-10,FALSE,"c(686623.53207523, 4931647.29427957)",2246,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Brun,booking.com,189.67999267578125,camera singola,NA,1,Bologna,288,92,0,4,2024-12-10,FALSE,"c(686096.38473548, 4929285.29117163)",2269,"stesso hotel, offerte diverse",1
-hotel 4*,Royal Hotel Carlton,roomdi.com,123.18865203857422,camera,NA,1,Bolonia,NA,NA,0,0,2024-12-10,FALSE,"c(686222.847017814, 4930385.16713365)",2203,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Bologna,trip.com,49.650001525878906,camera,NA,1,Castel Maggiore,5160,79,0,4,2024-12-10,FALSE,"c(688754.480452634, 4936731.88764481)",1916,"stesso hotel, offerte diverse",1
-hotel 4*,Living Place Hotel,roomdi.com,65.04341888427734,camera + 🥐,NA,1,Castenaso,NA,NA,0,0,2024-12-10,TRUE,"c(692309.094482134, 4929321.61120381)",2262,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Brun,expedia.it,342.8399963378906,suite + 🥐,NA,1,Bologna,66,98,0,4,2024-12-10,TRUE,"c(686095.58108741, 4929278.9069586)",2269,"stesso hotel, offerte diverse",1
-hotel 1*,Hotel Caselle,expedia.it,72,camera + 🥐,NA,1,San Lazzaro di Savena,12,56,0,4,2024-12-10,TRUE,"c(692489.544912819, 4928241.24535614)",2287,"stesso hotel, offerte diverse",1
-hotel 1*,Hotel Caselle,booking.com,72,camera singola,NA,1,San Lazzaro di Savena,289,48,90,2,2024-12-10,FALSE,"c(692476.251650167, 4928259.51238143)",2287,"stesso hotel, offerte diverse",1
-hotel 4*,Emma Hotel Fiera,expedia.it,270,camera + 🥐,NA,1,Granarolo dell'Emilia,15,84,0,4,2024-12-10,TRUE,"c(693792.573738061, 4934905.03612219)",2289,"stesso hotel, offerte diverse",1
-hotel 4*,Emma Hotel Fiera,zenhotels.com,270,camera matrimoniale + 🥐,NA,1,Granarolo dell'Emilia,NA,NA,0,4,2024-12-10,TRUE,"c(693792.573603463, 4934905.03612576)",2289,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Royal,booking.com,61.20000076293945,camera singola,NA,1,Bolsena,877,84,90,2,2024-12-10,FALSE,"c(744508.810986499, 4725299.69283519)",2292,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Royal,trip.com,64.19999694824219,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Bolsena,38,84,90,1,2024-12-10,TRUE,"c(744501.958840214, 4725307.51012337)",2292,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Giardino,booking.com,80,camera matrimoniale,NA,1,Arona,3513,80,90,2,2024-12-10,FALSE,"c(465912.712186481, 5067481.57028591)",382,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Concorde,booking.com,78,camera singola,NA,1,Arona,3013,77,90,2,2024-12-10,FALSE,"c(465319.228945613, 5068105.34487399)",385,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Spagna,booking.com,84.5999984741211,camera matrimoniale,camera,1,Arona,297,71,0,4,2024-12-10,FALSE,"c(465700.37681378, 5067629.80814412)",383,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ristorante San Carlo,booking.com,132,camera matrimoniale/doppia + 🥐,NA,1,Arona,1126,83,90,2,2024-12-10,TRUE,"c(464282.472734333, 5068954.22260894)",352,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Le Cardinal,booking.com,75,camera singola,NA,1,Bastiglia,344,60,90,1,2024-12-10,FALSE,"c(657891.509517247, 4954581.89255412)",1640,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Cristallo Palace,booking.com,116,camera matrimoniale,camera,1,Bergamo,5738,82,90,1,2024-12-10,FALSE,"c(552596.565016035, 5058836.91559628)",943,"stesso hotel, offerte diverse",1
-hotel 4*,Settecento Hotel,trip.com,131.19000244140625,camera (2 ospiti),camera (2 🕺),1,Presezzo,1040,84,0,4,2024-12-10,FALSE,"c(544941.2722836, 5059893.01260373)",945,"stesso hotel, offerte diverse",1
-hotel 4*,Villa Appiani Hotel,booking.com,140.5399932861328,camera singola,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671120404, 5050768.83811622)",2307,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Ristorante S'astore,booking.com,47.5,camera singola,NA,1,Benetutti,320,80,0,4,2024-12-10,FALSE,"c(513781.627941461, 4478584.71290796)",1905,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Il Gelso,booking.com,73.5,camera singola,NA,1,Pontevico,574,86,90,2,2024-12-10,FALSE,"c(587948.722006606, 5013667.99879905)",1587,"stesso hotel, offerte diverse",1
-hotel 3*,Park Hotel Regina,airbnb.it,97,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bagni di Lucca,108,83,0,0,2024-12-10,TRUE,"c(627454.209977963, 4874140.12934147)",1030,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Milano,booking.com,116,camera matrimoniale o doppia,NA,1,Fondo,68,80,0,4,2024-12-10,FALSE,"c(664528.254280815, 5145859.18431917)",2368,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Milano,agoda.com,116,camera matrimoniale + 🥐,NA,1,Fondo,NA,NA,0,4,2024-12-10,TRUE,"c(664528.181150629, 5145859.18245027)",2368,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Baita Dei Pini,booking.com,84.30000305175781,camera singola,NA,1,Bormio,3673,90,90,2,2024-12-10,FALSE,"c(605424.370262867, 5146672.14247163)",2449,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Baita Dei Pini,trip.com,180.16000366210935,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Bormio,40,88,0,4,2024-12-10,TRUE,"c(605424.582583586, 5146672.56996957)",2449,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Fenice,trip.com,73.05000305175781,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Boscoreale,110,78,90,2,2024-12-10,TRUE,"c(965939.376093481, 4530147.60023795)",2510,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Diana,expedia.it,58.939998626708984,camera,NA,1,Pompei,2509,86,0,4,2024-12-10,FALSE,"c(964461.248277665, 4525191.05799259)",2511,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Del Sole,hrs.com,64,camera,NA,1,Pompei,3855,80,90,2,2024-12-10,FALSE,"c(963944.968208374, 4525420.25150754)",2520,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Zeus,agoda.com,80.279998779296875,camera matrimoniale/doppia + 🥐,NA,1,Pompei,1888,79,0,4,2024-12-10,TRUE,"c(962795.398008036, 4525377.93850263)",2545,"stesso hotel, offerte diverse",1
-hotel 4*,Abalon Pompei Resort,trip.com,70.5199966430664,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Pompei,397,76,0,4,2024-12-10,TRUE,"c(965299.986277224, 4525396.12423621)",2546,"stesso hotel, offerte diverse",1
-hotel 4*,Habita79 Pompeii - Mgallery,trip.com,139.5500030517578,camera (1 ospite),camera (1 🕺),1,Pompei,1769,92,0,4,2024-12-10,FALSE,"c(964302.821291967, 4525520.15431052)",2556,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Forum,hrs.com,114,camera,NA,1,Pompei,2067,91,0,4,2024-12-10,FALSE,"c(964103.838180719, 4525474.04571162)",2557,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Forum,expedia.it,189.6300048828125,suite + 🥐,NA,1,Pompei,1073,94,0,4,2024-12-10,TRUE,"c(964099.758286183, 4525477.19269914)",2557,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Diana,booking.com,63.20000076293945,camera singola,NA,1,Pompei,2509,86,90,2,2024-12-10,FALSE,"c(964461.248353822, 4525191.05791623)",2511,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Del Sole,booking.com,67,camera singola,NA,1,Pompei,3855,80,90,2,2024-12-10,FALSE,"c(963944.968207755, 4525420.25139008)",2520,"stesso hotel, offerte diverse",1
-hotel 4*,Habita79 Pompeii - Mgallery,booking.com,152.39999389648438,camera matrimoniale,camera,1,Pompei,1769,92,0,4,2024-12-10,FALSE,"c(964302.821304228, 4525520.15430567)",2556,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Forum,booking.com,129.72000122070312,camera matrimoniale,NA,1,Pompei,2067,91,0,4,2024-12-10,FALSE,"c(964103.838292381, 4525474.04557351)",2557,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Fenice,booking.com,85,camera matrimoniale,NA,1,Boscoreale,110,78,90,2,2024-12-10,FALSE,"c(965939.376209489, 4530147.60019056)",2510,"stesso hotel, offerte diverse",1
-hotel 4*,Abalon Pompei Resort,booking.com,99.8000030517578,camera singola,NA,1,Pompei,397,76,0,4,2024-12-10,FALSE,"c(965299.98613881, 4525396.12419047)",2546,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Zeus,booking.com,94,camera matrimoniale,NA,1,Pompei,1888,79,90,2,2024-12-10,FALSE,"c(962795.398125382, 4525377.93854152)",2545,"stesso hotel, offerte diverse",1
-hotel 3*,Parini Hotel,zenhotels.com,87.75,camera singola,camera,1,Bosisio Parini,882,85,0,4,2024-12-10,FALSE,"c(522580.923416888, 5072165.85270102)",733,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Alberi,booking.com,83.5,camera singola,NA,1,Lecco,2086,88,0,4,2024-12-10,FALSE,"c(530154.240517428, 5077821.4642569)",728,"stesso hotel, offerte diverse",1
-hotel 4*,Inverigo Hotel,booking.com,99,camera matrimoniale + 🥐,NA,1,Inverigo,1039,79,0,4,2024-12-10,TRUE,"c(517012.477671206, 5065818.69421367)",1549,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Cambiago,booking.com,85,camera singola,NA,1,Cambiago,6398,81,90,1,2024-12-10,FALSE,"c(532583.589274262, 5047081.14040404)",2593,"stesso hotel, offerte diverse",1
-hotel 4*,"Devero Hotel & Spa, Bw Signature Collection",booking.com,120.5,camera doppia con letti singoli,camera,1,Cavenago di Brianza,3102,87,0,4,2024-12-10,FALSE,"c(532502.533690829, 5047472.75139982)",2595,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Daniel,booking.com,110,camera matrimoniale + 🥐,NA,1,Basiano,603,79,0,4,2024-12-10,TRUE,"c(535781.151964572, 5047577.09720084)",2596,"stesso hotel, offerte diverse",1
-hotel 3*,Regal Hotel,booking.com,80.5199966430664,camera singola,camera,1,Brescia,3769,77,0,4,2024-12-10,FALSE,"c(596340.286060376, 5045739.09262421)",2609,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Limbiate Fiera,agoda.com,75.80000305175781,camera matrimoniale + 🥐,NA,1,Limbiate,4953,80,90,2,2024-12-10,TRUE,"c(510858.219992501, 5050178.3881427)",201,"stesso hotel, offerte diverse",1
-hotel 3*,Groane Hotel Residence,agoda.com,75.55999755859375,camera singola + 🥐,NA,1,Cesano Maderno,1588,82,0,4,2024-12-10,TRUE,"c(508679.390128786, 5053099.70671516)",195,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Dei Giovi,zenhotels.com,74,camera matrimoniale + 🥐,NA,1,Cesano Maderno,4404,79,90,2,2024-12-10,TRUE,"c(512934.068188988, 5052091.18671099)",1496,"stesso hotel, offerte diverse",1
-hotel 4*,"Hotel King, By R Collection Hotels",zenhotels.com,73,camera singola,camera,1,Varedo,1070,78,0,4,2024-12-10,FALSE,"c(513553.735817139, 5048802.4496472)",214,"stesso hotel, offerte diverse",1
-hotel 4*,Starhotels Grand Milan,booking.com,277,camera tripla,camera,1,Saronno,7082,84,90,1,2024-12-10,FALSE,"c(502194.909793791, 5052108.27813555)",244,"stesso hotel, offerte diverse",1
-hotel 3*,Villa Casa Country,booking.com,120,camera matrimoniale + 🥐,NA,1,Bovolenta,431,92,90,2,2024-12-10,TRUE,"c(728566.539832212, 5017476.00102046)",436,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Due Mori,booking.com,72,camera singola,camera,1,Marostica,211,89,0,4,2024-12-10,FALSE,"c(706437.158692832, 5069199.87227121)",1609,"stesso hotel, offerte diverse",1
-hotel 4*,Bes Hotel Bergamo Ovest,hrs.com,109,camera,NA,1,Mozzo,3703,84,90,1,2024-12-10,FALSE,"c(546948.393853634, 5060754.21305952)",942,"stesso hotel, offerte diverse",1
-hotel 2*,Garni Castel Ferari,airbnb.it,117,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Ville d'Anaunia,95,90,0,0,2024-12-10,TRUE,"c(655628.836816986, 5132378.37636364)",2693,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Barrage,booking.com,85,camera matrimoniale/doppia + 🥐,NA,1,Pinerolo,2074,77,90,1,2024-12-10,TRUE,"c(366675.50862481, 4970673.04496771)",2082,"stesso hotel, offerte diverse",1
-hotel 4*,Grande Albergo Internazionale,zenhotels.com,62,camera singola + 🥐,NA,1,Brindisi,2660,79,0,4,2024-12-10,TRUE,"c(1256914.95440198, 4537616.97766506)",2717,"stesso hotel, offerte diverse",1
-hotel 4*,Grande Albergo Internazionale,roomdi.com,62.22782897949219,camera + 🥐,NA,1,Brindisi,NA,NA,0,0,2024-12-10,TRUE,"c(1256915.11590888, 4537616.9942598)",2717,"stesso hotel, offerte diverse",1
-hotel 3*,Regal Hotel,airbnb.it,82,camera (2 ospiti),camera (2 🕺),1,Brescia,3769,77,0,0,2024-12-10,FALSE,"c(596340.286012436, 5045739.09275298)",2609,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Village,zenhotels.com,108,camera (2 ospiti),camera (2 🕺),1,Quart,2253,88,0,4,2024-12-10,FALSE,"c(373976.566777254, 5066710.97466002)",2103,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel La Sosta,expedia.it,90,camera + 🥐,NA,1,Cisano Bergamasco,381,93,0,4,2024-12-10,TRUE,"c(535035.99977667, 5065311.72880842)",1559,"stesso hotel, offerte diverse",1
-hotel 3*,Locanda Perinella,booking.com,88,camera matrimoniale,NA,1,Brogliano,33,89,90,2,2024-12-10,FALSE,"c(683909.894216023, 5051484.67699359)",2744,"stesso hotel, offerte diverse",1
-hotel 3*,Locanda Perinella,trip.com,92,camera (1 ospite),camera (1 🕺),1,Brogliano,0,88,90,1,2024-12-10,FALSE,"c(683911.792144202, 5051478.37039608)",2744,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Sporting Brugherio,zenhotels.com,106.1999969482422,camera singola,NA,1,Brugherio,3066,81,0,4,2024-12-10,FALSE,"c(523772.44356019, 5044708.80861335)",2057,"stesso hotel, offerte diverse",1
-hotel 4*,Neo Hotel,booking.com,94.4000015258789,camera matrimoniale,camera,1,Bresso,10668,85,90,1,2024-12-10,FALSE,"c(515409.787135377, 5042489.87185896)",205,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Soperga,booking.com,142.13999938964844,camera doppia con letti singoli,NA,1,Milano,10120,81,0,4,2024-12-10,FALSE,"c(516423.398984152, 5037234.7142454)",1163,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 2*,Hotel Trentina,booking.com,66.279998779296875,camera doppia con letti singoli + 🥐,NA,1,Milano,1745,56,0,4,2024-12-10,TRUE,"c(517293.652774513, 5036650.08276493)",1253,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Sporting Cologno,booking.com,89.0999984741211,camera singola + 🥐,NA,1,Cologno Monzese,2805,77,0,4,2024-12-10,TRUE,"c(520961.554528286, 5041635.47601128)",2776,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Duca Di Mantova,roomdi.com,76.09095764160156,camera + 🥐,NA,1,Sesto San Giovanni,NA,NA,0,0,2024-12-10,TRUE,"c(519978.054685528, 5044097.56152676)",2063,"stesso hotel, offerte diverse",1
-hotel 4*,Grand Hotel Duca Di Mantova,expedia.it,69.06999969482422,camera + 🥐,NA,1,Sesto San Giovanni,2558,74,0,4,2024-12-10,TRUE,"c(519978.130508066, 5044097.13800976)",2063,"stesso hotel, offerte diverse",1
-hotel 4*,Andreola Central Hotel,booking.com,212,camera matrimoniale + 🥐,NA,1,Milano,10693,84,0,4,2024-12-10,TRUE,"c(516221.63064718, 5036728.59225095)",1211,"stesso hotel, offerte diverse",1
-hotel 3*,Green Hotel Ninfa,booking.com,84,camera matrimoniale,NA,1,Avigliana,633,81,90,1,2024-12-10,FALSE,"c(375356.023477835, 4993471.3291863)",862,"stesso hotel, offerte diverse",1
-hotel 4*,Torino Hotel San Luigi - Ristorante Trait D'union,booking.com,129.5,camera matrimoniale,NA,1,Beinasco,677,82,90,2,2024-12-10,FALSE,"c(388481.097894688, 4987037.69476669)",1723,"stesso hotel, offerte diverse",1
-hotel 3*,Bellavista Boutique Hotel,zenhotels.com,109.61000061035156,camera matrimoniale + 🥐,NA,1,Brunate,1635,87,0,4,2024-12-10,TRUE,"c(507406.245396119, 5073958.86973195)",2148,"stesso hotel, offerte diverse",1
-hotel 4*,Palace Hotel Lake Como,expedia.it,139.63999938964844,camera + 🥐,NA,1,Como,7110,86,0,4,2024-12-10,TRUE,"c(506385.694561051, 5073405.06690407)",2152,"stesso hotel, offerte diverse",1
-hotel 3*,Posta Design Hotel,hrs.com,95,camera,NA,1,Como,1222,86,90,1,2024-12-10,FALSE,"c(506152.978917166, 5073098.40621488)",2147,"stesso hotel, offerte diverse",1
-hotel 4*,Dbh – Boutique Hotel Lake Como,trip.com,173.80999755859375,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Como,1511,92,0,4,2024-12-10,TRUE,"c(506490.636314726, 5073095.35932226)",2163,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Como City Center,trip.com,51.84000015258789,camera,NA,1,Como,5157,79,0,4,2024-12-10,FALSE,"c(505953.186952028, 5072743.04569196)",2159,"stesso hotel, offerte diverse",1
-hotel 4*,Albergo Le Due Corti,expedia.it,91.38999938964844,camera + 🥐,NA,1,Como,6718,77,0,4,2024-12-10,TRUE,"c(506647.093145101, 5072503.86485102)",2164,"stesso hotel, offerte diverse",1
-hotel 4*,Avenue Boutique Hotel,expedia.it,176.42999267578125,suite + 🥐,NA,1,Como,152,96,0,4,2024-12-10,TRUE,"c(506434.185561476, 5072871.09696746)",2146,"stesso hotel, offerte diverse",1
-hotel 4*,Albergo Terminus,roomdi.com,189.52833557128903,camera + 🥐,NA,1,Como,3012,86,0,0,2024-12-10,TRUE,"c(506388.363157758, 5073403.79832696)",2152,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Marco's,trip.com,123,camera,NA,1,Como,0,70,0,4,2024-12-10,FALSE,"c(506466.634373359, 5073730.64892282)",2161,"stesso hotel, offerte diverse",1
-hotel 4*,Dbh – Boutique Hotel Lake Como,zenhotels.com,169,camera matrimoniale + 🥐,NA,1,Como,NA,NA,0,4,2024-12-10,TRUE,"c(506503.080974254, 5073098.76309471)",2163,"stesso hotel, offerte diverse",1
-hotel 5*,Vista Lago Di Como,roomdi.com,1778.1912841796875,camera + 🥐,NA,1,Como,NA,NA,0,0,2024-12-10,TRUE,"c(506315.61519828, 5073320.65404685)",2166,"stesso hotel, offerte diverse",1
-hotel 4*,Caroline Hotel,trip.com,82,camera (1 ospite),camera (1 🕺),1,Brusimpiano,61,82,90,1,2024-12-10,FALSE,"c(491423.364163401, 5087967.99256004)",1693,"stesso hotel, offerte diverse",1
-hotel 4*,Caroline Hotel,zenhotels.com,79,camera matrimoniale,NA,1,Brusimpiano,1672,82,0,4,2024-12-10,FALSE,"c(491415.227784304, 5087964.18931832)",1693,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Monteverde,booking.com,117.41999816894533,camera matrimoniale/doppia + 🥐,NA,1,Bistagno,431,93,0,4,2024-12-10,TRUE,"c(449994.558615659, 4945508.35663395)",2123,"stesso hotel, offerte diverse",1
-hotel 3*,Ciasa De Gahja,booking.com,64.51000213623047,camera singola + 🥐,NA,1,Budoia,650,91,0,4,2024-12-10,TRUE,"c(773416.616579949, 5105221.7231113)",846,"stesso hotel, offerte diverse",0.08333333333333338
-hotel 3*,Hotel Oliva,booking.com,93.5,camera matrimoniale + 🥐,NA,1,Aviano,977,92,0,4,2024-12-10,TRUE,"c(777450.192740137, 5108416.73918546)",844,"stesso hotel, offerte diverse",1
-hotel 5*,Palazzo Belvedere,trip.com,123.25,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,Montecatini Terme,961,85,90,1,2024-12-10,TRUE,"c(642739.252916415, 4861284.4147149)",2875,"stesso hotel, offerte diverse",1
-hotel 5*,Palazzo Belvedere,zenhotels.com,122.4000015258789,camera matrimoniale + 🥐,NA,1,Montecatini Terme,NA,NA,90,2,2024-12-10,TRUE,"c(642744.553272178, 4861298.09300765)",2875,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Massimo D'azeglio,booking.com,270.1000061035156,camera singola,NA,1,Montecatini Terme,201,79,0,4,2024-12-10,FALSE,"c(642442.964483639, 4860274.28852208)",2888,"stesso hotel, offerte diverse",1
-hotel 5*,Palazzo Belvedere,roomdi.com,147.13198852539062,camera + 🥐,NA,1,Montecatini Terme,NA,NA,0,0,2024-12-10,TRUE,"c(642748.539938914, 4861283.76677407)",2875,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Massimo D'azeglio,trip.com,300,camera (1 ospite),camera (1 🕺),1,Montecatini Terme,13,58,90,1,2024-12-10,FALSE,"c(642438.099025411, 4860265.28271854)",2888,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Barrage,booking.com,112.1999969482422,camera tripla + 🥐,NA,1,Pinerolo,2074,77,0,4,2024-12-10,TRUE,"c(366675.508645627, 4970673.04501314)",2082,"stesso hotel, offerte diverse",1
-hotel 4*,Villa Appiani Hotel,booking.com,148.86000061035156,camera matrimoniale,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671025818, 5050768.83810445)",2307,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Sporting Cologno,booking.com,89.0999984741211,camera singola,NA,1,Cologno Monzese,2805,77,0,4,2024-12-10,FALSE,"c(520961.554570238, 5041635.47596131)",2776,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Mediterraneo,trip.com,80,camera (1 ospite),camera (1 🕺),1,Villa Cortese,843,81,90,1,2024-12-10,FALSE,"c(491224.360782445, 5045156.79940009)",2909,"stesso hotel, offerte diverse",1
-hotel 4*,Poli Hotel,booking.com,124.1999969482422,camera matrimoniale,NA,1,San Vittore Olona,1793,88,0,4,2024-12-10,FALSE,"c(496062.085076979, 5047552.75689049)",2919,"stesso hotel, offerte diverse",1
-hotel 3*,Cascina Speranza Hotel,booking.com,165,appartamento + 🥐,NA,1,Riva presso Chieri,1110,91,0,4,2024-12-10,TRUE,"c(411585.809878595, 4981176.63602031)",326,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Limbiate Fiera,booking.com,79,camera matrimoniale,NA,1,Limbiate,4953,80,90,1,2024-12-10,FALSE,"c(510858.219952818, 5050178.38812061)",201,"stesso hotel, offerte diverse",1
-hotel 4*,Valdenza Hotel,booking.com,65,camera matrimoniale,NA,1,Campegine,1227,80,0,4,2024-12-10,FALSE,"c(619325.885313115, 4959794.26529985)",2960,"stesso hotel, offerte diverse",1
-hotel 3*,Relais Delle Vele,booking.com,82,camera singola,NA,1,Reggio Emilia,84,85,90,1,2024-12-10,FALSE,"c(627855.235579602, 4956030.11571858)",2963,"stesso hotel, offerte diverse",1
-hotel 3*,Relais Delle Vele,agoda.com,82,camera singola + 🥐,NA,1,Reggio Emilia,85,84,90,1,2024-12-10,TRUE,"c(627855.38668915, 4956030.11872864)",2963,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Sagittario,hrs.com,78,camera,NA,1,Padova,5450,85,90,1,2024-12-10,FALSE,"c(729642.260498386, 5035191.60000366)",3003,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Ariston,booking.com,89,camera singola,NA,1,Campodarsego,1579,83,90,1,2024-12-10,FALSE,"c(727140.391958703, 5042979.94146383)",3009,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Como City Center,booking.com,61.20000076293945,camera singola + 🥐,NA,1,Como,5157,79,0,4,2024-12-10,TRUE,"c(505953.187085041, 5072743.04572172)",2159,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Belvedere Ranco,booking.com,118,camera matrimoniale,NA,1,Ranco,401,87,90,2,2024-12-10,FALSE,"c(466579.188511954, 5071690.8682434)",390,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Corone,expedia.it,66.63999938964844,camera + 🥐,NA,1,Caerano di San Marco,239,80,90,1,2024-12-10,TRUE,"c(732779.472746973, 5073940.18376913)",679,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Asolo,booking.com,71.5,camera singola,NA,1,Asolo,634,89,90,2,2024-12-10,FALSE,"c(725920.775309538, 5074472.78645606)",670,"stesso hotel, offerte diverse",1
-hotel 5*,Hotel Villa Cipriani,booking.com,252,camera matrimoniale + 🥐,NA,1,Asolo,424,89,90,2,2024-12-10,TRUE,"c(726142.092591285, 5076222.89051943)",672,"stesso hotel, offerte diverse",1
-hotel 3*,Locanda Ai Dogi,booking.com,79.05000305175781,camera matrimoniale,NA,1,Pieve di Cadore,1545,80,0,4,2024-12-10,FALSE,"c(759297.063097884, 5147289.48666225)",3067,"stesso hotel, offerte diverse",1
-hotel 3*,Locanda Ai Dogi,trip.com,111.5,camera (1 ospite),camera (1 🕺),1,Pieve di Cadore,0,78,90,1,2024-12-10,FALSE,"c(759288.370077489, 5147303.97647647)",3067,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Almaranto,expedia.it,335.5,suite + 🥐,NA,1,Calamandrana,3,94,0,4,2024-12-10,TRUE,"c(447013.988852163, 4953727.8392779)",2130,"stesso hotel, offerte diverse",1
-hotel 4*,Airport Hotel Bergamo,booking.com,80,camera singola,NA,1,Bagnatica,8145,84,90,1,2024-12-10,FALSE,"c(558153.863029558, 5055973.56339352)",932,"stesso hotel, offerte diverse",1
-hotel 4*,Nh Orio Al Serio,booking.com,163.89999389648438,camera matrimoniale o doppia,NA,1,Orio al Serio,9859,83,0,4,2024-12-10,FALSE,"c(554403.070737356, 5056969.26508912)",952,"stesso hotel, offerte diverse",1
-hotel 3*,Il Leone D'oro,booking.com,144,camera tripla + 🥐,NA,1,Telgate,1174,79,0,4,2024-12-10,TRUE,"c(566736.273586078, 5053090.71168535)",1028,"stesso hotel, offerte diverse",1
-hotel 2*,Garni Castel Ferari,booking.com,78.5,camera matrimoniale o doppia,NA,1,Ville d'Anaunia,95,90,0,4,2024-12-10,FALSE,"c(655628.836848002, 5132378.37639649)",2693,"stesso hotel, offerte diverse",1
-hotel 3*,Energy Hotel,hrs.com,70,camera,NA,1,Calceranica al Lago,1226,86,0,4,2024-12-10,FALSE,"c(673662.951595584, 5096983.43478092)",3155,"stesso hotel, offerte diverse",1
-hotel 3*,Energy Hotel,trip.com,70,camera (1 ospite),camera (1 🕺),1,Calceranica al Lago,10,86,90,1,2024-12-10,FALSE,"c(673681.563017787, 5096989.04906572)",3155,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Delta Florence,trip.com,56.43000030517578,camera,NA,1,Calenzano,2498,55,0,4,2024-12-10,FALSE,"c(674316.826254347, 4857582.33684554)",3159,"stesso hotel, offerte diverse",1
-hotel 4*,Petit Hotel,booking.com,97.93000030517578,camera matrimoniale + 🥐,NA,1,Prato,362,89,0,4,2024-12-10,TRUE,"c(671947.83785333, 4858531.36379977)",3161,"stesso hotel, offerte diverse",1
-hotel 4*,Art Hotel Museo,booking.com,116,camera matrimoniale,camera,1,Prato,7709,83,90,1,2024-12-10,FALSE,"c(669529.173828377, 4858475.12739891)",3172,"stesso hotel, offerte diverse",1
-hotel 4*,Petit Hotel,trip.com,142.92999267578125,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Prato,16,86,0,4,2024-12-10,TRUE,"c(671949.381765666, 4858528.01195708)",3161,"stesso hotel, offerte diverse",1
-hotel 4*,Petit Hotel,expedia.it,124.37999725341795,camera + 🥐,NA,1,Prato,43,90,0,4,2024-12-10,TRUE,"c(671947.837941229, 4858531.36384497)",3161,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Datini,booking.com,88.66999816894531,camera matrimoniale,NA,1,Prato,3073,79,0,4,2024-12-10,FALSE,"c(670543.678744778, 4858220.42951456)",3191,"stesso hotel, offerte diverse",1
-hotel 4*,Petit Hotel,zenhotels.com,130.27000427246094,camera matrimoniale + 🥐,NA,1,Prato,NA,NA,0,4,2024-12-10,TRUE,"c(671947.837851252, 4858531.36392133)",3161,"stesso hotel, offerte diverse",1
-hotel 4*,West Florence,booking.com,99.3000030517578,camera doppia con letti singoli,NA,1,Campi Bisenzio,503,71,90,2,2024-12-10,FALSE,"c(670895.46712861, 4854565.94121721)",3202,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Medici,vrbo.com,525.9000244140625,appartamento,NA,3,Firenze,8340,69,0,4,2024-12-10,FALSE,"c(681302.769663826, 4848974.16720039)",3207,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Locanda Mel,hrs.com,80,camera,NA,1,Calolziocorte,222,72,0,4,2024-12-10,FALSE,"c(533585.150092359, 5072042.69094328)",1722,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Cambiago,agoda.com,83.160003662109375,camera,NA,1,Cambiago,6398,81,0,4,2024-12-10,FALSE,"c(532583.58932835, 5047081.14043964)",2593,"stesso hotel, offerte diverse",1
-hotel 4*,"Devero Hotel & Spa, Bw Signature Collection",expedia.it,108.4499969482422,camera,NA,1,Cavenago di Brianza,3102,87,0,4,2024-12-10,FALSE,"c(532502.533735963, 5047472.75136633)",2595,"stesso hotel, offerte diverse",1
-hotel 4*,La Bergamina Hotel & Restaurant,booking.com,84,camera singola,camera,1,Arcore,1226,77,0,4,2024-12-10,FALSE,"c(525725.252603974, 5050736.81580471)",2059,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Daniel,trip.com,104.5,camera (1 ospite),camera (1 🕺),1,Basiano,603,79,0,4,2024-12-10,FALSE,"c(535781.151984962, 5047577.09719116)",2596,"stesso hotel, offerte diverse",1
-hotel 4*,Villa Appiani Hotel,booking.com,165.5,camera matrimoniale,camera,1,Trezzo sull'Adda,2139,88,0,4,2024-12-10,FALSE,"c(540755.671026844, 5050768.83803876)",2307,"stesso hotel, offerte diverse",1
-hotel 4*,Pineta Hotel,booking.com,119.5999984741211,camera matrimoniale,NA,1,Monsano,2285,89,90,2,2024-12-10,FALSE,"c(845443.726983916, 4832251.53061086)",1900,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Posta 77,booking.com,79.30000305175781,camera singola,NA,1,San Giorgio in Bosco,286,72,0,4,2024-12-10,FALSE,"c(719607.458767919, 5049509.54358757)",3315,"stesso hotel, offerte diverse",1
-hotel 4*,Sublimis Boutique Hotel Adults-only,zenhotels.com,169,camera matrimoniale + 🥐,NA,1,Camogli,1748,92,90,2,2024-12-10,TRUE,"c(512327.861040774, 4910666.43395634)",806,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Cenobio Dei Dogi,booking.com,171,camera singola + 🥐,NA,1,Camogli,4213,92,0,4,2024-12-10,TRUE,"c(512394.20843988, 4910471.22555964)",805,"stesso hotel, offerte diverse",1
-hotel 4*,Sublimis Boutique Hotel Adults-only,trip.com,182,camera (1 ospite),camera (1 🕺),1,Camogli,67,92,90,1,2024-12-10,FALSE,"c(512326.568720166, 4910666.43146259)",806,"stesso hotel, offerte diverse",1
-hotel 4*,Valdenza Hotel,trip.com,65,camera (1 ospite),camera (1 🕺),1,Campegine,24,78,0,4,2024-12-10,FALSE,"c(619340.402942249, 4959813.18612578)",2960,"stesso hotel, offerte diverse",1
-hotel 4*,West Florence,hrs.com,75,camera,NA,1,Campi Bisenzio,503,71,90,1,2024-12-10,FALSE,"c(670895.467076561, 4854565.94133402)",3202,"stesso hotel, offerte diverse",1
-hotel 4*,Art Hotel Museo,trip.com,109.6500015258789,camera (1 ospite),camera (1 🕺),1,Prato,7709,83,90,1,2024-12-10,FALSE,"c(669529.173916392, 4858475.12748352)",3172,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Datini,booking.com,88.66999816894531,camera matrimoniale + 🥐,NA,1,Prato,3073,79,0,4,2024-12-10,TRUE,"c(670543.678739444, 4858220.42949373)",3191,"stesso hotel, offerte diverse",1
-hotel 4*,Petit Hotel,trip.com,142.9499969482422,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Prato,16,86,0,4,2024-12-10,TRUE,"c(671949.381835535, 4858528.01207292)",3161,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Delta Florence,booking.com,73,camera singola,NA,1,Calenzano,2498,55,0,4,2024-12-10,FALSE,"c(674316.826099414, 4857582.33673083)",3159,"stesso hotel, offerte diverse",1
-hotel 2*,Hotel Medici,vrbo.com,551.29998779296875,suite (3 camere),NA,3,Firenze,8340,69,0,4,2024-12-10,FALSE,"c(681302.769623609, 4848974.16707327)",3207,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ladina,expedia.it,119.80999755859376,camera + 🥐,NA,1,Campitello di Fassa,317,91,0,4,2024-12-10,TRUE,"c(710492.28865216, 5150609.39199195)",3342,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Rododendro Val Di Fassa,booking.com,143.60000610351562,camera matrimoniale,NA,1,Campitello di Fassa,338,81,0,4,2024-12-10,FALSE,"c(710198.454083605, 5150415.0227556)",3343,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ladina,trip.com,114,camera (1 ospite),camera (1 🕺),1,Campitello di Fassa,0,90,0,4,2024-12-10,FALSE,"c(710484.822157663, 5150607.01081092)",3342,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Ladina,zenhotels.com,110.63999938964844,camera singola,NA,1,Campitello di Fassa,NA,NA,0,4,2024-12-10,FALSE,"c(710483.06288463, 5150619.68067848)",3342,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Rododendro Val Di Fassa,trip.com,145.9600067138672,camera (2 ospiti) + 🥐,camera (2 🕺) + 🥐,1,Campitello di Fassa,0,76,0,4,2024-12-10,TRUE,"c(710205.379154446, 5150418.23333996)",3343,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Rododendro Val Di Fassa,zenhotels.com,129.4499969482422,camera matrimoniale + 🥐,NA,1,Campitello di Fassa,25,58,0,4,2024-12-10,TRUE,"c(710208.719594934, 5150402.22358242)",3343,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Posta 77,trip.com,77.279998779296875,camera,NA,1,San Giorgio in Bosco,286,72,90,1,2024-12-10,FALSE,"c(719607.458884744, 5049509.54366725)",3315,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Ariston,hrs.com,85,camera,NA,1,Campodarsego,1579,83,0,4,2024-12-10,FALSE,"c(727140.391919397, 5042979.94134271)",3009,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Ariston,expedia.it,95,camera + 🥐,NA,1,Campodarsego,72,84,0,4,2024-12-10,TRUE,"c(727114.72811978, 5042984.10377838)",3009,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Sagittario,booking.com,80.5,camera matrimoniale,NA,1,Padova,5450,85,90,1,2024-12-10,FALSE,"c(729642.260647411, 5035191.59999831)",3003,"stesso hotel, offerte diverse",1
-hotel 3*,Hotel Le Botti,booking.com,101.5,camera doppia con letti singoli,NA,1,Guarene,430,85,0,4,2024-12-10,FALSE,"c(424959.761993576, 4953495.10951733)",1360,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Santo Stefano,booking.com,98.37000274658205,camera singola + 🥐,NA,1,Sandigliano,2166,85,0,4,2024-12-10,TRUE,"c(427715.008192753, 5040774.80997938)",1910,"stesso hotel, offerte diverse",1
-hotel 4*,Relais Cascina Era,booking.com,148.5,camera singola + 🥐,NA,1,Sandigliano,357,91,90,2,2024-12-10,TRUE,"c(427988.975794892, 5041427.79098681)",1914,"stesso hotel, offerte diverse",1
-hotel 3*,B&b Hotel Torino Orbassano,booking.com,81.80000305175781,camera matrimoniale,NA,1,Torino,1746,82,0,4,2024-12-10,FALSE,"c(390680.311263123, 4987423.0930107)",1768,"stesso hotel, offerte diverse",1
-hotel 4*,Doubletree By Hilton Turin Lingotto,booking.com,141.39999389648438,camera doppia con letti singoli,camera,1,Torino,19516,89,0,4,2024-12-10,FALSE,"c(394853.761660318, 4987700.50837135)",1793,"stesso hotel, offerte diverse",1
-hotel 4*,As Hotel Sempione Fiera,trip.com,78.83000183105469,camera (1 ospite),camera (1 🕺),1,San Vittore Olona,1772,80,90,1,2024-12-10,FALSE,"c(496358.831201903, 5046852.44682424)",200,"stesso hotel, offerte diverse",1
-hotel 4*,Hotel Mediterraneo,booking.com,88,camera matrimoniale + 🥐,NA,1,Villa Cortese,843,81,0,4,2024-12-10,TRUE,"c(491224.360639188, 5045156.79941912)",2909,"stesso hotel, offerte diverse",1
-hotel 3*,Expo Hotel Milan,expedia.it,74.51000213623047,camera + 🥐,NA,1,Parabiago,1900,85,90,1,2024-12-10,TRUE,"c(496893.960062777, 5046521.16492414)",197,"stesso hotel, offerte diverse",1
-hotel 4*,Poli Hotel,trip.com,102.2300033569336,camera (1 ospite) + 🥐,camera (1 🕺) + 🥐,1,San Vittore Olona,1793,88,0,4,2024-12-10,TRUE,"c(496062.085074569, 5047552.75698914)",2919,"stesso hotel, offerte diverse",1

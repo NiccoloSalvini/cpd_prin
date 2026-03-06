@@ -1,0 +1,622 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{pifont}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{moresize}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{xcolor}  
+\usepackage{colortbl}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{relsize}
+\usepackage{caption}
+\captionsetup[table]{position=bottom}
+\captionsetup{skip=-4pt}
+
+\captionsetup{font=footnotesize}
+
+
+
+\title{Spatial price differences of accommodation services across Italy: new insights from online scraped data}
+
+%
+
+\subtitle{}
+
+\author[Ilaria Benedetti] % (optional, for multiple authors)
+{\textbf{Ilaria Benedetti}\inst{1} \and Tiziana~Laureti\inst{1} \and Niccolò Salvini\inst{2} }
+
+\institute[Unitus] % (optional)
+{
+  \inst{1}%
+  University of Tuscia\\
+  Department of Economics Engineering Society and Business Organization
+}
+
+\date[ICES] % (optional)
+{New Data Opportunities for Innovation in Economic Statistics \\ Napoli, 13th February 2025 \\ \vspace{0.5cm} \scriptsize{PRIN granted by MUR (2022) }} 
+
+\logo{
+  \tikz[overlay, remember picture]{
+    \node[anchor=south east, xshift=0.0cm, yshift=0.2cm] at (current page.south east) {
+      \includegraphics[height=1.5cm]{unitus_marchio_2020_variante.eps}
+    };
+  }
+}
+
+%\logo{\includegraphics[scale=0.15]%{unitus_marchio_2020_variante.eps}\hspace{0.20cm}}
+
+\definecolor{uoftblue}{RGB}{6,41,88}
+\setbeamercolor{titlelike}{bg=uoftblue}
+\setbeamerfont{title}{series=\bfseries}
+
+
+\begin{document}
+\frame{\titlepage}
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+\section{\textbf{e-tourism}:Background and aim of the presentation}
+\begin{frame}
+
+\frametitle{Background: How much does tourism contribute to the economy?}
+Tourism is one of the world’s fastest growing industries, contributing significantly to the economies of many countries.
+\vspace{0.5cm}
+\begin{itemize}
+\item \textbf{Supply Side} $\rightarrow$ Tourism represent 4.5\% of the gross value added in the economy at EU level (Highest values: Croatia (11.3\%), Portugal (8.1\%), Spain (6.9\%) and Italy (6.2\%))
+
+\vspace{0.2 cm}
+\item \textbf{Demand Side}   $\rightarrow$  Per capita internal tourism consumption in the EU was estimated at EUR 2,794 per inhabitant 
+\begin{itemize}
+    \item [\ding{51}]  Luxembourg (EUR 5,831 per inhabitant), the Netherlands (EUR 5,255) and Austria (EUR 4,277) were on top.
+    \item [\ding{51}] Italy in line with the EU average. 
+\end{itemize}
+\end{itemize}
+\vspace{0.6 cm}
+\tiny Source: Eurostat data on TSA (2023)
+\end{frame}
+
+
+
+\begin{frame}{\textbf{e-tourism}: Background and aim of the presentation}
+\begin{itemize}
+    \item The advent of the Internet has brought significant changes to the tourism sector, leading to the era of \textbf{digital tourism}. 
+    \vspace{0.5cm}
+    \item Main advantages of e-tourism: 
+
+    \begin{itemize}
+        \item [\ding{51}]  {\scriptsize \textbf{Enhanced Accessibility and Cost Efficiency} $\rightarrow$ The Internet provides extensive support for information, booking, and sales services, reaching a large number of tourists at relatively low costs.}
+        \item [\ding{51}] {  \scriptsize \textbf{Improved Data Collection and Variety} $\rightarrow$ Technological advancements have significantly simplified the collection and storage of data, leading to a substantial increase in the variety of information available. }
+    \end{itemize}
+    \end{itemize}
+    \vspace{0.3cm}
+In order to monitor and manage tourism in view of e-tourism, granular and accurate spatio-temporal data is needed (Antolini et al., 2024)  $\rightarrow$ the use of unconventional data sources and big data analytics provide new opportunities for research (Arbia et al. 2024).  
+
+\end{frame}
+
+\begin{frame}{\textbf{e-tourism}: The Lack of Granular Price Data for Hotels}
+\begin{itemize}
+    \item Detailed price data on accommodation services across different geographical areas is \textbf{scarce}.
+    \item Existing industry reports (e.g., \href{https://www.contenuti.icribis.com/osservatorio/2023/settore-alberghiero}{IX Report on the Italian Hospitality Industry}) provide insights on supply but lack precise price information.
+    \item Platforms like \href{https://www.airdna.co/vacation-rental-data/app/it}{AirDNA} offer data primarily for short-term rentals (e.g., Airbnb, Vrbo), leaving gaps in hotel pricing analysis.
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{\textbf{Web Scraping}}
+\begin{columns}
+    \begin{column}{0.55\textwidth}
+        \begin{itemize}
+            \item Automated extraction of structured data from online sources.
+            \item Widely used in price analysis, customer review aggregation, and market trend monitoring.
+            \item Enables real-time insights into digital marketplaces (Eurostat, 2020).
+        \end{itemize}
+    \end{column}
+
+    \begin{column}{0.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.9\linewidth]{images/web_scraping.png}
+            \caption{Web scraping process overview.}
+        \end{figure}
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}{\textbf{Aims of the Study}}
+\begin{itemize}
+    \item \textbf{Building a structured database} on hotel prices across Italian provinces to analyze spatial price differentials.
+    \item Developing \textbf{spatial price indices} (SPI) to measure intra-national disparities, following the methodology used by Eurostat for international price comparisons.
+    \item Providing \textbf{detailed and transparent information} to consumers on which cities and provinces have higher or lower accommodation costs.
+    \item Offering a data-driven basis for \textbf{policy decisions} on tourism management, regional competitiveness, and pricing strategies.
+\end{itemize}
+\end{frame}
+
+
+
+
+%\section{Online Booking within the Hospitality and Tourism Sector}
+%\subsection{Online booking in EU countries}
+%\begin{frame}{Online Booking within the Hospitality and Tourism Sector}
+% %  Tourism  sector is gaining an increasing share of the e-commerce market. 
+%   \begin{columns}
+%    \begin{column}{0.40\textwidth}
+%    \begin{figure}
+%        \centering
+%        \includegraphics[width=1.2\linewidth]{images/share_bytipe.png}
+%        \caption{\tiny{Online purchases of goods, Source: Eurostat (2022)}}
+%    \end{figure}
+%    \end{column}
+%    \begin{column}{0.40\textwidth}
+%    \begin{footnotesize}
+%         \begin{itemize}
+%          \item  Travel and holiday booked online: 31\% , tourist accommodation booked online: 35\% of the trips made by residents of the EU (18\% of Italian residents).
+%         \item  Generational divide can be observed between age groups $\rightarrow$ the share of online booking decreased slightly for older age groups. 
+%    \end{itemize}
+%    \end{footnotesize}
+%    \end{column}
+%   \end{columns}
+%       
+%\vspace{0.2cm}
+%        
+%\begin{table}[]
+%\captionsetup{font=scriptsize}
+%      
+%{\relsize{-2}
+%\begin{tabular}{lcccccll}
+%
+%\textbf{} & \textbf{16 - 24}    & \textbf{25 - 34}    & \textbf{35 - 44}    & \textbf{55 - 64}    & \textbf{65 - 74}    & \multicolumn{1}{c}{\textbf{75 and over}} &  \\
+%\hline
+%Eu-27     & 30.26                & 42.97                & 38.28                & 23.95                & 13.93                & -                                     &  \\
+%Italy     & 17.41                & 18.25                & 22.94                & 10.41                & 4.83                 & \multicolumn{1}{c}{0.86}              &  \\
+%\hline
+%          & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} &                                       & 
+%\end{tabular}
+%  \caption{\tiny{Online booking for tourist accommodation by age }}
+%}
+%\end{table}\normalsize
+%\tiny Source: Author's elaboration on Eurostat tour\_dem\_ttorg data
+%\end{frame}
+
+
+
+%\begin{frame}{Online Booking within the Hospitality and Tourism Sector}
+
+%\begin{itemize}
+%    \item The importance of the development and digitalization of the tourism sector has highlighted as part of the implementation of the \textbf{Digital Economy program of the European Commission (EC)} aimed at promoting and monitoring the:
+%    \begin{itemize}
+%        \item[\ding{51}] green and digital transitions; 
+%        \item [\ding{51}] socio-economic resilience factors of the European tourism ecosystem.
+%    \end{itemize}
+%    \item \href{https://tourism-dashboard.ec.europa.eu/?lng=en&ctx=tourism}{EU Tourism dashboard}  with indicators at NUTS-0, NUTS-2, NUTS-3 levels.
+%    \vspace{0.5 cm}
+%    \begin{figure}
+%        \centering
+%   \includegraphics[width=1\linewidth]{images/Screenshot 2024-09-25 at 09.13.46.png}
+%        \caption{EU Tourism dashboard indicators}
+%        \label{fig:enter-label}
+%    \end{figure}
+%\end{itemize}
+%\end{frame}
+
+%\begin{frame}{Online Booking within the Hospitality and Tourism Sector}
+%\begin{itemize}
+%    \item \textbf{Digital Pillar indicators }$\rightarrow$ Accommodations listed online 
+%    \item \tiny{Proxy for the online presence of the tourism accommodation capacity. It relates the observed number of tourist accommodation rooms listed on online platform (e.g. TripAdvisor) with the expected number of listed number of rooms given per known tourism demand\footnote{\tiny{The expected number of listed rooms is derived from a linear regression between supply (no. of rooms) \\ and tourism demand (no. of nights spent) for all EU countries. The indicator values are the percentage difference \\(positive or negative) between the expected and the observed number of listings per destination. Negative values indicate \\ a lower than expected online presence in relation to the recorded tourism demand, and positive values vice-versa.}}. }
+%\end{itemize}
+%    \begin{figure}
+%        \centering
+%        \includegraphics[width=0.5\linewidth]{images/Screenshot 2024-09-20 at 10.23.24.png}
+%        \caption{Accomodations listed online}
+%        \label{fig:enter-label}
+%    \end{figure}
+%\end{frame}
+
+
+
+%\begin{frame}{Online booking via collaborative platforms in EU countries}
+%\begin{itemize}
+% %   \item \footnotesize Online booking represents the most preferred booking channel (56\% use online platforms for accommodation and travel services (e.g. hotels, car rental, flights...)  (Source: Eurobarometer survey, 2021)
+%    \item \footnotesize European Commission reaches agreement with collaborative economy platforms (eg. Airbnb, Booking, etc ...) to publish key data on tourism accommodation (experimental Statistics). 
+%\end{itemize}
+%
+%    \begin{figure}
+%        \centering
+%        \begin{subfigure}{0.45\textwidth}
+%             \includegraphics[width=\linewidth]{images/Screenshot 2024-09-26 at 09.33.33.png}
+%             \caption{\tiny Monthly guest nights booked online}
+%        \end{subfigure}
+%        \hfill
+%        \begin{subfigure}{0.45\textwidth}
+%            \includegraphics[width=\linewidth]{images/booking_nuts2.png}
+%            \caption{\tiny Accomodation booked online by NUTS-2}
+%        \end{subfigure}
+%    \end{figure}
+%
+%\tiny Source: Eurostat tour\_ce\_omn12 data 
+%\tiny \href{https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Short-stay_accommodation_offered_via_online_collaborative_economy_platforms#In_2023.2C_almost_2_million_tourists_per_night_slept_in_a_bed_booked_via_the_platforms}{link} 
+%
+%\end{frame}
+
+%\subsection{Online booking in Italy}
+%
+%\begin{frame}{Online booking via collaborative platforms in Italy }
+%
+%\begin{itemize}
+%    \item Accommodation booked via online platforms increased by 17\% for domestic tourism and by 32\% for foreign tourism compared to 2022; 
+%    \begin{itemize}
+%    \item Highest increase for domestic tourism: April 2023 (+ 48\%);
+%    \item highest increase for foreign tourism: February 2023 (+ 77\%). 
+%    \end{itemize}
+%\end{itemize}
+%
+%    \begin{figure}
+%        \centering
+%        \begin{subfigure}{0.45\textwidth}
+%             \includegraphics[width=\linewidth]{images/domestic_foreign_italy_2022_2023.png}
+%             \caption{\tiny Monthly guest nights booked online}
+%        \end{subfigure}
+%        \hfill
+%        \begin{subfigure}{0.45\textwidth}
+%            \includegraphics[width=\linewidth]{images/province_IT_onlinebooking_increase.png}
+%            \caption{\tiny Accomodation booked online by NUTS-2}
+%        \end{subfigure}
+%    \end{figure}
+%
+%\end{frame}
+
+\section{Web Scraping: Architecture for Fast Insights }
+
+\begin{frame}{Web Scraping: Architecture for Fast Insights}
+\begin{itemize}
+    \item \textbf{A Scalable and Efficient Approach}
+    \begin{itemize}
+        \item The DataLab @ Unitus has developed an automated system to collect and analyze hotel price data from online sources.
+        \item The architecture is designed to ensure continuous data extraction, processing, and integration with analytical tools.
+    \end{itemize}
+    
+    \item \textbf{Key Components:}
+    \begin{itemize}
+        \item A structured pipeline for web scraping, data storage, and statistical analysis.
+        \item Dedicated modules for price monitoring, visualization, and reporting.
+        \item Scalable infrastructure to handle large volumes of real-time data.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Architecture for Fast Insights}
+\vspace{0.2cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\linewidth]{images/srv-arch.png}
+    \vspace{0.3cm}
+    \caption{System architecture for web scraping and data processing.}
+    \label{fig:architecture}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Methodology and Infrastructure}
+    \begin{itemize}
+        \item The mechanisms encompasses:
+        \begin{itemize}
+            \item \textbf{API (Application Programming Interface) Reverse Engineering}
+            Direct data extraction from structured API endpoints when available, ensuring efficiency and reliability.
+            \item \textbf{Selenium-Based Automation}
+            Employed for dynamic websites lacking API endpoints, allowing for automated interaction and data retrieval.
+            \item \textbf{Distributed Scraping with Selenium Grid}
+            Implements parallelized scraping across multiple machines, enhancing scalability and reducing execution time.
+            \item \textbf{Traffic Routing via GlueTun}
+            Ensures IP anonymization and circumvents access restrictions through proxy-based traffic routing.
+        \end{itemize}
+        \item The system is designed for adaptability, enabling rapid modifications in response to website structural changes or access restrictions.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Web Scraping: Architecture}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/scr-arch.png}
+    \vspace{0.3cm} % Adjust the space here if needed
+    \caption{Architectural design of the data scraping pipeline.}
+    \label{fig:scraping}
+\end{figure}
+\end{frame}
+
+
+
+\section{Data: web-scraped data from the CozyCozy platform }
+
+\begin{frame}{CozyCozy: A Meta-Search Platform for Accommodation}
+\begin{itemize}
+    \item \textbf{What is CozyCozy?}
+    \begin{itemize}
+        \item CozyCozy is a \textbf{meta-search engine} for accommodation, aggregating listings from multiple booking platforms, including \textbf{Booking.com, Airbnb, Expedia, Trip.com}, and others.
+        \item The platform enables users to compare prices and availability across different providers, offering a unified interface for accommodation search.
+    \end{itemize}
+
+    \item \textbf{Relevance for this Study}
+    \begin{itemize}
+        \item CozyCozy consolidates a diverse range of accommodation types, from hotels to vacation rentals, allowing for a comprehensive analysis of spatial price differences.
+        \item The centralized nature of the platform facilitates efficient web scraping, ensuring broad market coverage and minimizing biases associated with single-platform data sources.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Data Description}
+
+Some of the fields:
+
+\begin{itemize}
+    \item  {  \footnotesize \textbf{Hotel Name}: Name of the hotel %(\texttt{title}, \texttt{subTitle})
+    }
+    \item  {  \footnotesize \textbf{Geographic Location}: Coordinates }
+    \item  {  \footnotesize \textbf{Price per night}: The recorded booking price %(\texttt{highlightedResults\_0\_totalPrice\_value}, \texttt{highlightedResults\_0\_totalPrice\_currencyCode})
+    }
+    \item {  \footnotesize  \textbf{Number of rooms and guests}: Number of rooms and guests for the booking %(\texttt{highlightedResults\_0\_bedRoomCount})
+    }
+    \item  {  \footnotesize \textbf{Rating Score}: User rating score and number of reviews %(\texttt{ratingScore}, \texttt{ratingCount})
+    }
+    \item {  \footnotesize \textbf{Rating Count}: Number of user who rated the the offer}
+    \item {  \footnotesize \textbf{Services offered}: full-board, half-board, bed and brekfast, only bed }
+    \item {  \footnotesize \textbf{Type of room: } single, double, ....}
+
+    \item { \footnotesize \textbf{other offers: } vrbo.com 79, aibnb.com 65}
+
+    \item {\footnotesize \textbf{Hotel details: } Amenities in the hotel}
+    
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Data Collection: Frequency and Scope}
+\begin{itemize}
+    \item \textbf{Frequency}: Data is collected \textbf{daily at 12:00} through an automated web scraping pipeline.  
+    \item \textbf{Coverage}: The dataset encompasses the entire Italian territory at the \textbf{provincial level}.  
+    \item \textbf{Processing Time}: Each full scraping cycle takes approximately \textbf{3 hours} to complete.  
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Data Processing and Quality Control}
+\begin{itemize}
+    \item \textbf{Spatial Deduplication:}  
+    \begin{itemize}
+        \item DBSCAN clustering (50m radius) to merge duplicate listings.
+        \item Fuzzy matching of hotel names to resolve inconsistencies.
+        \item Price reconciliation for identical offers from different platforms.
+    \end{itemize}
+
+    \item \textbf{Outlier Removal:}  
+    \begin{itemize}
+        \item Elimination of extreme prices following industry standards and common sense (Choi et al., 2022).
+        \item Category-specific thresholds for premium accommodations.
+    \end{itemize}
+
+    \item \textbf{Final Dataset:}  
+    \begin{itemize}
+        \item \textbf{3958} unique hotels across \textbf{1285} cities.
+        \item Follows best practices in big data hedonic pricing (Li et al., 2023; Kim et al., 2021).
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Summary Statistics of Hotel Categories}
+\centering
+\small
+\begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Hotel Category} & \textbf{Number of Hotels} & \textbf{Avg. Price (€)} & \textbf{Median Price (€)} & \textbf{Avg. Rating} & \textbf{\% Breakfast Included} \\
+    \midrule
+    hotel 1* & 108  & 71.19  & 67.15  & 77.67  & 10.2  \\
+    hotel 2* & 351  & 78.42  & 70.00  & 79.50  & 16.0  \\
+    hotel 3* & 1965 & 91.69  & 80.00  & 81.92  & 20.9  \\
+    hotel 4* & 1417 & 120.68 & 104.00 & 82.85  & 26.7  \\
+    hotel 5* & 117  & 248.32 & 198.00 & 86.14  & 35.5  \\
+    \bottomrule
+\end{tabular}
+\end{frame}
+
+
+\section{Preliminary Results from web-scraped Dataset}
+
+\begin{frame}{Hotel Price Distribution by Category}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth]{images/hotel_price_distribution.pdf}
+        \label{fig:enter-label}
+    \end{figure}
+    
+\end{frame}
+
+
+
+\begin{frame}{Hotel Price Distribution by City}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth]{images/hotel_price_distribution_cities.pdf}
+        \label{fig:enter-label}
+    \end{figure}
+
+    
+\end{frame}
+
+
+
+
+\begin{frame}{GAM smoothing for price - rating score }
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\linewidth]{images/gam_price_rating.pdf}
+    \end{figure}
+
+    
+\end{frame}
+
+
+\begin{frame}{Hotel Price Similarity (t-SNE)}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/hotel_price_similarity_tsne.pdf}
+    \vspace{0.3cm} % Adjust the space here if needed
+    \label{fig:cpd-prov}
+\end{figure}
+\end{frame}
+
+
+\section{Spatial Insights}
+
+
+\begin{frame}{Spatial Autocorrelation}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/moran_plot.pdf}
+    \vspace{0.3cm} % Adjust the space here if needed
+    \label{fig:cpd-prov}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Spatial Clustering of Hotel Prices: LISA Analysis}
+\begin{itemize}
+    \item The LISA map reveals \textbf{localized price clusters} across Italy.  
+    \item \textbf{High-High (HH)} in the North (e.g., Trentino-Alto Adige) indicates strong luxury hotel markets (this can be due to winter effect).  
+    \item \textbf{Low-Low (LL)} in the South reflects persistent low-cost accommodation zones.  
+    \item Unlike global measures, LISA \textbf{pinpoints localized pricing disparities}, aiding tourism strategy and policy decisions.  
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Spatial Clustering of Hotel Prices: LISA}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/lisa_map.pdf}
+    \label{fig:lisa}
+\end{figure}
+\end{frame}
+
+
+\section{SPI (Spatial Price Index)}
+
+
+\begin{frame}{Hedonic CPD Method for Spatial Price Indices}
+\begin{equation}
+\ln P_{ij} = \sum_{j=1}^J \beta_j R_j + \sum_{i = 1}^N \alpha D_i +  \sum_{m=1}^{M} \delta_m R_m + u_{ij}
+\end{equation}
+
+% \sum_{k=1}^{K} \gamma_k L_k +
+
+\begin{itemize}
+    \item $P_{ij}$: Price of hotel $i$ in province $j$.
+    \item $R_j$: Province dummies (regional effects).
+    \item $D_i$: Hotel attributes.
+    %\item $L_k$: \textbf{Location attributes} (distance to city center, attractions, local competition, socioeconomic factors).
+    \item $R_m$: \textbf{Reputation attributes} (customer ratings, review count as trust indicators).
+\end{itemize}
+
+\begin{equation}
+SPI_j = \exp(\beta_j)
+\end{equation}
+
+\textbf{Justification:}
+\begin{itemize}
+    %\item Location ($L_k$) affects accessibility, desirability, and competition (Choi et al., 2022).
+    \item Reputation ($R_m$) influences consumer trust and willingness to pay (Kim et al., 2021).
+    \item Hedonic CPD controls for quality differences, estimating pure spatial price differentials.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Spatial Price Index Results (base 100)}
+\begin{table}[]
+\centering
+\small
+\begin{tabular}{lcccc}
+\hline
+\textbf{Province} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{Statistic} & \textbf{SPI} \\
+\hline
+Bolzano  & 1.010  & 0.0843  & 12.00  & 275  \\
+Milano   & 0.363  & 0.0324  & 11.20  & 144  \\
+Oristano & 0.306  & 0.1540  & 1.99   & 136  \\
+Sassari  & 0.287  & 0.1130  & 2.53   & 133  \\
+Trento   & 0.252  & 0.0313  & 8.05   & 129  \\
+Sondrio  & 0.212  & 0.0499  & 4.25   & 124  \\
+Como     & 0.199  & 0.0436  & 4.56   & 122  \\
+Lecce    & 0.199  & 0.1340  & 1.48   & 122  \\
+Genova   & 0.196  & 0.1220  & 1.61   & 122  \\
+Lucca    & 0.190  & 0.0513  & 3.70   & 121  \\
+\hline
+\end{tabular}
+
+\end{table}
+\end{frame}
+
+
+
+\begin{frame}{Spatial Prince Index Results}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.90\linewidth]{images/spi_map.pdf}
+    \vspace{0.3cm} % Adjust the space here if needed
+    \label{fig:cpd-prov}
+\end{figure}
+\end{frame}
+
+
+
+
+
+\begin{frame}{}
+\begin{center} 
+  \begin{block}{}
+  \centering
+        \vspace{1 cm}
+          \textbf{Thank you for your attention }
+          \vspace{1 cm}
+          \\ Niccolò Salvini (niccolo.salvini@unitus.it)
+          \\ Federico Crescenzi (federico.crescenzi@unitus.it)
+          \\ Tiziana Laureti (laureti@unitus.it)
+          \\ Luigi Palumbo (luigi.palumbo@unitus.it)
+        \end{block}
+\end{center}
+\end{frame}
+
+\end{document}
+
+
+\begin{thebibliography}{9}
+
+\bibitem{eurostat_platform} Eurostat. Online booking platforms in 2023 and 2024. 
+
+\bibitem{antolini} Antolini, F., Terraglia, I. \& Cesarini, S.. Integrating multiple data sources to measure sustainable tourism in Italian regions. {\em Socio-Economic Planning Sciences}, p.101959 (2024). 
+
+\bibitem{mariani} Mariani, M. and Borghi, M.. Exploring environmental concerns on digital platforms through big data: the effect of online consumers’ environmental discourse on online review ratings. {\em Journal of Sustainable Tourism}, 31(11), pp.2592-2611 (2023).
+
+\bibitem{elarchi} El Archi, Y., Benbba, B., Zhu, K., El Andaloussi, Z., Pataki, L. and Dávid, L.D.,  Mapping the nexus between sustainability and digitalization in tourist destinations: a bibliometric analysis. .{\em Sustainability}, 15(12), p.9717.
+
+\bibitem{unep2005making}.UNEP, WTO, unep2005making,Making tourism more sustainable: a guide for policy makers.[pdf] Available at: http://www. unep. fr/shared/publications/pdf. .{\em DTIx0592xPATourismPolicyEN}. 2005.
+
+
+\end{thebibliography}
+
+\end{document
